@@ -11,7 +11,7 @@ Module:GodMode:false:false
 Module:InvCleaner:true:true
 Module:InvMove:true:true
 Module:Jesus:false:false
-Module:KillAura:false:true
+Module:KillAura:true:true
 Module:NoCobweb:false:false
 Module:NoFall:false:false
 Module:NoSlowdown:true:true
@@ -20,7 +20,7 @@ Module:Rotations:false:true
 Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
-Module:Speed:false:false
+Module:Speed:false:true
 Module:Sprint:false:true
 Module:StairSpeed:false:false
 Module:Step:false:true
@@ -155,3 +155,4 @@ Setting:Scaffold:RayCast:false
 Setting:Scaffold:Simple Rotations:true
 Setting:Scaffold:Intave:true
 Setting:Scaffold:AlwaysLook:true
+Setting:DormantESP:Time:10.0
