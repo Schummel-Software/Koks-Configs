@@ -1,6 +1,6 @@
 Module:AutoArmor:true:true
 Module:BoatFly:false:false
-Module:ChestStealer:false:true
+Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Criticals:false:false
 Module:FastBow:false:false
@@ -14,9 +14,12 @@ Module:Jesus:false:true
 Module:KillAura:false:true
 Module:NoCobweb:false:true
 Module:NoFall:false:true
+Module:NoRotate:false:false
 Module:NoSlowdown:false:false
+Module:OverArmor:false:false
 Module:Phase:false:true
 Module:Rotations:false:false
+Module:Safewalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:true
@@ -30,6 +33,8 @@ Module:Teams:false:true
 Module:Teleport:false:false
 Module:VClip:false:false
 Module:Velocity:false:true
+Module:WallSpeed:false:true
+Setting:FastBow:Mode:Vanilla
 Setting:FastBow:Strength:20.0
 Setting:KillAura:Attack Type:Single
 Setting:KillAura:Prefer:Distance
@@ -38,7 +43,7 @@ Setting:KillAura:ArmorStands:false
 Setting:KillAura:Animals:false
 Setting:KillAura:Villager:false
 Setting:KillAura:Mobs:false
-Setting:KillAura:Hit Range:3.0
+Setting:KillAura:Hit Range:3.12
 Setting:KillAura:CPS:12.0
 Setting:KillAura:HurtTime:10.0
 Setting:KillAura:Field of View:360.0
@@ -70,6 +75,21 @@ Setting:Velocity:Vertical:100.0
 Setting:Velocity:Canceled:false
 Setting:Velocity:HurtTime:10.0
 Setting:Velocity:onGround:false
+Setting:Debug:Check:true
+Setting:Debug:Combo:M1
+Setting:Debug:Slider:10.0
+Setting:HUD:Name:
+Setting:HUD:Watermark:true
+Setting:HUD:Font:
+Setting:HUD:ArrayList:true
+Setting:HUD:Hotbar:true
+Setting:HUD:Show Tags:false
+Setting:HUD:TabGUI:true
+Setting:HUD:ArrayListMode:Mode2
+Setting:HUD:X:5.0
+Setting:HUD:Y:30.0
+Setting:HUD:Width:91.0
+Setting:HUD:height:13.0
 Setting:BoatFly:Mode:AAC4
 Setting:BoatFly:AAC4-Boost:8.0
 Setting:Fly:AAC3.3.12-Boost:9.0
@@ -83,6 +103,7 @@ Setting:NoCobweb:Mode:Intave
 Setting:NoFall:Mode:Intave
 Setting:NoSlowdown:Speed:100.0
 Setting:NoSlowdown:Sprint:true
+Setting:NoSlowdown:AAC:false
 Setting:Speed:Mode:Legit
 Setting:StairSpeed:Mode:Intave
 Setting:Step:Mode:Intave
@@ -92,32 +113,6 @@ Setting:VClip:Up Height:5.0
 Setting:VClip:Down Key:
 Setting:VClip:Down Height:-5.0
 Setting:VClip:Stuck:true
-Setting:ChestESP:ESP Mode:Box
-Setting:CustomItem:X:0.0
-Setting:CustomItem:Y:0.0
-Setting:CustomItem:Z:0.0
-Setting:CustomItem:Size:0.4
-Setting:ItemESP:ESP Mode:Box
-Setting:MemoryCleaner:MemorySize:Gigabyte
-Setting:MemoryCleaner:Minutes:3.0
-Setting:NoFov:FOV:1.0
-Setting:PlayerESP:ESP Mode:Box
-Setting:TrailESP:Length:21.0
-Setting:TrailESP:Show In FirstPerson:true
-Setting:ClickGUI:Red:0.0
-Setting:ClickGUI:Green:140.0
-Setting:ClickGUI:Blue:255.0
-Setting:HUD:Name:
-Setting:HUD:Substring:2.0
-Setting:HUD:Watermark:true
-Setting:HUD:Font:
-Setting:HUD:ArrayList:true
-Setting:HUD:Show Tags:false
-Setting:HUD:TabGUI:true
-Setting:HUD:X:5.0
-Setting:HUD:Y:30.0
-Setting:HUD:Width:91.0
-Setting:HUD:height:13.0
 Setting:AutoArmor:Opened Inventory:true
 Setting:AutoArmor:Start Delay:250.0
 Setting:AutoArmor:Equip Delay:150.0
@@ -137,21 +132,42 @@ Setting:InvCleaner:Shovel Slot:0.0
 Setting:Phase:Mode:Intave
 Setting:SetBack:Mode:Intave
 Setting:Teleport:Reach:250.0
-Setting:Debug:Check:true
-Setting:Debug:Combo:M1
-Setting:Debug:Slider:10.0
+Setting:ChestESP:ESP Mode:Shader
+Setting:CustomItem:X:0.0
+Setting:CustomItem:Y:0.0
+Setting:CustomItem:Z:0.0
+Setting:CustomItem:Size:0.4
+Setting:ItemESP:ESP Mode:Shader
+Setting:MemoryCleaner:MemorySize:Gigabyte
+Setting:MemoryCleaner:Minutes:1.0
+Setting:NameTags:Show BAC:true
+Setting:NameTags:BAC Brandmark:
+Setting:NoFov:FOV:1.0
+Setting:PlayerESP:ESP Mode:Shader
+Setting:MotionGraph:Background:true
+Setting:FakeAutoBlock:OnlySword:false
+Setting:Swing:Mode:Spin
+Setting:TrailESP:Length:416.0
+Setting:TrailESP:Show In FirstPerson:true
 Setting:Scaffold:Delay:0.0
 Setting:Scaffold:Motion:1.0
-Setting:Scaffold:Pitch:82.0
-Setting:Scaffold:Sneak:true
+Setting:Scaffold:Pitch:81.5
+Setting:Scaffold:Sneak:false
 Setting:Scaffold:Sneak After...:1.0
 Setting:Scaffold:Swing Item:true
-Setting:Scaffold:SafeWalk:true
-Setting:Scaffold:OnGround:true
+Setting:Scaffold:SafeWalk:false
+Setting:Scaffold:OnGround:false
 Setting:Scaffold:DownScaffold:false
 Setting:Scaffold:Random Hit:false
 Setting:Scaffold:Sprint:false
-Setting:Scaffold:RayCast:true
-Setting:Scaffold:Simple Rotations:true
+Setting:Scaffold:RayCast:false
+Setting:Scaffold:Simple Rotations:false
+Setting:Scaffold:StaticPitch:false
 Setting:Scaffold:Intave:true
 Setting:Scaffold:AlwaysLook:true
+Setting:DormantESP:Time:10.0
+Setting:Scoreboard:Numbers:false
+Setting:Tracers:Width:2.04
+Setting:Tracers:Player-Mode:Head
+Setting:Tracers:Target-Mode:Head
+Setting:WallSpeed:Mode:Intave

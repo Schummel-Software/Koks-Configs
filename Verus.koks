@@ -13,23 +13,28 @@ Module:InvMove:false:false
 Module:Jesus:false:true
 Module:KillAura:false:true
 Module:NoCobweb:false:true
-Module:NoFall:true:true
+Module:NoFall:false:true
+Module:NoRotate:false:false
 Module:NoSlowdown:false:false
+Module:OverArmor:false:false
 Module:Phase:false:true
 Module:Rotations:false:false
+Module:Safewalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:true
-Module:Speed:true:false
+Module:Speed:false:false
 Module:Sprint:false:true
 Module:StairSpeed:false:true
-Module:Step:false:true
+Module:Step:true:true
 Module:SuperHit:false:false
-Module:TNTBlock:false:false
+Module:TNTBlock:true:false
 Module:Teams:false:true
 Module:Teleport:true:false
 Module:VClip:false:false
 Module:Velocity:true:true
+Module:WallSpeed:false:true
+Setting:FastBow:Mode:Vanilla
 Setting:FastBow:Strength:20.0
 Setting:KillAura:Attack Type:Single
 Setting:KillAura:Prefer:Distance
@@ -55,7 +60,7 @@ Setting:KillAura:Health NaN Check:false
 Setting:KillAura:Name Check:true
 Setting:KillAura:Ignore Invisible:true
 Setting:KillAura:IgnoreDeath:true
-Setting:KillAura:Through Walls:false
+Setting:KillAura:Through Walls:true
 Setting:KillAura:Sound Check:false
 Setting:Rotations:Smooth:false
 Setting:Rotations:Precision:0.1
@@ -64,7 +69,7 @@ Setting:Rotations:Prediction Multiplier:0.4
 Setting:Rotations:LockView:false
 Setting:SuperHit:Reach:250.0
 Setting:TNTBlock:BlockTime:5.0
-Setting:Velocity:Mode:AAC3
+Setting:Velocity:Mode:Cancel
 Setting:Velocity:Horizontal:100.0
 Setting:Velocity:Vertical:100.0
 Setting:Velocity:Canceled:false
@@ -77,6 +82,7 @@ Setting:HUD:Name:
 Setting:HUD:Watermark:true
 Setting:HUD:Font:
 Setting:HUD:ArrayList:true
+Setting:HUD:Hotbar:true
 Setting:HUD:Show Tags:false
 Setting:HUD:TabGUI:true
 Setting:HUD:ArrayListMode:Mode2
@@ -100,7 +106,7 @@ Setting:NoSlowdown:Sprint:true
 Setting:NoSlowdown:AAC:false
 Setting:Speed:Mode:Mineplex
 Setting:StairSpeed:Mode:Intave
-Setting:Step:Mode:Intave
+Setting:Step:Mode:Vanilla
 Setting:Step:Step Height:4.0
 Setting:VClip:Up Key:
 Setting:VClip:Up Height:5.0
@@ -156,10 +162,12 @@ Setting:Scaffold:Random Hit:false
 Setting:Scaffold:Sprint:false
 Setting:Scaffold:RayCast:false
 Setting:Scaffold:Simple Rotations:true
-Setting:Scaffold:Intave:true
+Setting:Scaffold:StaticPitch:false
+Setting:Scaffold:Intave:false
 Setting:Scaffold:AlwaysLook:true
 Setting:DormantESP:Time:10.0
 Setting:Scoreboard:Numbers:false
 Setting:Tracers:Width:2.04
 Setting:Tracers:Player-Mode:Head
 Setting:Tracers:Target-Mode:Head
+Setting:WallSpeed:Mode:Intave
