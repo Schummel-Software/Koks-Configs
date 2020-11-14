@@ -43,6 +43,8 @@ Setting:KillAura:ArmorStands:false
 Setting:KillAura:Animals:false
 Setting:KillAura:Villager:false
 Setting:KillAura:Mobs:false
+Setting:KillAura:Haze Range:false
+Setting:KillAura:Max Haze Range Distance:0.0
 Setting:KillAura:Hit Range:3.12
 Setting:KillAura:CPS:12.0
 Setting:KillAura:HurtTime:10.0
@@ -50,6 +52,7 @@ Setting:KillAura:Field of View:360.0
 Setting:KillAura:Failing Chance:0.0
 Setting:KillAura:AutoBlock:false
 Setting:KillAura:BlockMode:On Attack
+Setting:KillAura:MouseFix:true
 Setting:KillAura:Fix Movement:true
 Setting:KillAura:Stop Sprinting:false
 Setting:KillAura:Use PlayerController:true
@@ -78,6 +81,7 @@ Setting:Velocity:onGround:false
 Setting:Debug:Check:true
 Setting:Debug:Combo:M1
 Setting:Debug:Slider:10.0
+Setting:ClickGUI:Mode:Panel
 Setting:HUD:Name:
 Setting:HUD:Watermark:true
 Setting:HUD:Font:
@@ -86,10 +90,10 @@ Setting:HUD:Hotbar:true
 Setting:HUD:Show Tags:false
 Setting:HUD:TabGUI:true
 Setting:HUD:ArrayListMode:Mode2
-Setting:HUD:X:5.0
+Setting:HUD:X:6.0
 Setting:HUD:Y:30.0
-Setting:HUD:Width:91.0
-Setting:HUD:height:13.0
+Setting:HUD:Width:90.0
+Setting:HUD:height:12.0
 Setting:BoatFly:Mode:AAC4
 Setting:BoatFly:AAC4-Boost:8.0
 Setting:Fly:AAC3.3.12-Boost:9.0
