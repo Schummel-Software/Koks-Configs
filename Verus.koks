@@ -1,4 +1,5 @@
 Module:AutoArmor:true:true
+Module:BedFucker:false:false
 Module:BoatFly:false:false
 Module:ChestStealer:true:true
 Module:CivBreak:false:false
@@ -30,7 +31,7 @@ Module:Step:true:true
 Module:SuperHit:false:false
 Module:TNTBlock:true:false
 Module:Teams:false:true
-Module:Teleport:true:false
+Module:Teleport:false:false
 Module:VClip:false:false
 Module:Velocity:true:true
 Module:WallSpeed:false:true
@@ -45,7 +46,7 @@ Setting:KillAura:Villager:false
 Setting:KillAura:Mobs:false
 Setting:KillAura:Haze Range:false
 Setting:KillAura:Max Haze Range Distance:0.0
-Setting:KillAura:Hit Range:4.04
+Setting:KillAura:Hit Range:3.7
 Setting:KillAura:CPS:20.0
 Setting:KillAura:HurtTime:10.0
 Setting:KillAura:Field of View:360.0
@@ -55,7 +56,7 @@ Setting:KillAura:BlockMode:On Attack
 Setting:KillAura:MouseFix:true
 Setting:KillAura:Fix Movement:false
 Setting:KillAura:Stop Sprinting:false
-Setting:KillAura:Use PlayerController:false
+Setting:KillAura:Attack Mode:Packet
 Setting:KillAura:NoSwing:false
 Setting:KillAura:NoSwingType:Packet
 Setting:KillAura:Crack Size:10.0
@@ -159,15 +160,15 @@ Setting:Scaffold:Pitch:82.0
 Setting:Scaffold:Sneak:false
 Setting:Scaffold:Sneak After...:1.0
 Setting:Scaffold:Swing Item:true
-Setting:Scaffold:SafeWalk:false
-Setting:Scaffold:OnGround:false
+Setting:Scaffold:SafeWalk:true
+Setting:Scaffold:OnGround:true
 Setting:Scaffold:DownScaffold:false
-Setting:Scaffold:Random Hit:false
+Setting:Scaffold:Random Hit:true
 Setting:Scaffold:Sprint:false
 Setting:Scaffold:RayCast:false
-Setting:Scaffold:Simple Rotations:true
+Setting:Scaffold:Simple Rotations:false
 Setting:Scaffold:StaticPitch:false
-Setting:Scaffold:Intave:false
+Setting:Scaffold:Intave:true
 Setting:Scaffold:AlwaysLook:true
 Setting:DormantESP:Time:10.0
 Setting:Scoreboard:Numbers:false
@@ -175,3 +176,6 @@ Setting:Tracers:Width:2.04
 Setting:Tracers:Player-Mode:Head
 Setting:Tracers:Target-Mode:Head
 Setting:WallSpeed:Mode:Intave
+Setting:Xray:Mode:Invisible
+Setting:BedFucker:Range:10.0
+Setting:BedFucker:Delay:300.0

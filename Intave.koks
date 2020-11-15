@@ -1,4 +1,5 @@
 Module:AutoArmor:true:true
+Module:BedFucker:false:false
 Module:BoatFly:false:false
 Module:ChestStealer:true:true
 Module:CivBreak:false:false
@@ -55,7 +56,7 @@ Setting:KillAura:BlockMode:On Attack
 Setting:KillAura:MouseFix:true
 Setting:KillAura:Fix Movement:true
 Setting:KillAura:Stop Sprinting:false
-Setting:KillAura:Use PlayerController:true
+Setting:KillAura:Attack Mode:MouseClick
 Setting:KillAura:NoSwing:false
 Setting:KillAura:NoSwingType:Packet
 Setting:KillAura:Crack Size:10.0
@@ -175,3 +176,6 @@ Setting:Tracers:Width:2.04
 Setting:Tracers:Player-Mode:Head
 Setting:Tracers:Target-Mode:Head
 Setting:WallSpeed:Mode:Intave
+Setting:Xray:Mode:Invisible
+Setting:BedFucker:Range:10.0
+Setting:BedFucker:Delay:300.0
