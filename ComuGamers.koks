@@ -24,12 +24,12 @@ Module:Safewalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
-Module:Speed:true:true
+Module:Speed:false:true
 Module:Sprint:false:true
 Module:StairSpeed:false:false
 Module:Step:true:true
 Module:SuperHit:false:false
-Module:TNTBlock:false:false
+Module:TNTBlock:true:true
 Module:Teams:false:true
 Module:Teleport:false:false
 Module:VClip:false:false
