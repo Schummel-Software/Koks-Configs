@@ -1,3 +1,4 @@
+Module:AimBot:false:false
 Module:AntiVoid:false:false
 Module:AutoArmor:true:true
 Module:BedFucker:false:false
@@ -11,12 +12,14 @@ Module:FastPlace:false:false
 Module:Fly:false:false
 Module:Friends:true:true
 Module:GodMode:false:true
+Module:IceSpeed:false:false
 Module:InvCleaner:true:true
 Module:InvMove:false:false
 Module:Jesus:false:true
 Module:KillAura:false:true
 Module:NoCobweb:false:true
 Module:NoFall:false:true
+Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
 Module:NoSlowdown:false:false
 Module:OverArmor:false:false
@@ -57,6 +60,9 @@ Setting:KillAura:Failing Chance:0.0
 Setting:KillAura:AutoBlock:false
 Setting:KillAura:BlockMode:On Attack
 Setting:KillAura:MouseFix:true
+Setting:KillAura:Sensitivity Multiplier:0.6
+Setting:KillAura:Fix Multiplier:8.0
+Setting:KillAura:Percent Fix:false
 Setting:KillAura:Fix Movement:true
 Setting:KillAura:Stop Sprinting:false
 Setting:KillAura:Attack Mode:MouseClick
@@ -161,7 +167,6 @@ Setting:Swing:Mode:Spin
 Setting:TrailESP:Length:416.0
 Setting:TrailESP:Show In FirstPerson:true
 Setting:Scaffold:Delay:0.0
-Setting:Scaffold:Silent:true
 Setting:Scaffold:Motion:1.0
 Setting:Scaffold:Pitch:81.5
 Setting:Scaffold:Sneak:false
@@ -169,6 +174,7 @@ Setting:Scaffold:Sneak After...:1.0
 Setting:Scaffold:Swing Item:true
 Setting:Scaffold:SafeWalk:false
 Setting:Scaffold:OnGround:false
+Setting:Scaffold:Silent:true
 Setting:Scaffold:DownScaffold:false
 Setting:Scaffold:Random Hit:false
 Setting:Scaffold:Sprint:false
@@ -190,3 +196,12 @@ Setting:AntiVoid:Fall Distance:6.0
 Setting:AntiVoid:Mode:AAC1.9.10
 Setting:ShopSaver:Open Shop:
 Setting:FastBreak:Percent:100.0
+Setting:IceSpeed:Slipperiness:0.3
+Setting:AimBot:LockView:false
+Setting:AimBot:MoveFix:true
+Setting:AimBot:Smooth:false
+Setting:AimBot:Player:true
+Setting:AimBot:ArmorStands:false
+Setting:AimBot:Animals:false
+Setting:AimBot:Villager:false
+Setting:AimBot:Mobs:false

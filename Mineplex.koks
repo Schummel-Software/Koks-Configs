@@ -1,3 +1,4 @@
+Module:AimBot:false:false
 Module:AntiVoid:false:false
 Module:AutoArmor:true:true
 Module:BedFucker:false:false
@@ -55,10 +56,13 @@ Setting:KillAura:Hit Range:3.28
 Setting:KillAura:CPS:20.0
 Setting:KillAura:HurtTime:10.0
 Setting:KillAura:Field of View:360.0
-Setting:KillAura:Failing Chance:5.0
+Setting:KillAura:Failing Chance:0.0
 Setting:KillAura:AutoBlock:true
 Setting:KillAura:BlockMode:Full
 Setting:KillAura:MouseFix:false
+Setting:KillAura:Sensitivity Multiplier:0.6
+Setting:KillAura:Fix Multiplier:8.0
+Setting:KillAura:Percent Fix:false
 Setting:KillAura:Fix Movement:false
 Setting:KillAura:Stop Sprinting:false
 Setting:KillAura:Attack Mode:Packet
@@ -193,3 +197,11 @@ Setting:AntiVoid:Mode:AAC1.9.10
 Setting:ShopSaver:Open Shop:
 Setting:FastBreak:Percent:100.0
 Setting:IceSpeed:Slipperiness:0.3
+Setting:AimBot:LockView:false
+Setting:AimBot:MoveFix:true
+Setting:AimBot:Smooth:false
+Setting:AimBot:Player:true
+Setting:AimBot:ArmorStands:false
+Setting:AimBot:Animals:false
+Setting:AimBot:Villager:false
+Setting:AimBot:Mobs:false
