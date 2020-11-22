@@ -1,29 +1,34 @@
+Module:AntiVoid:false:false
 Module:AutoArmor:true:true
-Module:BedFucker:false:false
+Module:BedFucker:false:true
 Module:BoatFly:false:false
 Module:ChestStealer:true:true
 Module:CivBreak:false:true
 Module:Criticals:false:false
 Module:FastBow:true:false
+Module:FastBreak:false:false
 Module:FastPlace:false:false
 Module:Fly:false:true
 Module:Friends:true:true
 Module:GodMode:false:false
+Module:IceSpeed:false:false
 Module:InvCleaner:true:true
 Module:InvMove:true:true
 Module:Jesus:false:false
 Module:KillAura:false:true
 Module:NoCobweb:false:false
 Module:NoFall:false:false
+Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
 Module:NoSlowdown:true:true
 Module:OverArmor:false:false
-Module:Phase:false:false
+Module:Phase:false:true
 Module:Rotations:false:true
 Module:Safewalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
+Module:ShopSaver:false:false
 Module:Speed:false:true
 Module:Sprint:false:true
 Module:StairSpeed:false:false
@@ -61,6 +66,7 @@ Setting:KillAura:NoSwing:false
 Setting:KillAura:NoSwingType:Packet
 Setting:KillAura:Crack Size:5.0
 Setting:KillAura:Health NaN Check:false
+Setting:KillAura:GroundCheck:false
 Setting:KillAura:Name Check:true
 Setting:KillAura:Ignore Invisible:true
 Setting:KillAura:IgnoreDeath:true
@@ -97,6 +103,8 @@ Setting:HUD:Width:90.0
 Setting:HUD:height:12.0
 Setting:BoatFly:Mode:AAC4
 Setting:BoatFly:AAC4-Boost:8.0
+Setting:Fly:AAC1.9.10-Speed:2.8
+Setting:Fly:AAC1.9.10-MotionY:1.1
 Setting:Fly:AAC3.3.12-Boost:10.0
 Setting:Fly:Mode:AAC3.3.12
 Setting:InvMove:Jump:true
@@ -162,10 +170,11 @@ Setting:Scaffold:Sneak After...:10.0
 Setting:Scaffold:Swing Item:true
 Setting:Scaffold:SafeWalk:true
 Setting:Scaffold:OnGround:true
+Setting:Scaffold:Silent:true
 Setting:Scaffold:DownScaffold:false
 Setting:Scaffold:Random Hit:false
 Setting:Scaffold:Sprint:false
-Setting:Scaffold:RayCast:false
+Setting:Scaffold:RayCast:true
 Setting:Scaffold:Simple Rotations:true
 Setting:Scaffold:StaticPitch:false
 Setting:Scaffold:Intave:true
@@ -177,5 +186,10 @@ Setting:Tracers:Player-Mode:Head
 Setting:Tracers:Target-Mode:Head
 Setting:WallSpeed:Mode:Intave
 Setting:Xray:Mode:Invisible
-Setting:BedFucker:Range:10.0
+Setting:BedFucker:Range:7.0
 Setting:BedFucker:Delay:300.0
+Setting:AntiVoid:Fall Distance:6.0
+Setting:AntiVoid:Mode:AAC1.9.10
+Setting:ShopSaver:Open Shop:
+Setting:FastBreak:Percent:100.0
+Setting:IceSpeed:Slipperiness:0.3

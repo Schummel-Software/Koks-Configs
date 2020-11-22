@@ -1,3 +1,4 @@
+Module:AntiVoid:false:false
 Module:AutoArmor:true:true
 Module:BedFucker:false:false
 Module:BoatFly:false:false
@@ -5,16 +6,19 @@ Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Criticals:false:false
 Module:FastBow:false:false
+Module:FastBreak:false:false
 Module:FastPlace:false:false
 Module:Fly:false:false
 Module:Friends:true:true
 Module:GodMode:false:true
+Module:IceSpeed:false:false
 Module:InvCleaner:true:true
 Module:InvMove:false:false
 Module:Jesus:false:true
 Module:KillAura:false:true
 Module:NoCobweb:false:true
 Module:NoFall:false:true
+Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
 Module:NoSlowdown:false:false
 Module:OverArmor:false:false
@@ -24,6 +28,7 @@ Module:Safewalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:true
+Module:ShopSaver:false:false
 Module:Speed:false:false
 Module:Sprint:false:true
 Module:StairSpeed:false:true
@@ -46,14 +51,14 @@ Setting:KillAura:Villager:false
 Setting:KillAura:Mobs:false
 Setting:KillAura:Haze Range:false
 Setting:KillAura:Max Haze Range Distance:0.0
-Setting:KillAura:Hit Range:3.7
+Setting:KillAura:Hit Range:3.6
 Setting:KillAura:CPS:20.0
 Setting:KillAura:HurtTime:10.0
 Setting:KillAura:Field of View:360.0
 Setting:KillAura:Failing Chance:0.0
 Setting:KillAura:AutoBlock:false
 Setting:KillAura:BlockMode:On Attack
-Setting:KillAura:MouseFix:true
+Setting:KillAura:MouseFix:false
 Setting:KillAura:Fix Movement:false
 Setting:KillAura:Stop Sprinting:false
 Setting:KillAura:Attack Mode:Packet
@@ -61,6 +66,7 @@ Setting:KillAura:NoSwing:false
 Setting:KillAura:NoSwingType:Packet
 Setting:KillAura:Crack Size:10.0
 Setting:KillAura:Health NaN Check:false
+Setting:KillAura:GroundCheck:false
 Setting:KillAura:Name Check:true
 Setting:KillAura:Ignore Invisible:true
 Setting:KillAura:IgnoreDeath:true
@@ -97,6 +103,8 @@ Setting:HUD:Width:90.0
 Setting:HUD:height:12.0
 Setting:BoatFly:Mode:AAC4
 Setting:BoatFly:AAC4-Boost:8.0
+Setting:Fly:AAC1.9.10-Speed:2.8
+Setting:Fly:AAC1.9.10-MotionY:1.1
 Setting:Fly:AAC3.3.12-Boost:9.0
 Setting:Fly:Mode:Verus
 Setting:InvMove:Jump:true
@@ -162,9 +170,10 @@ Setting:Scaffold:Sneak After...:1.0
 Setting:Scaffold:Swing Item:true
 Setting:Scaffold:SafeWalk:true
 Setting:Scaffold:OnGround:true
+Setting:Scaffold:Silent:false
 Setting:Scaffold:DownScaffold:false
 Setting:Scaffold:Random Hit:true
-Setting:Scaffold:Sprint:false
+Setting:Scaffold:Sprint:true
 Setting:Scaffold:RayCast:false
 Setting:Scaffold:Simple Rotations:false
 Setting:Scaffold:StaticPitch:false
@@ -179,3 +188,8 @@ Setting:WallSpeed:Mode:Intave
 Setting:Xray:Mode:Invisible
 Setting:BedFucker:Range:10.0
 Setting:BedFucker:Delay:300.0
+Setting:AntiVoid:Fall Distance:6.0
+Setting:AntiVoid:Mode:AAC1.9.10
+Setting:ShopSaver:Open Shop:
+Setting:FastBreak:Percent:100.0
+Setting:IceSpeed:Slipperiness:0.3
