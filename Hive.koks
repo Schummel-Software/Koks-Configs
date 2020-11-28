@@ -2,6 +2,7 @@ Module:AimBot:false:false
 Module:AntiVoid:false:false
 Module:AutoArmor:true:true
 Module:BedFucker:false:true
+Module:Blink:false:false
 Module:BoatFly:false:false
 Module:ChestStealer:true:true
 Module:CivBreak:false:true
@@ -50,6 +51,7 @@ Setting:KillAura:ArmorStands:false
 Setting:KillAura:Animals:false
 Setting:KillAura:Villager:false
 Setting:KillAura:Mobs:false
+Setting:KillAura:Attack While Eating:false
 Setting:KillAura:Haze Range:false
 Setting:KillAura:Max Haze Range Distance:0.0
 Setting:KillAura:Hit Range:6.0
@@ -60,8 +62,6 @@ Setting:KillAura:Failing Chance:0.0
 Setting:KillAura:AutoBlock:false
 Setting:KillAura:BlockMode:On Attack
 Setting:KillAura:MouseFix:true
-Setting:KillAura:Sensitivity Multiplier:0.6
-Setting:KillAura:Fix Multiplier:8.0
 Setting:KillAura:Percent Fix:false
 Setting:KillAura:Fix Movement:false
 Setting:KillAura:Stop Sprinting:false
@@ -91,14 +91,14 @@ Setting:Velocity:HurtTime:10.0
 Setting:Velocity:onGround:false
 Setting:Debug:Check:true
 Setting:Debug:Combo:M1
-Setting:Debug:Slider:10.0
+Setting:Debug:Slider:9.94
 Setting:ClickGUI:Mode:Panel
 Setting:HUD:Name:
 Setting:HUD:Watermark:true
 Setting:HUD:Font:
 Setting:HUD:ArrayList:true
 Setting:HUD:Hotbar:true
-Setting:HUD:Show Tags:false
+Setting:HUD:Show Tags:true
 Setting:HUD:TabGUI:true
 Setting:HUD:ArrayListMode:Mode2
 Setting:HUD:X:6.0
@@ -166,23 +166,6 @@ Setting:FakeAutoBlock:OnlySword:false
 Setting:Swing:Mode:Spin
 Setting:TrailESP:Length:416.0
 Setting:TrailESP:Show In FirstPerson:true
-Setting:Scaffold:Delay:0.0
-Setting:Scaffold:Motion:1.0
-Setting:Scaffold:Pitch:82.0
-Setting:Scaffold:Sneak:false
-Setting:Scaffold:Sneak After...:10.0
-Setting:Scaffold:Swing Item:true
-Setting:Scaffold:SafeWalk:true
-Setting:Scaffold:OnGround:true
-Setting:Scaffold:Silent:true
-Setting:Scaffold:DownScaffold:false
-Setting:Scaffold:Random Hit:false
-Setting:Scaffold:Sprint:false
-Setting:Scaffold:RayCast:true
-Setting:Scaffold:Simple Rotations:true
-Setting:Scaffold:StaticPitch:false
-Setting:Scaffold:Intave:true
-Setting:Scaffold:AlwaysLook:true
 Setting:DormantESP:Time:10.0
 Setting:Scoreboard:Numbers:false
 Setting:Tracers:Width:2.04
@@ -205,3 +188,18 @@ Setting:AimBot:ArmorStands:false
 Setting:AimBot:Animals:false
 Setting:AimBot:Villager:false
 Setting:AimBot:Mobs:false
+Setting:Scaffold:Delay:0.0
+Setting:Scaffold:Motion:1.0
+Setting:Scaffold:Diagonal:false
+Setting:Scaffold:Silent:true
+Setting:Scaffold:NoSwing:false
+Setting:Scaffold:Safewalk:true
+Setting:Scaffold:OnlyGround:true
+Setting:Scaffold:Sprint:false
+Setting:Scaffold:Sneak:false
+Setting:Scaffold:Sneak after...:10.0
+Setting:Scaffold:Raycast:true
+Setting:Scaffold:Always Rotate:true
+Setting:Scaffold:Simple Rotations:false
+Setting:Scaffold:Static Pitch:false
+Setting:Scaffold:Pitch:82.0
