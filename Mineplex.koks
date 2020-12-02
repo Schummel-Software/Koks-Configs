@@ -16,6 +16,7 @@ Module:GodMode:false:false
 Module:IceSpeed:false:false
 Module:InvCleaner:true:true
 Module:InvMove:true:true
+Module:ItemTP:false:false
 Module:Jesus:true:true
 Module:KillAura:false:true
 Module:NoCobweb:false:false
@@ -46,26 +47,27 @@ Setting:FastBow:Mode:Vanilla
 Setting:FastBow:Strength:20.0
 Setting:KillAura:Attack Type:Single
 Setting:KillAura:Prefer:Distance
+Setting:KillAura:Attack Mode:Packet
 Setting:KillAura:Player:true
 Setting:KillAura:ArmorStands:false
 Setting:KillAura:Animals:false
 Setting:KillAura:Villager:false
 Setting:KillAura:Mobs:false
+Setting:KillAura:NoInvAttack:false
 Setting:KillAura:Attack While Eating:true
+Setting:KillAura:PreAimAttack:true
 Setting:KillAura:Haze Range:false
 Setting:KillAura:Max Haze Range Distance:0.0
-Setting:KillAura:Hit Range:3.28
+Setting:KillAura:Hit Range:3.05
 Setting:KillAura:CPS:20.0
 Setting:KillAura:HurtTime:10.0
 Setting:KillAura:Field of View:360.0
 Setting:KillAura:Failing Chance:0.0
-Setting:KillAura:AutoBlock:true
+Setting:KillAura:AutoBlock:false
 Setting:KillAura:BlockMode:Full
 Setting:KillAura:MouseFix:false
-Setting:KillAura:Percent Fix:false
 Setting:KillAura:Fix Movement:false
 Setting:KillAura:Stop Sprinting:false
-Setting:KillAura:Attack Mode:Packet
 Setting:KillAura:NoSwing:false
 Setting:KillAura:NoSwingType:Packet
 Setting:KillAura:Crack Size:5.0
@@ -93,12 +95,13 @@ Setting:Debug:Check:true
 Setting:Debug:Combo:M1
 Setting:Debug:Slider:9.94
 Setting:ClickGUI:Mode:Panel
+Setting:ClickGUI:Fake Credits:true
 Setting:HUD:Name:
 Setting:HUD:Watermark:true
 Setting:HUD:Font:
 Setting:HUD:ArrayList:true
 Setting:HUD:Hotbar:true
-Setting:HUD:Show Tags:true
+Setting:HUD:Show Tags:false
 Setting:HUD:TabGUI:true
 Setting:HUD:ArrayListMode:Mode2
 Setting:HUD:X:6.0
@@ -134,7 +137,9 @@ Setting:AutoArmor:Opened Inventory:false
 Setting:AutoArmor:Start Delay:9.0
 Setting:AutoArmor:Equip Delay:10.0
 Setting:ChestStealer:Start Delay:0.0
-Setting:ChestStealer:Take Delay:12.0
+Setting:ChestStealer:Grab Delay:64.0
+Setting:ChestStealer:Auto Close:true
+Setting:ChestStealer:ColorCodeCheck:false
 Setting:GodMode:Mode:Intave Border
 Setting:InvCleaner:Opened Inventory:false
 Setting:InvCleaner:Start Delay:9.0
@@ -171,6 +176,7 @@ Setting:Scoreboard:Numbers:false
 Setting:Tracers:Width:2.04
 Setting:Tracers:Player-Mode:Head
 Setting:Tracers:Target-Mode:Head
+Setting:ItemTP:Reach:50.0
 Setting:WallSpeed:Mode:Intave
 Setting:Xray:Mode:Invisible
 Setting:BedFucker:Range:10.0
@@ -193,8 +199,8 @@ Setting:Scaffold:Motion:1.0
 Setting:Scaffold:Diagonal:true
 Setting:Scaffold:Silent:true
 Setting:Scaffold:NoSwing:false
-Setting:Scaffold:Safewalk:true
-Setting:Scaffold:OnlyGround:true
+Setting:Scaffold:Safewalk:false
+Setting:Scaffold:OnlyGround:false
 Setting:Scaffold:Sprint:false
 Setting:Scaffold:Sneak:false
 Setting:Scaffold:Sneak after...:1.0

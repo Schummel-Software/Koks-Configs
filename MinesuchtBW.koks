@@ -4,26 +4,26 @@ Module:AutoArmor:true:true
 Module:BedFucker:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
-Module:ChestStealer:true:true
-Module:CivBreak:true:true
+Module:ChestStealer:false:true
+Module:CivBreak:false:false
 Module:Criticals:false:false
 Module:FastBow:false:false
 Module:FastBreak:false:false
 Module:FastPlace:false:false
-Module:Fly:false:true
-Module:Friends:true:true
+Module:Fly:false:false
+Module:Friends:false:true
 Module:GodMode:false:false
 Module:IceSpeed:false:false
 Module:InvCleaner:true:true
-Module:InvMove:true:true
+Module:InvMove:false:false
 Module:ItemTP:false:false
 Module:Jesus:false:false
 Module:KillAura:false:true
 Module:NoCobweb:false:false
-Module:NoFall:true:true
+Module:NoFall:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
-Module:NoSlowdown:true:true
+Module:NoSlowdown:false:false
 Module:OverArmor:false:false
 Module:Phase:false:false
 Module:Rotations:false:false
@@ -32,22 +32,22 @@ Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
-Module:Speed:false:true
+Module:Speed:false:false
 Module:Sprint:false:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
-Module:TNTBlock:true:true
+Module:TNTBlock:false:false
 Module:Teams:false:true
 Module:Teleport:false:false
 Module:VClip:false:false
 Module:Velocity:true:true
 Module:WallSpeed:false:false
-Setting:FastBow:Mode:Timer
+Setting:FastBow:Mode:Vanilla
 Setting:FastBow:Strength:20.0
 Setting:KillAura:Attack Type:Single
-Setting:KillAura:Prefer:Distance
-Setting:KillAura:Attack Mode:Packet
+Setting:KillAura:Prefer:Health
+Setting:KillAura:Attack Mode:PlayerController
 Setting:KillAura:Player:true
 Setting:KillAura:ArmorStands:false
 Setting:KillAura:Animals:false
@@ -58,7 +58,7 @@ Setting:KillAura:Attack While Eating:false
 Setting:KillAura:PreAimAttack:true
 Setting:KillAura:Haze Range:false
 Setting:KillAura:Max Haze Range Distance:0.0
-Setting:KillAura:Hit Range:5.01
+Setting:KillAura:Hit Range:3.04
 Setting:KillAura:CPS:10.0
 Setting:KillAura:HurtTime:10.0
 Setting:KillAura:Field of View:360.0
@@ -66,7 +66,7 @@ Setting:KillAura:Failing Chance:0.0
 Setting:KillAura:AutoBlock:false
 Setting:KillAura:BlockMode:On Attack
 Setting:KillAura:MouseFix:true
-Setting:KillAura:Fix Movement:false
+Setting:KillAura:Fix Movement:true
 Setting:KillAura:Stop Sprinting:false
 Setting:KillAura:NoSwing:false
 Setting:KillAura:NoSwingType:Packet
@@ -79,13 +79,13 @@ Setting:KillAura:IgnoreDeath:true
 Setting:KillAura:Through Walls:false
 Setting:KillAura:Sound Check:false
 Setting:Rotations:Smooth:false
-Setting:Rotations:Precision:0.07
-Setting:Rotations:Accuracy:0.21
-Setting:Rotations:Prediction Multiplier:0.2
+Setting:Rotations:Precision:0.1
+Setting:Rotations:Accuracy:0.3
+Setting:Rotations:Prediction Multiplier:0.4
 Setting:Rotations:LockView:false
 Setting:SuperHit:Reach:250.0
 Setting:TNTBlock:BlockTime:5.0
-Setting:Velocity:Mode:Cancel
+Setting:Velocity:Mode:AAC4
 Setting:Velocity:Horizontal:100.0
 Setting:Velocity:Vertical:100.0
 Setting:Velocity:Canceled:false
@@ -101,7 +101,7 @@ Setting:HUD:Watermark:true
 Setting:HUD:Font:
 Setting:HUD:ArrayList:true
 Setting:HUD:Hotbar:true
-Setting:HUD:Show Tags:false
+Setting:HUD:Show Tags:true
 Setting:HUD:TabGUI:true
 Setting:HUD:ArrayListMode:Mode2
 Setting:HUD:X:6.0
@@ -113,37 +113,37 @@ Setting:BoatFly:AAC4-Boost:8.0
 Setting:Fly:AAC1.9.10-Speed:2.8
 Setting:Fly:AAC1.9.10-MotionY:1.1
 Setting:Fly:AAC3.3.12-Boost:9.0
-Setting:Fly:Mode:MCCentral
+Setting:Fly:Mode:AAC3.3.12
 Setting:InvMove:Jump:true
 Setting:InvMove:Sprint:true
 Setting:InvMove:Look:true
 Setting:InvMove:CancelPacket:false
 Setting:Jesus:Mode:Intave
 Setting:NoCobweb:Mode:Intave
-Setting:NoFall:Mode:Mineplex
+Setting:NoFall:Mode:Intave
 Setting:NoSlowdown:Speed:100.0
 Setting:NoSlowdown:Sprint:true
 Setting:NoSlowdown:AAC:false
-Setting:Speed:Mode:MCCentral
+Setting:Speed:Mode:Legit
 Setting:StairSpeed:Mode:Intave
-Setting:Step:Mode:Intave
+Setting:Step:Mode:Intave2
 Setting:Step:Step Height:4.0
 Setting:VClip:Up Key:
 Setting:VClip:Up Height:5.0
 Setting:VClip:Down Key:
 Setting:VClip:Down Height:-5.0
 Setting:VClip:Stuck:true
-Setting:AutoArmor:Opened Inventory:false
+Setting:AutoArmor:Opened Inventory:true
 Setting:AutoArmor:Start Delay:250.0
-Setting:AutoArmor:Equip Delay:124.0
+Setting:AutoArmor:Equip Delay:150.0
 Setting:ChestStealer:Start Delay:100.0
 Setting:ChestStealer:Grab Delay:64.0
-Setting:ChestStealer:Auto Close:true
+Setting:ChestStealer:Auto Close:false
 Setting:ChestStealer:ColorCodeCheck:false
 Setting:GodMode:Mode:Intave Border
-Setting:InvCleaner:Opened Inventory:false
+Setting:InvCleaner:Opened Inventory:true
 Setting:InvCleaner:Start Delay:250.0
-Setting:InvCleaner:Throw Delay:123.0
+Setting:InvCleaner:Throw Delay:150.0
 Setting:InvCleaner:Prefer Sword:true
 Setting:InvCleaner:KeepTools:true
 Setting:InvCleaner:Weapon Slot:1.0
@@ -151,7 +151,7 @@ Setting:InvCleaner:Bow Slot:2.0
 Setting:InvCleaner:PickAxe Slot:0.0
 Setting:InvCleaner:Axe Slot:0.0
 Setting:InvCleaner:Shovel Slot:0.0
-Setting:Phase:Mode:Hive
+Setting:Phase:Mode:Intave
 Setting:SetBack:Mode:Intave
 Setting:Teleport:Reach:250.0
 Setting:ChestESP:ESP Mode:Shader
@@ -194,18 +194,18 @@ Setting:AimBot:ArmorStands:false
 Setting:AimBot:Animals:false
 Setting:AimBot:Villager:false
 Setting:AimBot:Mobs:false
-Setting:Scaffold:Delay:0.0
-Setting:Scaffold:Motion:1.0
-Setting:Scaffold:Diagonal:true
-Setting:Scaffold:Silent:true
+Setting:Scaffold:Delay:98.0
+Setting:Scaffold:Motion:0.0
+Setting:Scaffold:Diagonal:false
+Setting:Scaffold:Silent:false
 Setting:Scaffold:NoSwing:false
-Setting:Scaffold:Safewalk:false
+Setting:Scaffold:Safewalk:true
 Setting:Scaffold:OnlyGround:true
-Setting:Scaffold:Sprint:true
+Setting:Scaffold:Sprint:false
 Setting:Scaffold:Sneak:false
 Setting:Scaffold:Sneak after...:1.0
-Setting:Scaffold:Raycast:true
+Setting:Scaffold:Raycast:false
 Setting:Scaffold:Always Rotate:true
-Setting:Scaffold:Simple Rotations:false
+Setting:Scaffold:Simple Rotations:true
 Setting:Scaffold:Static Pitch:false
-Setting:Scaffold:Pitch:82.0
+Setting:Scaffold:Pitch:82.15
