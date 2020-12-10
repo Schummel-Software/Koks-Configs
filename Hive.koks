@@ -1,4 +1,5 @@
 Module:AimBot:false:false
+Module:AntiBot:true:true
 Module:AntiVoid:false:false
 Module:AutoArmor:true:true
 Module:BedFucker:false:true
@@ -7,6 +8,7 @@ Module:BoatFly:false:false
 Module:ChestStealer:true:true
 Module:CivBreak:false:true
 Module:Criticals:false:false
+Module:Disabler:false:false
 Module:FastBow:true:false
 Module:FastBreak:false:false
 Module:FastPlace:false:false
@@ -53,6 +55,9 @@ Setting:KillAura:ArmorStands:false
 Setting:KillAura:Animals:false
 Setting:KillAura:Villager:false
 Setting:KillAura:Mobs:false
+Setting:KillAura:Ignore Invisible:true
+Setting:KillAura:IgnoreDeath:true
+Setting:KillAura:Through Walls:true
 Setting:KillAura:NoInvAttack:false
 Setting:KillAura:Attack While Eating:false
 Setting:KillAura:PreAimAttack:true
@@ -71,13 +76,6 @@ Setting:KillAura:Stop Sprinting:false
 Setting:KillAura:NoSwing:false
 Setting:KillAura:NoSwingType:Packet
 Setting:KillAura:Crack Size:5.0
-Setting:KillAura:Health NaN Check:false
-Setting:KillAura:GroundCheck:false
-Setting:KillAura:Name Check:true
-Setting:KillAura:Ignore Invisible:true
-Setting:KillAura:IgnoreDeath:true
-Setting:KillAura:Through Walls:true
-Setting:KillAura:Sound Check:false
 Setting:Rotations:Smooth:false
 Setting:Rotations:Precision:0.1
 Setting:Rotations:Accuracy:0.3
@@ -96,6 +94,7 @@ Setting:Debug:Combo:M1
 Setting:Debug:Slider:9.94
 Setting:ClickGUI:Mode:Panel
 Setting:ClickGUI:Fake Credits:true
+Setting:ClickGUI:Fake Author:
 Setting:HUD:Name:
 Setting:HUD:Watermark:true
 Setting:HUD:Font:
@@ -179,11 +178,20 @@ Setting:Tracers:Target-Mode:Head
 Setting:ItemTP:Reach:50.0
 Setting:WallSpeed:Mode:Intave
 Setting:Xray:Mode:Invisible
+Setting:Ambiance:Time:8852.0
 Setting:BedFucker:Range:7.0
 Setting:BedFucker:Delay:300.0
 Setting:AntiVoid:Fall Distance:6.0
 Setting:AntiVoid:Mode:AAC1.9.10
 Setting:ShopSaver:Open Shop:
+Setting:AntiBot:Health NaN Check:false
+Setting:AntiBot:GroundCheck:false
+Setting:AntiBot:Name Check:true
+Setting:AntiBot:Swing Check:false
+Setting:AntiBot:HitBefore:false
+Setting:AntiBot:TabListCheck:false
+Setting:AntiBot:PingCheck:false
+Setting:AntiBot:Sound Check:false
 Setting:FastBreak:Percent:100.0
 Setting:IceSpeed:Slipperiness:0.3
 Setting:AimBot:LockView:false
@@ -199,6 +207,7 @@ Setting:Scaffold:Motion:1.0
 Setting:Scaffold:Diagonal:false
 Setting:Scaffold:Silent:true
 Setting:Scaffold:NoSwing:false
+Setting:Scaffold:Smart Placement:true
 Setting:Scaffold:Safewalk:false
 Setting:Scaffold:OnlyGround:false
 Setting:Scaffold:Sprint:false
@@ -209,3 +218,4 @@ Setting:Scaffold:Always Rotate:true
 Setting:Scaffold:Simple Rotations:false
 Setting:Scaffold:Static Pitch:false
 Setting:Scaffold:Pitch:82.0
+Setting:Disabler:Mode:Hypixel
