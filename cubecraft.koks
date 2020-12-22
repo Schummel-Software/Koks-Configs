@@ -1,9 +1,9 @@
 Module:AntiBot:false:false
 Module:AntiVoid:false:false
-Module:AutoArmor:false:false
+Module:AutoArmor:true:true
 Module:Blink:false:false
 Module:BoatFly:false:false
-Module:ChestStealer:false:false
+Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Disabler:false:false
@@ -11,11 +11,11 @@ Module:DoubleJump:false:false
 Module:FastBow:false:false
 Module:FastPlace:false:false
 Module:Fly:false:false
-Module:Fucker:false:false
+Module:Fucker:false:true
 Module:GodMode:false:false
 Module:IceSpeed:false:false
 Module:InvMove:false:false
-Module:InventoryCleaner:false:false
+Module:InventoryCleaner:true:true
 Module:Jesus:false:false
 Module:KillAura:false:true
 Module:NoCobweb:false:false
@@ -23,24 +23,24 @@ Module:NoFall:false:false
 Module:NoFriends:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
-Module:NoSlowDown:false:false
+Module:NoSlowDown:true:true
 Module:OverArmor:false:false
 Module:Phase:false:false
 Module:SafeWalk:false:false
-Module:Scaffold:false:false
+Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Speed:false:false
-Module:Spider:false:true
+Module:Spider:false:false
 Module:Sprint:false:false
 Module:StairSpeed:false:false
 Module:Step:false:false
-Module:Velocity:false:false
+Module:Velocity:true:true
 Module:WallSpeed:false:false
-Value:Speed:Mode:Mineplex
-Value:KillAura:CPS:12
-Value:KillAura:Range:3.0
+Value:Speed:Mode:Legit
+Value:KillAura:CPS:14
+Value:KillAura:Range:3.62
 Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
 Value:KillAura:AttackType:PlayerController
@@ -54,9 +54,9 @@ Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:Heuristics:true
 Value:KillAura:RayCast:true
-Value:KillAura:RotationFix:true
+Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
-Value:KillAura:MoveFix:true
+Value:KillAura:MoveFix:false
 Value:KillAura:SilentMoveFix:false
 Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
@@ -77,7 +77,7 @@ Value:NoSlowDown:CanSprint:true
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
 Value:ChestStealer:Auto Close:true
-Value:ChestStealer:ColorCodeCheck:true
+Value:ChestStealer:ColorCodeCheck:false
 Value:AntiVoid:Fall Distance:3
 Value:AntiVoid:Mode:Hypixel
 Value:Fly:AAC1.9.10-Speed:2.34
@@ -99,7 +99,7 @@ Value:Jesus:Mode:Vanilla
 Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:StairSpeed:Mode:Intave
-Value:Step:Mode:Mineplex
+Value:Step:Mode:Vanilla
 Value:Step:StepHeight:4.0
 Value:WallSpeed:Mode:Intave
 Value:IceSpeed:Slipperiness:0.1
@@ -123,16 +123,16 @@ Value:SetBack:Mode:Intave
 Value:Disabler:Mode:Hypixel
 Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
-Value:Scaffold:Diagonal:true
-Value:Scaffold:Silent:false
+Value:Scaffold:Diagonal:false
+Value:Scaffold:Silent:true
 Value:Scaffold:Switch Blocks:false
 Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
-Value:Scaffold:SmartPlacement:false
+Value:Scaffold:SmartPlacement:true
 Value:Scaffold:MoveFix:false
-Value:Scaffold:SafeWalk:true
-Value:Scaffold:OnlyGround:true
-Value:Scaffold:Sprint:true
+Value:Scaffold:SafeWalk:false
+Value:Scaffold:OnlyGround:false
+Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:Sneak after...:1
 Value:Scaffold:RayCast:false
