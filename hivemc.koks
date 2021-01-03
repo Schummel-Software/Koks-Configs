@@ -3,6 +3,7 @@ Module:AntiVoid:false:false
 Module:AutoArmor:true:true
 Module:Blink:false:true
 Module:BoatFly:false:false
+Module:BowAimBot:false:false
 Module:ChestStealer:false:true
 Module:CivBreak:false:true
 Module:Debug:false:false
@@ -11,12 +12,15 @@ Module:DoubleJump:false:false
 Module:FastBow:false:false
 Module:FastPlace:false:false
 Module:Fly:false:true
+Module:Friends:false:false
+Module:Fucker:false:false
 Module:GodMode:false:false
 Module:IceSpeed:false:false
 Module:InvMove:true:true
 Module:InventoryCleaner:true:true
 Module:Jesus:false:false
 Module:KillAura:false:true
+Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
 Module:NoFriends:false:true
@@ -35,6 +39,9 @@ Module:Spider:false:false
 Module:Sprint:false:false
 Module:StairSpeed:false:false
 Module:Step:false:false
+Module:SuperHit:false:true
+Module:TargetStrafe:false:false
+Module:Teleport:false:false
 Module:Velocity:true:true
 Module:WallSpeed:false:false
 Value:Speed:Mode:AAC3.3.12
@@ -123,18 +130,20 @@ Value:Disabler:Mode:Hypixel
 Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
+Value:Scaffold:DownScaffold:false
 Value:Scaffold:Silent:true
 Value:Scaffold:Switch Blocks:true
 Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
 Value:Scaffold:SmartPlacement:true
+Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:OnlyGround:false
-Value:Scaffold:Sprint:false
+Value:Scaffold:Sprint:true
 Value:Scaffold:Sneak:false
 Value:Scaffold:Sneak after...:1
 Value:Scaffold:RayCast:false
-Value:Scaffold:AlwaysRotate:true
+Value:Scaffold:AlwaysRotate:false
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Pitch:82.0
@@ -146,4 +155,19 @@ Value:AntiBot:HitBefore:false
 Value:AntiBot:TabListCheck:false
 Value:AntiBot:PingCheck:false
 Value:AntiBot:Sound Check:false
+Value:AntiBot:Rotation Check:false
 Value:Spider:Mode:Intave
+Value:Fucker:Range:10
+Value:Fucker:Delay:10
+Value:Fucker:MoveFix:false
+Value:Fucker:Bed:false
+Value:Fucker:DragonEgg:true
+Value:Fucker:Cake:false
+Value:Fucker:Beacon:false
+Value:TargetStrafe:Mode:Legit
+Value:SuperHit:Reach:251
+Value:Teleport:Mode:Hypixel
+Value:BowAimBot:OnlyPlayers:true
+Value:BowAimBot:ThroughWalls:true
+Value:BowAimBot:MoveFix:false
+Value:BowAimBot:LockView:false

@@ -1,9 +1,8 @@
 Module:AntiBot:false:false
 Module:AntiVoid:false:false
-Module:AutoArmor:false:true
+Module:AutoArmor:true:true
 Module:Blink:false:false
 Module:BoatFly:false:false
-Module:BowAimBot:false:false
 Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
@@ -12,14 +11,13 @@ Module:DoubleJump:false:false
 Module:FastBow:false:false
 Module:FastPlace:false:false
 Module:Fly:false:false
-Module:Friends:true:false
-Module:Fucker:false:true
+Module:Fucker:false:false
 Module:GodMode:false:false
 Module:IceSpeed:false:false
 Module:InvMove:false:false
-Module:InventoryCleaner:false:true
+Module:InventoryCleaner:true:true
 Module:Jesus:false:false
-Module:KillAura:true:true
+Module:KillAura:false:true
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
@@ -28,29 +26,29 @@ Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
 Module:NoSlowDown:false:false
 Module:OverArmor:false:false
-Module:Phase:false:true
+Module:Phase:false:false
 Module:SafeWalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Speed:false:false
-Module:Spider:false:true
+Module:Spider:false:false
 Module:Sprint:false:false
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:false
 Module:Teleport:false:false
-Module:Velocity:false:true
+Module:Velocity:true:true
 Module:WallSpeed:false:false
-Value:Speed:Mode:Intave
-Value:KillAura:CPS:12
-Value:KillAura:Range:3.0
+Value:Speed:Mode:Legit
+Value:KillAura:CPS:20
+Value:KillAura:Range:3.62
 Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
 Value:KillAura:AttackType:PlayerController
-Value:KillAura:AutoBlock:false
+Value:KillAura:AutoBlock:true
 Value:KillAura:AutoBlock-Mode:Intave
 Value:KillAura:Player:true
 Value:KillAura:Animals:false
@@ -60,7 +58,6 @@ Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:Heuristics:true
 Value:KillAura:RayCast:true
-Value:KillAura:RotationFix:true
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
 Value:KillAura:SilentMoveFix:false
@@ -90,7 +87,7 @@ Value:Fly:AAC1.9.10-Speed:2.34
 Value:Fly:AAC1.9.10-MotionY:0.8
 Value:Fly:AAC3.3.12-Boost:9
 Value:Fly:Mode:Vanilla
-Value:Velocity:Mode:IntaveReverse
+Value:Velocity:Mode:Cancel
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:FastBow:Timer:5.0
@@ -105,7 +102,7 @@ Value:Jesus:Mode:Vanilla
 Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:StairSpeed:Mode:Intave
-Value:Step:Mode:Mineplex
+Value:Step:Mode:Vanilla
 Value:Step:StepHeight:4.0
 Value:WallSpeed:Mode:Intave
 Value:IceSpeed:Slipperiness:0.1
@@ -124,29 +121,28 @@ Value:InventoryCleaner:Bow Slot:2
 Value:InventoryCleaner:PickAxe Slot:0
 Value:InventoryCleaner:Axe Slot:0
 Value:InventoryCleaner:Shovel Slot:0
-Value:Phase:Mode:Intave
+Value:Phase:Mode:AAC1.9.10
 Value:SetBack:Mode:Intave
 Value:Disabler:Mode:Hypixel
-Value:Scaffold:Delay:25
-Value:Scaffold:Motion:1.0
-Value:Scaffold:Diagonal:true
-Value:Scaffold:DownScaffold:false
+Value:Scaffold:Delay:120
+Value:Scaffold:Motion:0.0
+Value:Scaffold:Diagonal:false
 Value:Scaffold:Silent:true
 Value:Scaffold:Switch Blocks:false
 Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
 Value:Scaffold:SmartPlacement:true
-Value:Scaffold:MoveFix:true
-Value:Scaffold:SafeWalk:false
-Value:Scaffold:OnlyGround:false
+Value:Scaffold:MoveFix:false
+Value:Scaffold:SafeWalk:true
+Value:Scaffold:OnlyGround:true
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:Sneak after...:1
-Value:Scaffold:RayCast:false
+Value:Scaffold:RayCast:true
 Value:Scaffold:AlwaysRotate:true
-Value:Scaffold:Simple Rotations:false
-Value:Scaffold:Static Pitch:false
-Value:Scaffold:Pitch:82.0
+Value:Scaffold:Simple Rotations:true
+Value:Scaffold:Static Pitch:true
+Value:Scaffold:Pitch:82.15
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
 Value:AntiBot:Name Check:false
@@ -155,7 +151,6 @@ Value:AntiBot:HitBefore:false
 Value:AntiBot:TabListCheck:false
 Value:AntiBot:PingCheck:false
 Value:AntiBot:Sound Check:false
-Value:AntiBot:Rotation Check:false
 Value:Spider:Mode:Intave
 Value:Fucker:Range:10
 Value:Fucker:Delay:10
@@ -165,9 +160,5 @@ Value:Fucker:DragonEgg:false
 Value:Fucker:Cake:false
 Value:Fucker:Beacon:false
 Value:TargetStrafe:Mode:Legit
-Value:SuperHit:Reach:100
-Value:Teleport:Mode:Vanilla
-Value:BowAimBot:OnlyPlayers:true
-Value:BowAimBot:ThroughWalls:true
-Value:BowAimBot:MoveFix:false
-Value:BowAimBot:LockView:false
+Value:SuperHit:Reach:251
+Value:Teleport:Mode:Hypixel

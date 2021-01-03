@@ -3,7 +3,7 @@ Module:AntiVoid:false:false
 Module:AutoArmor:true:true
 Module:Blink:false:false
 Module:BoatFly:false:false
-Module:ChestStealer:false:true
+Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Disabler:false:false
@@ -18,6 +18,7 @@ Module:InvMove:false:false
 Module:InventoryCleaner:true:true
 Module:Jesus:false:false
 Module:KillAura:false:true
+Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
 Module:NoFriends:false:false
@@ -36,6 +37,9 @@ Module:Spider:false:false
 Module:Sprint:false:false
 Module:StairSpeed:false:false
 Module:Step:false:false
+Module:SuperHit:false:false
+Module:TargetStrafe:true:true
+Module:Teleport:false:false
 Module:Velocity:true:true
 Module:WallSpeed:false:false
 Value:Speed:Mode:Legit
@@ -44,7 +48,7 @@ Value:KillAura:Range:3.62
 Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
 Value:KillAura:AttackType:PlayerController
-Value:KillAura:AutoBlock:true
+Value:KillAura:AutoBlock:false
 Value:KillAura:AutoBlock-Mode:Intave
 Value:KillAura:Player:true
 Value:KillAura:Animals:false
@@ -54,7 +58,6 @@ Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:Heuristics:true
 Value:KillAura:RayCast:true
-Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:false
 Value:KillAura:SilentMoveFix:false
@@ -123,19 +126,19 @@ Value:SetBack:Mode:Intave
 Value:Disabler:Mode:Hypixel
 Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
-Value:Scaffold:Diagonal:false
+Value:Scaffold:Diagonal:true
 Value:Scaffold:Silent:true
 Value:Scaffold:Switch Blocks:false
 Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
-Value:Scaffold:SmartPlacement:true
-Value:Scaffold:MoveFix:false
+Value:Scaffold:SmartPlacement:false
+Value:Scaffold:MoveFix:true
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:OnlyGround:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:Sneak after...:1
-Value:Scaffold:RayCast:false
+Value:Scaffold:RayCast:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
@@ -156,3 +159,6 @@ Value:Fucker:Bed:false
 Value:Fucker:DragonEgg:true
 Value:Fucker:Cake:false
 Value:Fucker:Beacon:false
+Value:TargetStrafe:Mode:Legit
+Value:SuperHit:Reach:251
+Value:Teleport:Mode:Hypixel
