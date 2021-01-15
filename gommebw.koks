@@ -14,7 +14,7 @@ Module:FastPlace:false:false
 Module:Fly:false:false
 Module:Friends:false:true
 Module:Fucker:false:true
-Module:GodMode:false:false
+Module:GodMode:false:true
 Module:IceSpeed:false:false
 Module:InvMove:false:false
 Module:InventoryCleaner:true:true
@@ -115,7 +115,7 @@ Value:Sprint:Legit:true
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
 Value:AutoArmor:Throw Delay:100
-Value:GodMode:Mode:Intave Border
+Value:GodMode:Mode:Intave
 Value:InventoryCleaner:OpenedInventory:true
 Value:InventoryCleaner:Start Delay:250
 Value:InventoryCleaner:Throw Delay:100
@@ -146,8 +146,10 @@ Value:Scaffold:Sneak:false
 Value:Scaffold:Sneak after...:1
 Value:Scaffold:RayCast:false
 Value:Scaffold:AlwaysRotate:true
+Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
+Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
