@@ -11,6 +11,7 @@ Module:Disabler:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
 Module:FastPlace:false:false
+Module:FastUse:false:false
 Module:Fly:false:false
 Module:Friends:false:false
 Module:Fucker:false:true
@@ -26,9 +27,10 @@ Module:NoFall:false:false
 Module:NoFriends:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
-Module:NoSlowDown:true:true
+Module:NoSlowDown:false:false
 Module:OverArmor:false:false
 Module:Phase:false:false
+Module:Range:false:false
 Module:SafeWalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
@@ -41,6 +43,7 @@ Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:true
+Module:Teams:false:false
 Module:Teleport:false:false
 Module:Velocity:false:true
 Module:WallSpeed:false:false
@@ -146,8 +149,10 @@ Value:Scaffold:Sneak:false
 Value:Scaffold:Sneak after...:1
 Value:Scaffold:RayCast:true
 Value:Scaffold:AlwaysRotate:true
+Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
+Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
@@ -173,3 +178,5 @@ Value:BowAimBot:OnlyPlayers:true
 Value:BowAimBot:ThroughWalls:false
 Value:BowAimBot:MoveFix:true
 Value:BowAimBot:LockView:false
+Value:FastUse:Mode:Intave
+Value:Range:Range:4.03

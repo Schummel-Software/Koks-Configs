@@ -4,13 +4,14 @@ Module:AutoArmor:true:true
 Module:Blink:false:true
 Module:BoatFly:false:false
 Module:BowAimBot:false:false
-Module:ChestStealer:false:true
+Module:ChestStealer:true:true
 Module:CivBreak:false:true
 Module:Debug:false:false
 Module:Disabler:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
 Module:FastPlace:false:false
+Module:FastUse:false:false
 Module:Fly:false:true
 Module:Friends:false:false
 Module:Fucker:false:false
@@ -22,13 +23,14 @@ Module:Jesus:false:false
 Module:KillAura:false:true
 Module:NoClip:false:false
 Module:NoCobweb:false:false
-Module:NoFall:false:false
+Module:NoFall:false:true
 Module:NoFriends:false:true
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
 Module:NoSlowDown:true:true
 Module:OverArmor:false:false
 Module:Phase:false:true
+Module:Range:false:false
 Module:SafeWalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
@@ -41,11 +43,12 @@ Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:true
 Module:TargetStrafe:false:false
+Module:Teams:false:false
 Module:Teleport:false:false
 Module:Velocity:true:true
 Module:WallSpeed:false:false
 Value:Speed:Mode:AAC3.3.12
-Value:KillAura:CPS:20
+Value:KillAura:CPS:18
 Value:KillAura:Range:6.0
 Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
@@ -80,6 +83,8 @@ Value:KillAura:PitchMaxSpeed:2
 Value:KillAura:TargetESP:true
 Value:NoSlowDown:Speed:0.7
 Value:NoSlowDown:CanSprint:true
+Value:NoSlowDown:Spoofing:false
+Value:NoSlowDown:Intave Spoof:false
 Value:ChestStealer:Start Delay:0
 Value:ChestStealer:Grab Delay:0
 Value:ChestStealer:Auto Close:true
@@ -103,7 +108,7 @@ Value:InvMove:LookWithArrow:false
 Value:InvMove:RotationSpeed:5.0
 Value:Jesus:Mode:Vanilla
 Value:NoCobweb:Mode:Vanilla
-Value:NoFall:Mode:Mineplex
+Value:NoFall:Mode:AAC3.3.12
 Value:StairSpeed:Mode:Intave
 Value:Step:Mode:Mineplex
 Value:Step:StepHeight:4.0
@@ -144,8 +149,10 @@ Value:Scaffold:Sneak:false
 Value:Scaffold:Sneak after...:1
 Value:Scaffold:RayCast:false
 Value:Scaffold:AlwaysRotate:false
+Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
+Value:Scaffold:Ignore Yaw:true
 Value:Scaffold:Pitch:82.0
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
@@ -166,8 +173,10 @@ Value:Fucker:Cake:false
 Value:Fucker:Beacon:false
 Value:TargetStrafe:Mode:Legit
 Value:SuperHit:Reach:251
-Value:Teleport:Mode:Hypixel
+Value:Teleport:Mode:Vanilla
 Value:BowAimBot:OnlyPlayers:true
 Value:BowAimBot:ThroughWalls:true
 Value:BowAimBot:MoveFix:false
 Value:BowAimBot:LockView:false
+Value:FastUse:Mode:Intave
+Value:Range:Range:4.03
