@@ -114,7 +114,7 @@ Value:InvMove:RotationSpeed:5.0
 Value:Jesus:Mode:Vanilla
 Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:AAC3.3.12
-Value:NoSlowDown:Speed:0.7
+Value:NoSlowDown:Speed:0.5
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:false
 Value:NoSlowDown:Intave Spoof:false
