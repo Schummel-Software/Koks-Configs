@@ -6,6 +6,7 @@ Module:BoatFly:false:false
 Module:BowAimBot:false:false
 Module:ChestStealer:false:true
 Module:CivBreak:false:true
+Module:Debug:false:false
 Module:Disabler:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
@@ -15,7 +16,6 @@ Module:Fly:false:true
 Module:Friends:false:false
 Module:Fucker:false:false
 Module:GodMode:false:false
-Module:HighJump:false:false
 Module:IceSpeed:false:false
 Module:InvMove:true:true
 Module:InventoryCleaner:true:true
@@ -27,7 +27,7 @@ Module:NoFall:false:true
 Module:NoFriends:false:true
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
-Module:NoSlowDown:true:true
+Module:NoSlowDown:false:false
 Module:OverArmor:false:false
 Module:Phase:false:true
 Module:Range:false:false
@@ -117,7 +117,7 @@ Value:NoFall:Mode:AAC3.3.12
 Value:NoSlowDown:Speed:0.5
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:false
-Value:NoSlowDown:Intave Spoof:false
+Value:NoSlowDown:Spoof-Mode:NCP
 Value:Speed:Mode:AAC3.3.12
 Value:Spider:Mode:Intave
 Value:Sprint:Legit:true
@@ -163,6 +163,7 @@ Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
 Value:Scaffold:Silent:true
+Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:true
 Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false

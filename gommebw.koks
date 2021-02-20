@@ -3,7 +3,7 @@ Module:AntiVoid:false:false
 Module:AutoArmor:true:true
 Module:Blink:false:false
 Module:BoatFly:false:false
-Module:BowAimBot:false:false
+Module:BowAimBot:true:false
 Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
@@ -11,10 +11,11 @@ Module:Disabler:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
 Module:FastPlace:false:false
+Module:FastUse:false:false
 Module:Fly:false:false
 Module:Friends:false:true
 Module:Fucker:false:true
-Module:GodMode:false:true
+Module:GodMode:false:false
 Module:IceSpeed:false:false
 Module:InvMove:false:false
 Module:InventoryCleaner:true:true
@@ -24,11 +25,13 @@ Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
 Module:NoFriends:false:false
+Module:NoHitSlow:true:true
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
-Module:NoSlowDown:false:false
+Module:NoSlowDown:false:true
 Module:OverArmor:false:false
 Module:Phase:false:true
+Module:Range:false:false
 Module:SafeWalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
@@ -41,11 +44,27 @@ Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:false
+Module:Teams:false:true
 Module:Teleport:false:false
 Module:Velocity:false:false
 Module:WallSpeed:false:false
-Value:Speed:Mode:Intave
-Value:KillAura:CPS:12
+Value:AntiBot:Health NaN Check:false
+Value:AntiBot:GroundCheck:false
+Value:AntiBot:Name Check:false
+Value:AntiBot:Swing Check:false
+Value:AntiBot:HitBefore:false
+Value:AntiBot:TabListCheck:false
+Value:AntiBot:PingCheck:false
+Value:AntiBot:Sound Check:false
+Value:AntiBot:Rotation Check:false
+Value:BowAimBot:OnlyPlayers:true
+Value:BowAimBot:ThroughWalls:false
+Value:BowAimBot:MoveFix:true
+Value:BowAimBot:LockView:false
+Value:FastBow:Mode:Vanilla
+Value:FastBow:Strength:20
+Value:FastBow:Timer:5.0
+Value:KillAura:CPS:20
 Value:KillAura:Range:3.0
 Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
@@ -59,12 +78,14 @@ Value:KillAura:Mobs:false
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:Heuristics:true
+Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
-Value:KillAura:RotationFix:true
+Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
 Value:KillAura:SilentMoveFix:false
-Value:KillAura:ThroughWalls:false
+Value:KillAura:ThroughWalls:true
+Value:KillAura:ThroughWalls Range:1.0
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
 Value:KillAura:PreAimAttack:false
@@ -72,32 +93,19 @@ Value:KillAura:Haze Range:false
 Value:KillAura:Max Haze Range:1.0
 Value:KillAura:LockView:false
 Value:KillAura:Rotations:true
+Value:KillAura:Necessary Rotations:false
+Value:KillAura:Necessary Mode:Both
 Value:KillAura:Smooth Rotations:false
-Value:KillAura:YawMinSpeed:1
-Value:KillAura:YawMaxSpeed:2
-Value:KillAura:PitchMinSpeed:1
-Value:KillAura:PitchMaxSpeed:2
-Value:KillAura:TargetESP:true
-Value:NoSlowDown:Speed:1.0
-Value:NoSlowDown:CanSprint:true
-Value:NoSlowDown:Spoofing:false
-Value:NoSlowDown:Intave Spoof:false
-Value:ChestStealer:Start Delay:150
-Value:ChestStealer:Grab Delay:150
-Value:ChestStealer:Auto Close:true
-Value:ChestStealer:ColorCodeCheck:false
-Value:AntiVoid:Fall Distance:3
-Value:AntiVoid:Mode:Hypixel
+Value:SuperHit:Reach:100
+Value:Velocity:Mode:Intave
+Value:Range:Range:3.0
+Value:BoatFly:Mode:AAC4
+Value:BoatFly:AAC4-Boost:8
 Value:Fly:AAC1.9.10-Speed:2.34
 Value:Fly:AAC1.9.10-MotionY:0.8
 Value:Fly:AAC3.3.12-Boost:9
 Value:Fly:Mode:Intave13.0.0
-Value:Velocity:Mode:Intave
-Value:FastBow:Mode:Vanilla
-Value:FastBow:Strength:20
-Value:FastBow:Timer:5.0
-Value:BoatFly:Mode:AAC4
-Value:BoatFly:AAC4-Boost:8
+Value:IceSpeed:Slipperiness:0.1
 Value:InvMove:Jump:true
 Value:InvMove:Sprint:true
 Value:InvMove:Look:true
@@ -106,15 +114,35 @@ Value:InvMove:RotationSpeed:5.0
 Value:Jesus:Mode:Vanilla
 Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
+Value:NoSlowDown:Speed:1.0
+Value:NoSlowDown:CanSprint:true
+Value:NoSlowDown:Spoofing:true
+Value:NoSlowDown:Spoof-Mode:Intave
+Value:Speed:Mode:Intave
+Value:Spider:Mode:Intave
+Value:Sprint:Legit:true
 Value:StairSpeed:Mode:Intave
 Value:Step:Mode:Intave
 Value:Step:StepHeight:4.0
+Value:TargetStrafe:Mode:Legit
 Value:WallSpeed:Mode:Intave
-Value:IceSpeed:Slipperiness:0.1
-Value:Sprint:Legit:true
+Value:AntiVoid:Fall Distance:3
+Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
 Value:AutoArmor:Throw Delay:100
+Value:ChestStealer:Start Delay:150
+Value:ChestStealer:Grab Delay:150
+Value:ChestStealer:Auto Close:true
+Value:ChestStealer:ColorCodeCheck:false
+Value:FastUse:Mode:Intave
+Value:Fucker:Range:10
+Value:Fucker:Delay:104
+Value:Fucker:MoveFix:true
+Value:Fucker:Bed:true
+Value:Fucker:DragonEgg:false
+Value:Fucker:Cake:false
+Value:Fucker:Beacon:false
 Value:GodMode:Mode:Intave
 Value:InventoryCleaner:OpenedInventory:true
 Value:InventoryCleaner:Start Delay:250
@@ -128,12 +156,14 @@ Value:InventoryCleaner:Axe Slot:0
 Value:InventoryCleaner:Shovel Slot:0
 Value:Phase:Mode:Intave
 Value:SetBack:Mode:Intave
+Value:Teleport:Mode:Vanilla
 Value:Disabler:Mode:Hypixel
 Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
 Value:Scaffold:Silent:true
+Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
 Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
@@ -146,32 +176,9 @@ Value:Scaffold:Sneak:false
 Value:Scaffold:Sneak after...:1
 Value:Scaffold:RayCast:false
 Value:Scaffold:AlwaysRotate:true
+Value:Scaffold:Necessary Rotations:true
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0
-Value:AntiBot:Health NaN Check:false
-Value:AntiBot:GroundCheck:false
-Value:AntiBot:Name Check:false
-Value:AntiBot:Swing Check:false
-Value:AntiBot:HitBefore:false
-Value:AntiBot:TabListCheck:false
-Value:AntiBot:PingCheck:false
-Value:AntiBot:Sound Check:false
-Value:AntiBot:Rotation Check:false
-Value:Spider:Mode:Intave
-Value:Fucker:Range:10
-Value:Fucker:Delay:104
-Value:Fucker:MoveFix:true
-Value:Fucker:Bed:true
-Value:Fucker:DragonEgg:false
-Value:Fucker:Cake:false
-Value:Fucker:Beacon:false
-Value:TargetStrafe:Mode:Legit
-Value:SuperHit:Reach:100
-Value:Teleport:Mode:Vanilla
-Value:BowAimBot:OnlyPlayers:true
-Value:BowAimBot:ThroughWalls:false
-Value:BowAimBot:MoveFix:true
-Value:BowAimBot:LockView:false
