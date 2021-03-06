@@ -7,13 +7,14 @@ Module:BowAimBot:false:false
 Module:ChestStealer:false:false
 Module:CivBreak:false:false
 Module:Debug:false:false
+Module:Debug2:false:false
 Module:Disabler:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
 Module:FastPlace:false:false
 Module:FastUse:false:false
 Module:Fly:false:false
-Module:Friends:false:false
+Module:Friends:false:true
 Module:Fucker:false:true
 Module:GodMode:false:false
 Module:IceSpeed:false:false
@@ -21,10 +22,13 @@ Module:InvMove:false:false
 Module:InventoryCleaner:true:true
 Module:Jesus:false:false
 Module:KillAura:false:true
+Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
 Module:NoFriends:false:false
+Module:NoHitSlow:false:false
+Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
 Module:NoSlowDown:false:false
@@ -43,7 +47,7 @@ Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:false
-Module:Teams:false:false
+Module:Teams:false:true
 Module:Teleport:false:false
 Module:Velocity:true:true
 Module:WallSpeed:false:false
@@ -64,7 +68,7 @@ Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:FastBow:Timer:5.0
 Value:KillAura:CPS:20
-Value:KillAura:Range:3.62
+Value:KillAura:Range:3.31
 Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
 Value:KillAura:AttackType:PlayerController
@@ -77,12 +81,14 @@ Value:KillAura:Mobs:false
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:Heuristics:true
+Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
-Value:KillAura:SilentMoveFix:false
+Value:KillAura:SilentMoveFix:true
 Value:KillAura:ThroughWalls:false
+Value:KillAura:ThroughWalls Range:3.0
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
 Value:KillAura:PreAimAttack:false
@@ -90,14 +96,11 @@ Value:KillAura:Haze Range:false
 Value:KillAura:Max Haze Range:1.0
 Value:KillAura:LockView:false
 Value:KillAura:Rotations:true
+Value:KillAura:Necessary Rotations:false
+Value:KillAura:Necessary Mode:Both
 Value:KillAura:Smooth Rotations:false
-Value:KillAura:YawMinSpeed:1
-Value:KillAura:YawMaxSpeed:2
-Value:KillAura:PitchMinSpeed:1
-Value:KillAura:PitchMaxSpeed:2
-Value:KillAura:TargetESP:true
 Value:SuperHit:Reach:251
-Value:Velocity:Mode:Cancel
+Value:Velocity:Mode:GommeZero
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
@@ -136,9 +139,9 @@ Value:ChestStealer:Grab Delay:150
 Value:ChestStealer:Auto Close:true
 Value:ChestStealer:ColorCodeCheck:false
 Value:FastUse:Mode:Intave
-Value:Fucker:Range:10
+Value:Fucker:Range:15
 Value:Fucker:Delay:10
-Value:Fucker:MoveFix:false
+Value:Fucker:MoveFix:true
 Value:Fucker:Bed:true
 Value:Fucker:DragonEgg:false
 Value:Fucker:Cake:false
@@ -158,25 +161,33 @@ Value:Phase:Mode:AAC1.9.10
 Value:SetBack:Mode:Intave
 Value:Teleport:Mode:Hypixel
 Value:Disabler:Mode:Hypixel
-Value:Scaffold:Delay:120
-Value:Scaffold:Motion:0.0
-Value:Scaffold:Diagonal:false
+Value:Scaffold:Delay:0
+Value:Scaffold:Motion:1.0
+Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
+Value:Scaffold:Expand:false
+Value:Scaffold:Expand Length:1
 Value:Scaffold:Silent:true
+Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
-Value:Scaffold:SameY:false
+Value:Scaffold:SameY:true
 Value:Scaffold:NoSwing:false
 Value:Scaffold:SmartPlacement:true
-Value:Scaffold:MoveFix:false
-Value:Scaffold:SafeWalk:true
-Value:Scaffold:OnlyGround:true
+Value:Scaffold:MoveFix:true
+Value:Scaffold:SafeWalk:false
+Value:Scaffold:OnlyGround:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:true
-Value:Scaffold:Sneak after...:1
-Value:Scaffold:RayCast:true
+Value:Scaffold:SpoofSneak:true
+Value:Scaffold:Sneak after...:10
+Value:Scaffold:RayCast:false
 Value:Scaffold:AlwaysRotate:true
+Value:Scaffold:BestVector:false
+Value:Scaffold:Necessary Rotations:true
 Value:Scaffold:MouseFix:true
-Value:Scaffold:Simple Rotations:true
-Value:Scaffold:Static Pitch:true
+Value:Scaffold:Simple Rotations:false
+Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.15
+Value:LongJump:AAC3.3.12-Speed:4.5
+Value:LongJump:Mode:AAC3.3.12

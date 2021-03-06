@@ -7,14 +7,15 @@ Module:BowAimBot:false:false
 Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
+Module:Debug2:false:false
 Module:Disabler:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
 Module:FastPlace:false:false
 Module:FastUse:false:false
 Module:Fly:false:false
-Module:Friends:false:true
-Module:Fucker:false:true
+Module:Friends:true:true
+Module:Fucker:false:false
 Module:GodMode:false:false
 Module:IceSpeed:false:false
 Module:InvMove:false:false
@@ -25,7 +26,8 @@ Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
 Module:NoFriends:false:false
-Module:NoHitSlow:true:true
+Module:NoHitSlow:false:false
+Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
 Module:NoSlowDown:false:false
@@ -38,13 +40,13 @@ Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Speed:false:false
-Module:Spider:false:false
-Module:Sprint:true:true
+Module:Spider:false:true
+Module:Sprint:false:false
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:false
-Module:Teams:false:false
+Module:Teams:false:true
 Module:Teleport:false:false
 Module:Velocity:false:false
 Module:WallSpeed:false:false
@@ -64,10 +66,10 @@ Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:FastBow:Timer:5.0
-Value:KillAura:CPS:20
+Value:KillAura:CPS:12
 Value:KillAura:Range:3.0
 Value:KillAura:TargetMode:Single
-Value:KillAura:PreferType:Health
+Value:KillAura:PreferType:Distance
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:AutoBlock:false
 Value:KillAura:AutoBlock-Mode:Intave
@@ -85,6 +87,7 @@ Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
 Value:KillAura:SilentMoveFix:false
 Value:KillAura:ThroughWalls:false
+Value:KillAura:ThroughWalls Range:1.0
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
 Value:KillAura:PreAimAttack:false
@@ -92,9 +95,11 @@ Value:KillAura:Haze Range:false
 Value:KillAura:Max Haze Range:1.0
 Value:KillAura:LockView:false
 Value:KillAura:Rotations:true
-Value:KillAura:Smooth Rotations:true
+Value:KillAura:Necessary Rotations:false
+Value:KillAura:Necessary Mode:Both
+Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:100
-Value:Velocity:Mode:Intave
+Value:Velocity:Mode:GommeZero
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
@@ -116,7 +121,7 @@ Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:true
 Value:NoSlowDown:Spoof-Mode:Intave
 Value:Speed:Mode:Intave
-Value:Spider:Mode:Intave
+Value:Spider:Mode:IntaveNew
 Value:Sprint:Legit:true
 Value:StairSpeed:Mode:Intave
 Value:Step:Mode:Intave
@@ -159,6 +164,8 @@ Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
+Value:Scaffold:Expand:false
+Value:Scaffold:Expand Length:1
 Value:Scaffold:Silent:true
 Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
@@ -173,9 +180,10 @@ Value:Scaffold:Sneak:false
 Value:Scaffold:Sneak after...:1
 Value:Scaffold:RayCast:false
 Value:Scaffold:AlwaysRotate:true
-Value:Scaffold:Intelligent Rotations:true
-Value:Scaffold:MouseFix:false
+Value:Scaffold:BestVector:false
+Value:Scaffold:Necessary Rotations:true
+Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
-Value:Scaffold:Pitch:82.32
+Value:Scaffold:Pitch:82.0
