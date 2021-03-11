@@ -4,7 +4,7 @@ Module:AutoArmor:true:true
 Module:Blink:false:true
 Module:BoatFly:false:false
 Module:BowAimBot:false:false
-Module:ChestStealer:true:true
+Module:ChestStealer:false:true
 Module:CivBreak:false:true
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -26,7 +26,6 @@ Module:LongJump:false:true
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:true
-Module:NoFriends:false:true
 Module:NoHitSlow:false:false
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
@@ -40,6 +39,7 @@ Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
+Module:Spammer:false:true
 Module:Speed:false:true
 Module:Spider:false:false
 Module:Sprint:false:false
@@ -193,3 +193,8 @@ Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0
 Value:LongJump:AAC3.3.12-Speed:4.5
 Value:LongJump:Mode:AAC3.3.12
+Value:Spammer:Delay:1029
+Value:Spammer:Custom Words:false
+Value:Spammer:Randomizing:true
+Value:Spammer:RandomChoose:false
+Value:Spammer:RandomNumbers:false

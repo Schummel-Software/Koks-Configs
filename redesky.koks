@@ -4,13 +4,10 @@ Module:AutoArmor:true:true
 Module:Blink:false:false
 Module:BoatFly:false:true
 Module:BowAimBot:false:false
-<<<<<<< HEAD
 Module:ChestStealer:false:true
-=======
-Module:ChestStealer:true:true
->>>>>>> 129bffc3e72b286303e4bdde0ddd1103491101bf
 Module:CivBreak:false:false
 Module:Debug:false:false
+Module:Debug2:false:false
 Module:Disabler:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
@@ -24,15 +21,13 @@ Module:IceSpeed:false:false
 Module:InvMove:true:true
 Module:InventoryCleaner:true:true
 Module:Jesus:false:false
-<<<<<<< HEAD
 Module:KillAura:false:true
-=======
-Module:KillAura:true:true
->>>>>>> 129bffc3e72b286303e4bdde0ddd1103491101bf
+Module:LongJump:false:true
 Module:NoClip:false:false
 Module:NoCobweb:false:false
-Module:NoFall:false:false
-Module:NoFriends:false:true
+Module:NoFall:false:true
+Module:NoHitSlow:true:true
+Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
 Module:NoSlowDown:false:true
@@ -44,18 +39,15 @@ Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
+Module:Spammer:false:false
 Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:false:false
+Module:Sprint:true:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:false
-<<<<<<< HEAD
-Module:Teams:false:false
-=======
 Module:Teams:false:true
->>>>>>> 129bffc3e72b286303e4bdde0ddd1103491101bf
 Module:Teleport:false:false
 Module:Velocity:true:true
 Module:WallSpeed:false:false
@@ -77,10 +69,10 @@ Value:FastBow:Strength:20
 Value:FastBow:Timer:5.0
 Value:KillAura:CPS:20
 Value:KillAura:Range:6.0
-Value:KillAura:TargetMode:Switch
+Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
 Value:KillAura:AttackType:PlayerController
-Value:KillAura:AutoBlock:true
+Value:KillAura:AutoBlock:false
 Value:KillAura:AutoBlock-Mode:Intave
 Value:KillAura:Player:true
 Value:KillAura:Animals:false
@@ -89,12 +81,14 @@ Value:KillAura:Mobs:false
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:Heuristics:true
+Value:KillAura:Prediction:true
 Value:KillAura:RayCast:false
 Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
 Value:KillAura:SilentMoveFix:true
-Value:KillAura:ThroughWalls:false
+Value:KillAura:ThroughWalls:true
+Value:KillAura:ThroughWalls Range:5.0
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
 Value:KillAura:PreAimAttack:false
@@ -102,30 +96,14 @@ Value:KillAura:Haze Range:false
 Value:KillAura:Max Haze Range:1.0
 Value:KillAura:LockView:false
 Value:KillAura:Rotations:true
+Value:KillAura:Necessary Rotations:false
+Value:KillAura:Necessary Mode:Both
 Value:KillAura:Smooth Rotations:false
-Value:KillAura:YawMinSpeed:1
-Value:KillAura:YawMaxSpeed:2
-Value:KillAura:PitchMinSpeed:1
-Value:KillAura:PitchMaxSpeed:2
-Value:KillAura:TargetESP:true
-<<<<<<< HEAD
 Value:SuperHit:Reach:100
-Value:Velocity:Mode:AAC4
-Value:Range:Range:3.0
+Value:Velocity:Mode:AAC3.3.14
+Value:Range:Range:4.03
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
-=======
-Value:NoSlowDown:Speed:1.0
-Value:NoSlowDown:CanSprint:true
-Value:NoSlowDown:Spoofing:false
-Value:NoSlowDown:Intave Spoof:false
-Value:ChestStealer:Start Delay:150
-Value:ChestStealer:Grab Delay:150
-Value:ChestStealer:Auto Close:true
-Value:ChestStealer:ColorCodeCheck:false
-Value:AntiVoid:Fall Distance:3
-Value:AntiVoid:Mode:Hypixel
->>>>>>> 129bffc3e72b286303e4bdde0ddd1103491101bf
 Value:Fly:AAC1.9.10-Speed:2.34
 Value:Fly:AAC1.9.10-MotionY:0.8
 Value:Fly:AAC3.3.12-Boost:9
@@ -163,9 +141,9 @@ Value:ChestStealer:ColorCodeCheck:false
 Value:FastUse:Mode:Intave
 Value:Fucker:Range:10
 Value:Fucker:Delay:10
-Value:Fucker:MoveFix:true
-Value:Fucker:Bed:true
-Value:Fucker:DragonEgg:false
+Value:Fucker:MoveFix:false
+Value:Fucker:Bed:false
+Value:Fucker:DragonEgg:true
 Value:Fucker:Cake:false
 Value:Fucker:Beacon:false
 Value:GodMode:Mode:Intave Border
@@ -187,55 +165,36 @@ Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
+Value:Scaffold:Expand:false
+Value:Scaffold:Expand Length:1
 Value:Scaffold:Silent:true
+Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
 Value:Scaffold:SameY:false
+Value:Scaffold:AutoJump:false
+Value:Scaffold:Speed Boost:0.2
 Value:Scaffold:NoSwing:false
 Value:Scaffold:SmartPlacement:false
 Value:Scaffold:MoveFix:true
-<<<<<<< HEAD
-Value:Scaffold:SafeWalk:true
-Value:Scaffold:OnlyGround:true
-=======
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:OnlyGround:false
->>>>>>> 129bffc3e72b286303e4bdde0ddd1103491101bf
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
+Value:Scaffold:SpoofSneak:false
 Value:Scaffold:Sneak after...:1
 Value:Scaffold:RayCast:false
 Value:Scaffold:AlwaysRotate:true
+Value:Scaffold:BestVector:false
+Value:Scaffold:Necessary Rotations:false
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0
-<<<<<<< HEAD
-=======
-Value:AntiBot:Health NaN Check:false
-Value:AntiBot:GroundCheck:false
-Value:AntiBot:Name Check:true
-Value:AntiBot:Swing Check:false
-Value:AntiBot:HitBefore:false
-Value:AntiBot:TabListCheck:false
-Value:AntiBot:PingCheck:false
-Value:AntiBot:Sound Check:false
-Value:AntiBot:Rotation Check:false
-Value:Spider:Mode:Intave
-Value:Fucker:Range:10
-Value:Fucker:Delay:10
-Value:Fucker:MoveFix:false
-Value:Fucker:Bed:false
-Value:Fucker:DragonEgg:true
-Value:Fucker:Cake:false
-Value:Fucker:Beacon:false
-Value:TargetStrafe:Mode:Legit
-Value:SuperHit:Reach:100
-Value:Teleport:Mode:Vanilla
-Value:BowAimBot:OnlyPlayers:true
-Value:BowAimBot:ThroughWalls:true
-Value:BowAimBot:MoveFix:false
-Value:BowAimBot:LockView:false
-Value:FastUse:Mode:Intave
-Value:Range:Range:4.03
->>>>>>> 129bffc3e72b286303e4bdde0ddd1103491101bf
+Value:LongJump:AAC3.3.12-Speed:4.5
+Value:LongJump:Mode:AAC3.3.12
+Value:Spammer:Delay:4057
+Value:Spammer:Custom Words:false
+Value:Spammer:Randomizing:true
+Value:Spammer:RandomChoose:false
+Value:Spammer:RandomNumbers:false
