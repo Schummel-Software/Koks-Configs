@@ -13,9 +13,9 @@ Module:DoubleJump:false:false
 Module:FastBow:false:false
 Module:FastPlace:false:false
 Module:FastUse:false:false
-Module:Fly:false:true
+Module:Fly:false:false
 Module:Friends:false:false
-Module:Fucker:false:false
+Module:Fucker:false:true
 Module:GodMode:false:false
 Module:IceSpeed:false:false
 Module:InvMove:true:true
@@ -30,7 +30,7 @@ Module:NoHitSlow:true:true
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
-Module:NoSlowDown:false:true
+Module:NoSlowDown:true:true
 Module:OverArmor:false:false
 Module:Phase:false:false
 Module:Range:false:false
@@ -72,22 +72,24 @@ Value:KillAura:Range:6.0
 Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
 Value:KillAura:AttackType:PlayerController
+Value:KillAura:Criticals:false
+Value:KillAura:Criticals-Mode:Redesky
 Value:KillAura:AutoBlock:false
 Value:KillAura:AutoBlock-Mode:Intave
 Value:KillAura:Player:true
 Value:KillAura:Animals:false
-Value:KillAura:Villager:false
+Value:KillAura:Villager:true
 Value:KillAura:Mobs:false
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:Heuristics:true
 Value:KillAura:Prediction:true
-Value:KillAura:RayCast:false
+Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
 Value:KillAura:SilentMoveFix:true
-Value:KillAura:ThroughWalls:true
+Value:KillAura:ThroughWalls:false
 Value:KillAura:ThroughWalls Range:5.0
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
@@ -100,14 +102,14 @@ Value:KillAura:Necessary Rotations:false
 Value:KillAura:Necessary Mode:Both
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:100
-Value:Velocity:Mode:AAC3.3.14
+Value:Velocity:Mode:Cancel
 Value:Range:Range:4.03
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
 Value:Fly:AAC1.9.10-Speed:2.34
 Value:Fly:AAC1.9.10-MotionY:0.8
 Value:Fly:AAC3.3.12-Boost:9
-Value:Fly:Mode:Redesky
+Value:Fly:Mode:Vanilla
 Value:IceSpeed:Slipperiness:0.1
 Value:InvMove:Jump:true
 Value:InvMove:Sprint:true
@@ -119,8 +121,8 @@ Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:AAC4
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
-Value:NoSlowDown:Spoofing:false
-Value:NoSlowDown:Spoof-Mode:NCP
+Value:NoSlowDown:Spoofing:true
+Value:NoSlowDown:Spoof-Mode:AAC4
 Value:Speed:Mode:AAC4
 Value:Spider:Mode:Intave
 Value:Sprint:Legit:true
@@ -141,9 +143,9 @@ Value:ChestStealer:ColorCodeCheck:false
 Value:FastUse:Mode:Intave
 Value:Fucker:Range:10
 Value:Fucker:Delay:10
-Value:Fucker:MoveFix:false
-Value:Fucker:Bed:false
-Value:Fucker:DragonEgg:true
+Value:Fucker:MoveFix:true
+Value:Fucker:Bed:true
+Value:Fucker:DragonEgg:false
 Value:Fucker:Cake:false
 Value:Fucker:Beacon:false
 Value:GodMode:Mode:Intave Border
@@ -160,9 +162,9 @@ Value:InventoryCleaner:Shovel Slot:0
 Value:Phase:Mode:AAC1.9.10
 Value:SetBack:Mode:Intave
 Value:Teleport:Mode:Vanilla
-Value:Disabler:Mode:Hypixel
+Value:Disabler:Mode:Mineplex
 Value:Scaffold:Delay:0
-Value:Scaffold:Motion:1.0
+Value:Scaffold:Motion:1.01
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
 Value:Scaffold:Expand:false
@@ -185,15 +187,17 @@ Value:Scaffold:Sneak after...:1
 Value:Scaffold:RayCast:false
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:BestVector:false
-Value:Scaffold:Necessary Rotations:false
+Value:Scaffold:Necessary Rotations:true
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0
 Value:LongJump:AAC3.3.12-Speed:4.5
-Value:LongJump:Mode:AAC3.3.12
-Value:Spammer:Delay:4057
+Value:LongJump:Redesky-Motion:0.7
+Value:LongJump:Redesky-Boost:0.15
+Value:LongJump:Mode:Redesky
+Value:Spammer:Delay:3838
 Value:Spammer:Custom Words:false
 Value:Spammer:Randomizing:true
 Value:Spammer:RandomChoose:false

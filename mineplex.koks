@@ -4,7 +4,7 @@ Module:AutoArmor:true:true
 Module:Blink:false:true
 Module:BoatFly:false:false
 Module:BowAimBot:false:false
-Module:ChestStealer:true:true
+Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -26,7 +26,6 @@ Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:true:true
 Module:NoFall:true:true
-Module:NoFriends:false:true
 Module:NoHitSlow:false:false
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
@@ -40,6 +39,7 @@ Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
+Module:Spammer:false:false
 Module:Speed:false:true
 Module:Spider:false:false
 Module:Sprint:false:false
@@ -72,6 +72,8 @@ Value:KillAura:Range:3.08
 Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
 Value:KillAura:AttackType:PlayerController
+Value:KillAura:Criticals:false
+Value:KillAura:Criticals-Mode:Vanilla
 Value:KillAura:AutoBlock:false
 Value:KillAura:AutoBlock-Mode:Intave
 Value:KillAura:Player:true
@@ -165,6 +167,8 @@ Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
+Value:Scaffold:Tower:true
+Value:Scaffold:Tower-Mode:Mineplex
 Value:Scaffold:Expand:false
 Value:Scaffold:Expand Length:1
 Value:Scaffold:Silent:true
@@ -173,8 +177,10 @@ Value:Scaffold:Switch Blocks:true
 Value:Scaffold:SameY:false
 Value:Scaffold:AutoJump:false
 Value:Scaffold:Speed Boost:0.2
-Value:Scaffold:NoSwing:false
+Value:Scaffold:NoSwing:true
+Value:Scaffold:NoSwing-Mode:Packet
 Value:Scaffold:SmartPlacement:false
+Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:OnlyGround:false
@@ -185,11 +191,18 @@ Value:Scaffold:Sneak after...:1
 Value:Scaffold:RayCast:false
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:BestVector:false
-Value:Scaffold:Necessary Rotations:false
+Value:Scaffold:Necessary Rotations:true
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0
 Value:LongJump:AAC3.3.12-Speed:4.5
+Value:LongJump:Redesky-Motion:0.65
+Value:LongJump:Redesky-Boost:0.1
 Value:LongJump:Mode:AAC3.3.12
+Value:Spammer:Delay:1000
+Value:Spammer:Custom Words:false
+Value:Spammer:Randomizing:true
+Value:Spammer:RandomChoose:false
+Value:Spammer:RandomNumbers:false
