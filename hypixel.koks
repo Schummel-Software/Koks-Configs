@@ -1,33 +1,38 @@
 Module:AntiBot:true:true
-Module:AntiVoid:true:true
+Module:AntiVoid:false:false
 Module:AutoArmor:true:true
+Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
 Module:BowAimBot:false:false
 Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
-Module:Disabler:true:true
+Module:Debug2:false:false
+Module:Disabler:false:false
+Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
 Module:FastPlace:false:false
 Module:FastUse:false:false
-Module:Fly:false:true
-Module:Friends:false:false
+Module:Fly:false:false
+Module:Friends:true:true
 Module:Fucker:false:true
 Module:GodMode:false:false
 Module:IceSpeed:false:false
-Module:InvMove:true:false
+Module:InvMove:true:true
 Module:InventoryCleaner:true:true
 Module:Jesus:false:false
 Module:KillAura:false:true
+Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
-Module:NoFriends:false:false
+Module:NoHitSlow:true:true
+Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
-Module:NoSlowDown:true:true
+Module:NoSlowDown:false:false
 Module:OverArmor:false:false
 Module:Phase:false:false
 Module:Range:false:false
@@ -36,14 +41,15 @@ Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
+Module:Spammer:false:false
 Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:false:true
+Module:Sprint:true:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:false
-Module:Teams:false:false
+Module:Teams:false:true
 Module:Teleport:false:true
 Module:Velocity:true:true
 Module:WallSpeed:false:false
@@ -52,7 +58,7 @@ Value:AntiBot:GroundCheck:false
 Value:AntiBot:Name Check:false
 Value:AntiBot:Swing Check:false
 Value:AntiBot:HitBefore:false
-Value:AntiBot:TabListCheck:true
+Value:AntiBot:TabListCheck:false
 Value:AntiBot:PingCheck:true
 Value:AntiBot:Sound Check:false
 Value:AntiBot:Rotation Check:false
@@ -63,11 +69,13 @@ Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:FastBow:Timer:5.0
-Value:KillAura:CPS:12
+Value:KillAura:CPS:20
 Value:KillAura:Range:3.41
 Value:KillAura:TargetMode:Hybrid
 Value:KillAura:PreferType:Health
 Value:KillAura:AttackType:Packet
+Value:KillAura:Criticals:false
+Value:KillAura:Criticals-Mode:Vanilla
 Value:KillAura:AutoBlock:false
 Value:KillAura:AutoBlock-Mode:Intave
 Value:KillAura:Player:true
@@ -77,12 +85,14 @@ Value:KillAura:Mobs:false
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:Heuristics:true
+Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:false
 Value:KillAura:SilentMoveFix:false
 Value:KillAura:ThroughWalls:true
+Value:KillAura:ThroughWalls Range:3.0
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
 Value:KillAura:PreAimAttack:false
@@ -90,12 +100,9 @@ Value:KillAura:Haze Range:false
 Value:KillAura:Max Haze Range:1.0
 Value:KillAura:LockView:false
 Value:KillAura:Rotations:true
+Value:KillAura:Necessary Rotations:false
+Value:KillAura:Necessary Mode:Both
 Value:KillAura:Smooth Rotations:false
-Value:KillAura:YawMinSpeed:1
-Value:KillAura:YawMaxSpeed:2
-Value:KillAura:PitchMinSpeed:1
-Value:KillAura:PitchMaxSpeed:2
-Value:KillAura:TargetESP:true
 Value:SuperHit:Reach:100
 Value:Velocity:Mode:Cancel
 Value:Range:Range:3.0
@@ -136,9 +143,12 @@ Value:ChestStealer:Grab Delay:150
 Value:ChestStealer:Auto Close:true
 Value:ChestStealer:ColorCodeCheck:false
 Value:FastUse:Mode:Intave
-Value:Fucker:Range:10
-Value:Fucker:Delay:10
+Value:Fucker:Range:5
+Value:Fucker:Delay:0
+Value:Fucker:AutomaticDelay:true
+Value:Fucker:RayCast:false
 Value:Fucker:MoveFix:false
+Value:Fucker:NoSwing:false
 Value:Fucker:Bed:true
 Value:Fucker:DragonEgg:false
 Value:Fucker:Cake:false
@@ -162,21 +172,47 @@ Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
+Value:Scaffold:Tower:false
+Value:Scaffold:Tower-Mode:Mineplex
+Value:Scaffold:Expand:false
+Value:Scaffold:Expand Length:1
 Value:Scaffold:Silent:true
+Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:true
 Value:Scaffold:SameY:false
+Value:Scaffold:AutoJump:false
+Value:Scaffold:Speed Boost:0.2
 Value:Scaffold:NoSwing:false
+Value:Scaffold:NoSwing-Mode:Vanilla
 Value:Scaffold:SmartPlacement:false
+Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:OnlyGround:false
-Value:Scaffold:Sprint:true
+Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
+Value:Scaffold:SpoofSneak:false
 Value:Scaffold:Sneak after...:1
-Value:Scaffold:RayCast:false
+Value:Scaffold:RayCast:true
 Value:Scaffold:AlwaysRotate:true
+Value:Scaffold:BestVector:false
+Value:Scaffold:Necessary Rotations:false
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0
+Value:LongJump:AAC3.3.12-Speed:4.5
+Value:LongJump:Redesky-Motion:0.65
+Value:LongJump:Redesky-Boost:0.1
+Value:LongJump:Mode:AAC3.3.12
+Value:Spammer:Delay:1000
+Value:Spammer:Custom Words:false
+Value:Spammer:Randomizing:true
+Value:Spammer:RandomChoose:false
+Value:Spammer:RandomNumbers:false
+Value:Dolphin:Mode:Intave
+Value:Dolphin:Height:3.0
+Value:Backtrack:PingSpoof:false
+Value:Backtrack:Ticks:20
+Value:Backtrack:Range:3

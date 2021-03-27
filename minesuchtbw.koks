@@ -39,7 +39,7 @@ Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
-Module:Spammer:false:false
+Module:Spammer:false:true
 Module:Speed:false:false
 Module:Spider:false:false
 Module:Sprint:false:false
@@ -68,10 +68,12 @@ Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:FastBow:Timer:5.0
 Value:KillAura:CPS:20
-Value:KillAura:Range:3.31
+Value:KillAura:Range:3.17
 Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
 Value:KillAura:AttackType:PlayerController
+Value:KillAura:Criticals:false
+Value:KillAura:Criticals-Mode:Vanilla
 Value:KillAura:AutoBlock:true
 Value:KillAura:AutoBlock-Mode:Intave
 Value:KillAura:Player:true
@@ -141,7 +143,10 @@ Value:ChestStealer:ColorCodeCheck:false
 Value:FastUse:Mode:Intave
 Value:Fucker:Range:15
 Value:Fucker:Delay:10
+Value:Fucker:AutomaticDelay:true
+Value:Fucker:RayCast:true
 Value:Fucker:MoveFix:true
+Value:Fucker:NoSwing:false
 Value:Fucker:Bed:true
 Value:Fucker:DragonEgg:false
 Value:Fucker:Cake:false
@@ -165,6 +170,8 @@ Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
+Value:Scaffold:Tower:false
+Value:Scaffold:Tower-Mode:Mineplex
 Value:Scaffold:Expand:false
 Value:Scaffold:Expand Length:1
 Value:Scaffold:Silent:true
@@ -174,8 +181,10 @@ Value:Scaffold:SameY:false
 Value:Scaffold:AutoJump:false
 Value:Scaffold:Speed Boost:0.2
 Value:Scaffold:NoSwing:false
+Value:Scaffold:NoSwing-Mode:Vanilla
 Value:Scaffold:SmartPlacement:true
-Value:Scaffold:MoveFix:true
+Value:Scaffold:NecessaryPlacement:false
+Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:OnlyGround:false
 Value:Scaffold:Sprint:false
@@ -192,8 +201,10 @@ Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.15
 Value:LongJump:AAC3.3.12-Speed:4.5
+Value:LongJump:Redesky-Motion:0.65
+Value:LongJump:Redesky-Boost:0.1
 Value:LongJump:Mode:AAC3.3.12
-Value:Spammer:Delay:1000
+Value:Spammer:Delay:9543
 Value:Spammer:Custom Words:false
 Value:Spammer:Randomizing:true
 Value:Spammer:RandomChoose:false

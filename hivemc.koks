@@ -42,7 +42,7 @@ Module:ShopSaver:false:false
 Module:Spammer:false:true
 Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:false:false
+Module:Sprint:true:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:true
@@ -72,6 +72,8 @@ Value:KillAura:Range:6.0
 Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
 Value:KillAura:AttackType:Packet
+Value:KillAura:Criticals:false
+Value:KillAura:Criticals-Mode:Vanilla
 Value:KillAura:AutoBlock:false
 Value:KillAura:AutoBlock-Mode:Intave
 Value:KillAura:Player:true
@@ -100,7 +102,7 @@ Value:KillAura:Necessary Rotations:false
 Value:KillAura:Necessary Mode:Both
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:251
-Value:Velocity:Mode:AAC3
+Value:Velocity:Mode:AAC3.3.14
 Value:Range:Range:4.03
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
@@ -165,6 +167,8 @@ Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
+Value:Scaffold:Tower:false
+Value:Scaffold:Tower-Mode:Mineplex
 Value:Scaffold:Expand:false
 Value:Scaffold:Expand Length:1
 Value:Scaffold:Silent:true
@@ -174,7 +178,9 @@ Value:Scaffold:SameY:false
 Value:Scaffold:AutoJump:false
 Value:Scaffold:Speed Boost:0.2
 Value:Scaffold:NoSwing:false
+Value:Scaffold:NoSwing-Mode:Vanilla
 Value:Scaffold:SmartPlacement:true
+Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:OnlyGround:false
@@ -192,6 +198,8 @@ Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0
 Value:LongJump:AAC3.3.12-Speed:4.5
+Value:LongJump:Redesky-Motion:0.65
+Value:LongJump:Redesky-Boost:0.1
 Value:LongJump:Mode:AAC3.3.12
 Value:Spammer:Delay:1029
 Value:Spammer:Custom Words:false

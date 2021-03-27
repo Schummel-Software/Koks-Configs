@@ -1,20 +1,22 @@
 Module:AntiBot:true:true
 Module:AntiVoid:false:false
 Module:AutoArmor:true:true
+Module:Backtrack:false:false
 Module:Blink:false:true
 Module:BoatFly:false:false
 Module:BowAimBot:false:false
-Module:ChestStealer:false:true
+Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
 Module:Disabler:false:false
+Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
 Module:FastPlace:false:false
 Module:FastUse:false:false
 Module:Fly:false:false
-Module:Friends:false:false
+Module:Friends:true:false
 Module:Fucker:false:false
 Module:GodMode:false:false
 Module:IceSpeed:false:false
@@ -67,7 +69,7 @@ Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:FastBow:Timer:5.0
-Value:KillAura:CPS:20
+Value:KillAura:CPS:12
 Value:KillAura:Range:3.08
 Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
@@ -83,7 +85,7 @@ Value:KillAura:Mobs:false
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:Heuristics:false
-Value:KillAura:Prediction:false
+Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:false
@@ -134,8 +136,8 @@ Value:WallSpeed:Mode:Intave
 Value:AntiVoid:Fall Distance:3
 Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
-Value:AutoArmor:Start Delay:117
-Value:AutoArmor:Throw Delay:39
+Value:AutoArmor:Start Delay:250
+Value:AutoArmor:Throw Delay:100
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
 Value:ChestStealer:Auto Close:true
@@ -143,21 +145,24 @@ Value:ChestStealer:ColorCodeCheck:false
 Value:FastUse:Mode:Intave
 Value:Fucker:Range:10
 Value:Fucker:Delay:10
+Value:Fucker:AutomaticDelay:true
+Value:Fucker:RayCast:true
 Value:Fucker:MoveFix:true
+Value:Fucker:NoSwing:false
 Value:Fucker:Bed:true
 Value:Fucker:DragonEgg:false
 Value:Fucker:Cake:false
 Value:Fucker:Beacon:false
 Value:GodMode:Mode:Intave Border
 Value:InventoryCleaner:OpenedInventory:true
-Value:InventoryCleaner:Start Delay:75
-Value:InventoryCleaner:Throw Delay:28
+Value:InventoryCleaner:Start Delay:250
+Value:InventoryCleaner:Throw Delay:100
 Value:InventoryCleaner:PreferSword:false
 Value:InventoryCleaner:KeepTools:true
-Value:InventoryCleaner:Weapon Slot:2
-Value:InventoryCleaner:Bow Slot:3
+Value:InventoryCleaner:Weapon Slot:1
+Value:InventoryCleaner:Bow Slot:2
 Value:InventoryCleaner:PickAxe Slot:0
-Value:InventoryCleaner:Axe Slot:1
+Value:InventoryCleaner:Axe Slot:0
 Value:InventoryCleaner:Shovel Slot:0
 Value:Phase:Mode:AAC1.9.10
 Value:SetBack:Mode:Intave
@@ -195,7 +200,7 @@ Value:Scaffold:Necessary Rotations:true
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
-Value:Scaffold:Ignore Yaw:false
+Value:Scaffold:Ignore Yaw:true
 Value:Scaffold:Pitch:82.0
 Value:LongJump:AAC3.3.12-Speed:4.5
 Value:LongJump:Redesky-Motion:0.65
@@ -206,3 +211,8 @@ Value:Spammer:Custom Words:false
 Value:Spammer:Randomizing:true
 Value:Spammer:RandomChoose:false
 Value:Spammer:RandomNumbers:false
+Value:Dolphin:Mode:Intave
+Value:Dolphin:Height:3.0
+Value:Backtrack:PingSpoof:false
+Value:Backtrack:Ticks:20
+Value:Backtrack:Range:3
