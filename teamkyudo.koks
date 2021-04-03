@@ -1,4 +1,5 @@
 Module:AntiBot:false:false
+Module:AntiHunger:false:false
 Module:AntiVoid:true:true
 Module:AutoArmor:true:true
 Module:Backtrack:false:false
@@ -8,7 +9,7 @@ Module:BowAimBot:false:false
 Module:ChestStealer:false:false
 Module:CivBreak:false:false
 Module:Debug:false:false
-Module:Debug2:true:false
+Module:Debug2:false:false
 Module:Disabler:false:false
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
@@ -70,13 +71,13 @@ Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:FastBow:Timer:5.0
 Value:KillAura:CPS:20
-Value:KillAura:Range:4.01
+Value:KillAura:Range:5.01
 Value:KillAura:TargetMode:Single
 Value:KillAura:PreferType:Distance
-Value:KillAura:AttackType:Packet
+Value:KillAura:AttackType:PlayerController
 Value:KillAura:Criticals:false
 Value:KillAura:Criticals-Mode:Vanilla
-Value:KillAura:AutoBlock:false
+Value:KillAura:AutoBlock:true
 Value:KillAura:AutoBlock-Mode:Intave
 Value:KillAura:Player:true
 Value:KillAura:Animals:false
@@ -88,13 +89,13 @@ Value:KillAura:Heuristics:false
 Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
-Value:KillAura:MouseFix:true
+Value:KillAura:MouseFix:false
 Value:KillAura:MoveFix:false
 Value:KillAura:SilentMoveFix:false
 Value:KillAura:ThroughWalls:false
 Value:KillAura:ThroughWalls Range:3.0
 Value:KillAura:NoInvAttack:true
-Value:KillAura:EatAttack:false
+Value:KillAura:EatAttack:true
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Max Haze Range:1.0
@@ -133,7 +134,7 @@ Value:Step:Mode:Vanilla
 Value:Step:StepHeight:4.0
 Value:TargetStrafe:Mode:Legit
 Value:WallSpeed:Mode:Intave
-Value:AntiVoid:Fall Distance:3
+Value:AntiVoid:Fall Distance:4
 Value:AntiVoid:Mode:AAC1.9.10
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
@@ -145,7 +146,7 @@ Value:ChestStealer:Intelligent:true
 Value:ChestStealer:ColorCodeCheck:true
 Value:FastUse:Mode:Intave
 Value:Fucker:Range:5
-Value:Fucker:Delay:10
+Value:Fucker:Delay:0
 Value:Fucker:AutomaticDelay:true
 Value:Fucker:RayCast:false
 Value:Fucker:MoveFix:false
@@ -186,11 +187,11 @@ Value:Scaffold:Speed Boost:0.2
 Value:Scaffold:NoSwing:true
 Value:Scaffold:NoSwing-Mode:Packet
 Value:Scaffold:SmartPlacement:false
-Value:Scaffold:NecessaryPlacement:false
+Value:Scaffold:NecessaryPlacement:true
 Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:OnlyGround:false
-Value:Scaffold:Sprint:true
+Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:SpoofSneak:false
 Value:Scaffold:Sneak after...:1
