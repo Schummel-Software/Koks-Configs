@@ -1,5 +1,5 @@
-Module:AntiBot:false:false
-Module:AntiHunger:false:false
+Module:AntiBot:true:true
+Module:AntiHunger:true:true
 Module:AntiVoid:true:true
 Module:AutoArmor:true:true
 Module:Backtrack:false:false
@@ -41,7 +41,7 @@ Module:SafeWalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
-Module:ShopSaver:false:false
+Module:ShopSaver:false:true
 Module:Spammer:false:false
 Module:Speed:false:false
 Module:Spider:false:false
@@ -59,7 +59,7 @@ Value:AntiBot:GroundCheck:false
 Value:AntiBot:Name Check:false
 Value:AntiBot:Swing Check:false
 Value:AntiBot:HitBefore:false
-Value:AntiBot:TabListCheck:false
+Value:AntiBot:TabListCheck:true
 Value:AntiBot:PingCheck:false
 Value:AntiBot:Sound Check:false
 Value:AntiBot:Rotation Check:false
@@ -85,7 +85,7 @@ Value:KillAura:Villager:false
 Value:KillAura:Mobs:false
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
-Value:KillAura:Heuristics:false
+Value:KillAura:Heuristics:true
 Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
@@ -95,7 +95,7 @@ Value:KillAura:SilentMoveFix:false
 Value:KillAura:ThroughWalls:false
 Value:KillAura:ThroughWalls Range:3.0
 Value:KillAura:NoInvAttack:true
-Value:KillAura:EatAttack:true
+Value:KillAura:EatAttack:false
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Max Haze Range:1.0
@@ -134,21 +134,21 @@ Value:Step:Mode:Vanilla
 Value:Step:StepHeight:4.0
 Value:TargetStrafe:Mode:Legit
 Value:WallSpeed:Mode:Intave
-Value:AntiVoid:Fall Distance:4
+Value:AntiVoid:Fall Distance:4.0
 Value:AntiVoid:Mode:AAC1.9.10
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
 Value:AutoArmor:Throw Delay:100
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
+Value:ChestStealer:StackItems:true
 Value:ChestStealer:Auto Close:true
-Value:ChestStealer:Intelligent:true
-Value:ChestStealer:ColorCodeCheck:true
 Value:FastUse:Mode:Intave
 Value:Fucker:Range:5
 Value:Fucker:Delay:0
 Value:Fucker:AutomaticDelay:true
 Value:Fucker:RayCast:false
+Value:Fucker:TroughWalls:true
 Value:Fucker:MoveFix:false
 Value:Fucker:NoSwing:false
 Value:Fucker:Bed:true
@@ -180,18 +180,20 @@ Value:Scaffold:Expand:false
 Value:Scaffold:Expand Length:1
 Value:Scaffold:Silent:true
 Value:Scaffold:Silent Switch:false
-Value:Scaffold:Switch Blocks:true
+Value:Scaffold:Switch Blocks:false
 Value:Scaffold:SameY:false
 Value:Scaffold:AutoJump:false
 Value:Scaffold:Speed Boost:0.2
 Value:Scaffold:NoSwing:true
 Value:Scaffold:NoSwing-Mode:Packet
 Value:Scaffold:SmartPlacement:false
-Value:Scaffold:NecessaryPlacement:true
+Value:Scaffold:NecessaryPlacement:false
+Value:Scaffold:BlockCheck:true
+Value:Scaffold:AutomaticVector:true
 Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:OnlyGround:false
-Value:Scaffold:Sprint:false
+Value:Scaffold:Sprint:true
 Value:Scaffold:Sneak:false
 Value:Scaffold:SpoofSneak:false
 Value:Scaffold:Sneak after...:1
@@ -201,7 +203,7 @@ Value:Scaffold:BestVector:false
 Value:Scaffold:Necessary Rotations:true
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
-Value:Scaffold:Static Pitch:false
+Value:Scaffold:Static Pitch:true
 Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0
 Value:LongJump:AAC3.3.12-Speed:4.5
