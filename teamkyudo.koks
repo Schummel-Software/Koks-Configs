@@ -69,14 +69,11 @@ Value:BowAimBot:MoveFix:false
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
-Value:FastBow:Timer:5.0
 Value:KillAura:CPS:20
 Value:KillAura:Range:5.01
 Value:KillAura:TargetMode:Single
-Value:KillAura:PreferType:Distance
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Criticals:false
-Value:KillAura:Criticals-Mode:Vanilla
 Value:KillAura:AutoBlock:true
 Value:KillAura:AutoBlock-Mode:Intave
 Value:KillAura:Player:true
@@ -91,34 +88,26 @@ Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:false
 Value:KillAura:MoveFix:false
-Value:KillAura:SilentMoveFix:false
 Value:KillAura:ThroughWalls:false
-Value:KillAura:ThroughWalls Range:3.0
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
-Value:KillAura:Max Haze Range:1.0
-Value:KillAura:LockView:false
 Value:KillAura:Rotations:true
+Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
-Value:KillAura:Necessary Mode:Both
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:100
 Value:Velocity:Mode:Cancel
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
-Value:Fly:AAC1.9.10-Speed:2.34
-Value:Fly:AAC1.9.10-MotionY:0.8
-Value:Fly:AAC3.3.12-Boost:9
 Value:Fly:Mode:Vanilla
 Value:IceSpeed:Slipperiness:0.1
 Value:InvMove:Jump:true
 Value:InvMove:Sprint:true
 Value:InvMove:Look:true
 Value:InvMove:LookWithArrow:false
-Value:InvMove:RotationSpeed:5.0
 Value:Jesus:Mode:Vanilla
 Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
@@ -146,9 +135,9 @@ Value:ChestStealer:Auto Close:true
 Value:FastUse:Mode:Intave
 Value:Fucker:Range:5
 Value:Fucker:Delay:0
-Value:Fucker:AutomaticDelay:true
+Value:Fucker:AutomaticDelay:false
 Value:Fucker:RayCast:false
-Value:Fucker:TroughWalls:true
+Value:Fucker:ThroughWalls:false
 Value:Fucker:MoveFix:false
 Value:Fucker:NoSwing:false
 Value:Fucker:Bed:true
@@ -177,13 +166,10 @@ Value:Scaffold:DownScaffold:false
 Value:Scaffold:Tower:true
 Value:Scaffold:Tower-Mode:Mineplex
 Value:Scaffold:Expand:false
-Value:Scaffold:Expand Length:1
 Value:Scaffold:Silent:true
 Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
 Value:Scaffold:SameY:false
-Value:Scaffold:AutoJump:false
-Value:Scaffold:Speed Boost:0.2
 Value:Scaffold:NoSwing:true
 Value:Scaffold:NoSwing-Mode:Packet
 Value:Scaffold:SmartPlacement:false
@@ -192,12 +178,10 @@ Value:Scaffold:BlockCheck:true
 Value:Scaffold:AutomaticVector:true
 Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
-Value:Scaffold:OnlyGround:false
 Value:Scaffold:Sprint:true
 Value:Scaffold:Sneak:false
-Value:Scaffold:SpoofSneak:false
-Value:Scaffold:Sneak after...:1
 Value:Scaffold:RayCast:false
+Value:Scaffold:Rotations:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:BestVector:false
 Value:Scaffold:Necessary Rotations:true
@@ -206,10 +190,9 @@ Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:true
 Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0
-Value:LongJump:AAC3.3.12-Speed:4.5
+Value:LongJump:Mode:Redesky
 Value:LongJump:Redesky-Motion:0.65
 Value:LongJump:Redesky-Boost:0.1
-Value:LongJump:Mode:Redesky
 Value:Spammer:Delay:1000
 Value:Spammer:Custom Words:false
 Value:Spammer:Randomizing:true
