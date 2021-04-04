@@ -169,8 +169,8 @@ Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
 Value:Scaffold:SmartPlacement:false
 Value:Scaffold:NecessaryPlacement:false
-Value:Scaffold:BlockCheck:false
-Value:Scaffold:AutomaticVector:false
+Value:Scaffold:BlockCheck:true
+Value:Scaffold:AutomaticVector:true
 Value:Scaffold:MoveFix:true
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false
