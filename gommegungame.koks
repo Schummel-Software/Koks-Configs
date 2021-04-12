@@ -38,7 +38,7 @@ Module:OverArmor:false:false
 Module:Phase:false:false
 Module:Range:false:false
 Module:SafeWalk:false:false
-Module:Scaffold:false:true
+Module:Scaffold:false:false
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
@@ -50,7 +50,7 @@ Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:false
 Module:Teleport:false:false
-Module:Velocity:true:true
+Module:Velocity:false:false
 Module:WallSpeed:false:false
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
@@ -63,18 +63,17 @@ Value:AntiBot:Sound Check:false
 Value:AntiBot:Rotation Check:false
 Value:AntiBot:Gamster Check:false
 Value:BowAimBot:OnlyPlayers:true
-Value:BowAimBot:ThroughWalls:true
-Value:BowAimBot:MoveFix:false
+Value:BowAimBot:ThroughWalls:false
+Value:BowAimBot:MoveFix:true
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
-Value:KillAura:CPS:11
+Value:KillAura:CPS:20
 Value:KillAura:Range:3.0
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Criticals:false
-Value:KillAura:AutoBlock:true
-Value:KillAura:AutoBlock-Mode:Intave
+Value:KillAura:AutoBlock:false
 Value:KillAura:Player:true
 Value:KillAura:Animals:false
 Value:KillAura:Villager:false
@@ -100,11 +99,11 @@ Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:100
-Value:Velocity:Mode:IntaveKeepLow
+Value:Velocity:Mode:GommeZero
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
-Value:Fly:Mode:Vanilla
+Value:Fly:Mode:Intave13.0.0
 Value:IceSpeed:Slipperiness:0.1
 Value:InvMove:Spoof:false
 Value:InvMove:Jump:true
@@ -116,16 +115,17 @@ Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
-Value:NoSlowDown:Spoofing:false
-Value:Speed:Mode:Mineplex
-Value:Spider:Mode:Intave
+Value:NoSlowDown:Spoofing:true
+Value:NoSlowDown:Spoof-Mode:Intave
+Value:Speed:Mode:Intave
+Value:Spider:Mode:IntaveNew
 Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
 Value:StairSpeed:MaxBoost:9.0
 Value:StairSpeed:Decrement:0.05
 Value:StairSpeed:Air-Decrement:3.0
 Value:StairSpeed:KeepBoost:false
-Value:Step:Mode:Mineplex
+Value:Step:Mode:Intave
 Value:TargetStrafe:Mode:Legit
 Value:WallSpeed:Mode:Intave
 Value:AntiVoid:Fall Distance:3.0
@@ -137,17 +137,17 @@ Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:Auto Close:true
-Value:FastUse:Mode:Intave13
+Value:FastUse:Mode:Intave
 Value:Fucker:Range:10
 Value:Fucker:AutomaticDelay:true
 Value:Fucker:RayCast:true
-Value:Fucker:MoveFix:false
+Value:Fucker:MoveFix:true
 Value:Fucker:NoSwing:false
-Value:Fucker:Bed:false
-Value:Fucker:DragonEgg:true
+Value:Fucker:Bed:true
+Value:Fucker:DragonEgg:false
 Value:Fucker:Cake:false
 Value:Fucker:Beacon:false
-Value:GodMode:Mode:Intave Border
+Value:GodMode:Mode:Intave
 Value:InventoryCleaner:OpenedInventory:true
 Value:InventoryCleaner:Start Delay:250
 Value:InventoryCleaner:Throw Delay:100
@@ -158,7 +158,7 @@ Value:InventoryCleaner:Bow Slot:2
 Value:InventoryCleaner:PickAxe Slot:0
 Value:InventoryCleaner:Axe Slot:0
 Value:InventoryCleaner:Shovel Slot:0
-Value:Phase:Mode:AAC1.9.10
+Value:Phase:Mode:Intave
 Value:SetBack:Mode:Intave
 Value:ShopSaver:Spoof:false
 Value:Teleport:Mode:Vanilla
@@ -186,14 +186,14 @@ Value:Scaffold:Rotations:true
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:BestVector:false
-Value:Scaffold:Necessary Rotations:false
+Value:Scaffold:Necessary Rotations:true
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:LongJump:Mode:AAC3.3.12
 Value:LongJump:AAC3.3.12-Speed:4.5
-Value:Dolphin:Mode:Intave13
+Value:Dolphin:Mode:Intave
 Value:Dolphin:Height:3.0
 Value:Backtrack:PingSpoof:false
 Value:Backtrack:Ticks:20
