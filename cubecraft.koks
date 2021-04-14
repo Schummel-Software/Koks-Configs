@@ -84,7 +84,7 @@ Value:KillAura:Heuristics:true
 Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
-Value:KillAura:MouseFix:true
+Value:KillAura:MouseFix:false
 Value:KillAura:MoveFix:false
 Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
