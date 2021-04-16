@@ -42,9 +42,9 @@ Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
-Module:Speed:false:false
+Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:false:false
+Module:Sprint:true:false
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -92,6 +92,7 @@ Value:KillAura:EatAttack:false
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
+Value:KillAura:A3Fix:true
 Value:KillAura:ResetRotation:false
 Value:KillAura:BestVector:true
 Value:KillAura:LockView:false
@@ -116,9 +117,9 @@ Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:false
 Value:NoSlowDown:Spoofing:true
 Value:NoSlowDown:Spoof-Mode:Intave
-Value:Speed:Mode:Legit
+Value:Speed:Mode:CubeCraft
 Value:Spider:Mode:Intave
-Value:Sprint:Legit:false
+Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
 Value:StairSpeed:MaxBoost:9.0
 Value:StairSpeed:Decrement:0.05
@@ -177,13 +178,14 @@ Value:Scaffold:NoSwing:false
 Value:Scaffold:SmartPlacement:false
 Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
-Value:Scaffold:AutomaticVector:false
+Value:Scaffold:AutomaticVector:true
 Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:RayCast:false
 Value:Scaffold:Rotations:true
+Value:Scaffold:A3Fix:true
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:BestVector:false
