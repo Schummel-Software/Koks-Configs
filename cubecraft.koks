@@ -33,7 +33,7 @@ Module:NoHitSlow:true:true
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
-Module:NoSlowDown:false:false
+Module:NoSlowDown:true:true
 Module:OverArmor:false:false
 Module:Phase:false:false
 Module:Range:false:false
@@ -84,15 +84,16 @@ Value:KillAura:Heuristics:true
 Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
-Value:KillAura:MouseFix:false
+Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:false
-Value:KillAura:ThroughWalls:false
+Value:KillAura:ThroughWalls:true
+Value:KillAura:ThroughWalls Range:2.14
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
-Value:KillAura:A3Fix:true
+Value:KillAura:A3Fix:false
 Value:KillAura:ResetRotation:false
 Value:KillAura:BestVector:true
 Value:KillAura:LockView:false
@@ -105,7 +106,7 @@ Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
 Value:Fly:Mode:Vanilla
 Value:IceSpeed:Slipperiness:0.1
-Value:InvMove:Spoof:false
+Value:InvMove:Spoof:true
 Value:InvMove:Jump:true
 Value:InvMove:Sprint:true
 Value:InvMove:Look:true
@@ -114,9 +115,8 @@ Value:Jesus:Mode:Vanilla
 Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
-Value:NoSlowDown:CanSprint:false
-Value:NoSlowDown:Spoofing:true
-Value:NoSlowDown:Spoof-Mode:Intave
+Value:NoSlowDown:CanSprint:true
+Value:NoSlowDown:Spoofing:false
 Value:Speed:Mode:CubeCraft
 Value:Spider:Mode:Intave
 Value:Sprint:Legit:true
@@ -132,10 +132,10 @@ Value:WallSpeed:Mode:Intave
 Value:AntiVoid:Fall Distance:3.0
 Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
-Value:AutoArmor:Start Delay:250
+Value:AutoArmor:Start Delay:251
 Value:AutoArmor:Throw Delay:150
-Value:ChestStealer:Start Delay:200
-Value:ChestStealer:Grab Delay:151
+Value:ChestStealer:Start Delay:220
+Value:ChestStealer:Grab Delay:214
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:Auto Close:true
 Value:FastUse:Mode:Intave
@@ -167,7 +167,7 @@ Value:Disabler:Mode:Hypixel
 Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
-Value:Scaffold:DownScaffold:false
+Value:Scaffold:DownScaffold:true
 Value:Scaffold:Tower:false
 Value:Scaffold:Expand:false
 Value:Scaffold:Silent:true
@@ -185,7 +185,7 @@ Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:RayCast:false
 Value:Scaffold:Rotations:true
-Value:Scaffold:A3Fix:true
+Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:BestVector:false
