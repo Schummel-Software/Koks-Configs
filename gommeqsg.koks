@@ -35,7 +35,7 @@ Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
 Module:NoSlowDown:false:false
 Module:OverArmor:false:false
-Module:Phase:false:true
+Module:Phase:false:false
 Module:Range:false:false
 Module:SafeWalk:false:false
 Module:Scaffold:false:false
@@ -44,7 +44,7 @@ Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Speed:false:false
 Module:Spider:false:true
-Module:Sprint:false:false
+Module:Sprint:true:false
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -93,6 +93,7 @@ Value:KillAura:EatAttack:false
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
+Value:KillAura:A3Fix:true
 Value:KillAura:ResetRotation:false
 Value:KillAura:BestVector:true
 Value:KillAura:LockView:false
@@ -132,7 +133,7 @@ Value:AntiVoid:Fall Distance:3.0
 Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
-Value:AutoArmor:Throw Delay:100
+Value:AutoArmor:Throw Delay:150
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
 Value:ChestStealer:StackItems:true
@@ -150,7 +151,7 @@ Value:Fucker:Beacon:false
 Value:GodMode:Mode:Intave
 Value:InventoryCleaner:OpenedInventory:true
 Value:InventoryCleaner:Start Delay:250
-Value:InventoryCleaner:Throw Delay:100
+Value:InventoryCleaner:Throw Delay:150
 Value:InventoryCleaner:PreferSword:true
 Value:InventoryCleaner:KeepTools:true
 Value:InventoryCleaner:Weapon Slot:1
@@ -183,6 +184,7 @@ Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:RayCast:false
 Value:Scaffold:Rotations:true
+Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:BestVector:false
@@ -193,7 +195,7 @@ Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:LongJump:Mode:AAC3.3.12
 Value:LongJump:AAC3.3.12-Speed:4.5
-Value:Dolphin:Mode:Intave13
+Value:Dolphin:Mode:Intave
 Value:Dolphin:Height:3.0
 Value:Backtrack:PingSpoof:false
 Value:Backtrack:Ticks:20
