@@ -7,7 +7,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:true
 Module:BowAimBot:false:false
-Module:ChestStealer:false:true
+Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -28,7 +28,7 @@ Module:KillAura:false:true
 Module:LongJump:false:true
 Module:NoClip:false:false
 Module:NoCobweb:false:false
-Module:NoFall:false:true
+Module:NoFall:false:false
 Module:NoHitSlow:true:true
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
@@ -44,7 +44,7 @@ Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:true:false
+Module:Sprint:true:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -69,16 +69,17 @@ Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:CPS:20
-Value:KillAura:Range:6.0
+Value:KillAura:Range:5.5
 Value:KillAura:TargetMode:Single
-Value:KillAura:AttackType:Packet
-Value:KillAura:Criticals:false
+Value:KillAura:AttackType:PlayerController
+Value:KillAura:Criticals:true
+Value:KillAura:Criticals-Mode:onGround
 Value:KillAura:AutoBlock:true
-Value:KillAura:AutoBlock-Mode:Intave
+Value:KillAura:AutoBlock-Mode:Full
 Value:KillAura:Player:true
 Value:KillAura:Animals:false
 Value:KillAura:Villager:false
-Value:KillAura:Mobs:false
+Value:KillAura:Mobs:true
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:Heuristics:true
@@ -114,11 +115,11 @@ Value:InvMove:Look:true
 Value:InvMove:LookWithArrow:false
 Value:Jesus:Mode:Vanilla
 Value:NoCobweb:Mode:Vanilla
-Value:NoFall:Mode:AAC4
+Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:true
-Value:NoSlowDown:Spoof-Mode:AAC4
+Value:NoSlowDown:Spoof-Mode:NCP
 Value:Speed:Mode:AAC4
 Value:Speed:AAC4-BoostSpeed:50.22
 Value:Speed:AAC4-SlowingSpeed:0.1
@@ -135,15 +136,17 @@ Value:WallSpeed:Mode:Intave
 Value:AntiVoid:Fall Distance:3.0
 Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
-Value:AutoArmor:Start Delay:250
-Value:AutoArmor:Throw Delay:100
-Value:ChestStealer:Start Delay:150
-Value:ChestStealer:Grab Delay:150
+Value:AutoArmor:Start Delay:106
+Value:AutoArmor:Throw Delay:12
+Value:ChestStealer:Start Delay:83
+Value:ChestStealer:Grab Delay:0
 Value:ChestStealer:StackItems:true
+Value:ChestStealer:RandomPick:false
 Value:ChestStealer:Auto Close:true
 Value:FastUse:Mode:Intave13
 Value:Fucker:Range:5
-Value:Fucker:AutomaticDelay:true
+Value:Fucker:Delay:0
+Value:Fucker:AutomaticDelay:false
 Value:Fucker:RayCast:false
 Value:Fucker:ThroughWalls:true
 Value:Fucker:MoveFix:true
@@ -154,8 +157,8 @@ Value:Fucker:Cake:false
 Value:Fucker:Beacon:false
 Value:GodMode:Mode:Intave Border
 Value:InventoryCleaner:OpenedInventory:true
-Value:InventoryCleaner:Start Delay:250
-Value:InventoryCleaner:Throw Delay:100
+Value:InventoryCleaner:Start Delay:60
+Value:InventoryCleaner:Throw Delay:11
 Value:InventoryCleaner:PreferSword:false
 Value:InventoryCleaner:KeepTools:true
 Value:InventoryCleaner:Weapon Slot:1
@@ -172,6 +175,7 @@ Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
+Value:Scaffold:SafeMode:false
 Value:Scaffold:Tower:false
 Value:Scaffold:Expand:false
 Value:Scaffold:Silent:true
@@ -199,8 +203,9 @@ Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:LongJump:Mode:Redesky
-Value:LongJump:Redesky-Motion:0.7
-Value:LongJump:Redesky-Boost:0.15
+Value:LongJump:Redesky-Motion:0.65
+Value:LongJump:Redesky-Boost:0.2
+Value:LongJump:Redesky-Speed:1.0
 Value:Dolphin:Mode:Intave13
 Value:Dolphin:Height:3.0
 Value:Backtrack:PingSpoof:false

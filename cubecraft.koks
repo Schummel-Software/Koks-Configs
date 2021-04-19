@@ -21,7 +21,7 @@ Module:Fly:false:false
 Module:Fucker:false:true
 Module:GodMode:false:false
 Module:IceSpeed:false:false
-Module:InvMove:false:false
+Module:InvMove:true:true
 Module:InventoryCleaner:true:true
 Module:Jesus:false:false
 Module:KillAura:false:true
@@ -44,7 +44,7 @@ Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:true:false
+Module:Sprint:false:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -87,7 +87,7 @@ Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:false
 Value:KillAura:ThroughWalls:true
-Value:KillAura:ThroughWalls Range:2.14
+Value:KillAura:ThroughWalls Range:3.0
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
 Value:KillAura:PreAimAttack:false
@@ -106,7 +106,7 @@ Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
 Value:Fly:Mode:Vanilla
 Value:IceSpeed:Slipperiness:0.1
-Value:InvMove:Spoof:true
+Value:InvMove:Spoof:false
 Value:InvMove:Jump:true
 Value:InvMove:Sprint:true
 Value:InvMove:Look:true
@@ -119,7 +119,7 @@ Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:false
 Value:Speed:Mode:CubeCraft
 Value:Spider:Mode:Intave
-Value:Sprint:Legit:true
+Value:Sprint:Legit:false
 Value:StairSpeed:Boost:0.7
 Value:StairSpeed:MaxBoost:9.0
 Value:StairSpeed:Decrement:0.05
@@ -137,6 +137,7 @@ Value:AutoArmor:Throw Delay:150
 Value:ChestStealer:Start Delay:220
 Value:ChestStealer:Grab Delay:214
 Value:ChestStealer:StackItems:true
+Value:ChestStealer:RandomPick:true
 Value:ChestStealer:Auto Close:true
 Value:FastUse:Mode:Intave
 Value:Fucker:Range:10
@@ -168,6 +169,7 @@ Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:true
+Value:Scaffold:SafeMode:false
 Value:Scaffold:Tower:false
 Value:Scaffold:Expand:false
 Value:Scaffold:Silent:true
@@ -194,8 +196,7 @@ Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
-Value:LongJump:Mode:AAC3.3.12
-Value:LongJump:AAC3.3.12-Speed:4.5
+Value:LongJump:Mode:CubeCraft
 Value:Dolphin:Mode:Intave
 Value:Dolphin:Height:3.0
 Value:Backtrack:PingSpoof:false
