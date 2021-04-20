@@ -6,8 +6,8 @@ Module:AutoArmor:true:true
 Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
-Module:BowAimBot:true:false
-Module:ChestStealer:false:true
+Module:BowAimBot:false:false
+Module:ChestStealer:false:false
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -44,8 +44,8 @@ Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:true
 Module:ShopSaver:false:false
-Module:Speed:true:false
-Module:Spider:true:true
+Module:Speed:false:false
+Module:Spider:false:true
 Module:Sprint:true:false
 Module:StairSpeed:false:false
 Module:Step:false:false
@@ -89,14 +89,13 @@ Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
 Value:KillAura:SilentMoveFix:false
-Value:KillAura:ThroughWalls:true
-Value:KillAura:ThroughWalls Range:1.0
+Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
-Value:KillAura:A3Fix:true
+Value:KillAura:A3Fix:false
 Value:KillAura:ResetRotation:false
 Value:KillAura:BestVector:true
 Value:KillAura:LockView:false
@@ -136,7 +135,7 @@ Value:AntiVoid:Fall Distance:3.0
 Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
-Value:AutoArmor:Throw Delay:100
+Value:AutoArmor:Throw Delay:150
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
 Value:ChestStealer:StackItems:true
@@ -156,7 +155,7 @@ Value:Fucker:Beacon:false
 Value:GodMode:Mode:Intave
 Value:InventoryCleaner:OpenedInventory:true
 Value:InventoryCleaner:Start Delay:250
-Value:InventoryCleaner:Throw Delay:100
+Value:InventoryCleaner:Throw Delay:150
 Value:InventoryCleaner:PreferSword:true
 Value:InventoryCleaner:KeepTools:true
 Value:InventoryCleaner:Weapon Slot:1
@@ -207,7 +206,6 @@ Value:Backtrack:PingSpoof:false
 Value:Backtrack:Ticks:20
 Value:Backtrack:Range:3
 Value:Regen:Packets:100
-Value:Regen:Health:20
 Value:Regen:inAir:false
 Value:Regen:Sneak:false
 Value:FastBreak:BreakTime:0.04
