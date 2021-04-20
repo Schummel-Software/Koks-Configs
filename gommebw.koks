@@ -15,7 +15,7 @@ Module:Disabler:false:false
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
-Module:FastBreak:false:true
+Module:FastBreak:true:true
 Module:FastPlace:false:false
 Module:FastUse:false:false
 Module:Fly:false:false
