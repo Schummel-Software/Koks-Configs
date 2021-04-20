@@ -7,7 +7,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:true
 Module:BowAimBot:false:false
-Module:ChestStealer:true:true
+Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -37,6 +37,7 @@ Module:NoSlowDown:true:true
 Module:OverArmor:false:false
 Module:Phase:false:false
 Module:Range:false:false
+Module:Regen:false:false
 Module:SafeWalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
@@ -118,8 +119,7 @@ Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
-Value:NoSlowDown:Spoofing:true
-Value:NoSlowDown:Spoof-Mode:NCP
+Value:NoSlowDown:Spoofing:false
 Value:Speed:Mode:AAC4
 Value:Speed:AAC4-BoostSpeed:50.22
 Value:Speed:AAC4-SlowingSpeed:0.1
@@ -143,7 +143,8 @@ Value:ChestStealer:Grab Delay:0
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:RandomPick:false
 Value:ChestStealer:Auto Close:true
-Value:FastUse:Mode:Intave13
+Value:FastUse:Packets:15
+Value:FastUse:inAir:false
 Value:Fucker:Range:5
 Value:Fucker:Delay:0
 Value:Fucker:AutomaticDelay:false
@@ -211,3 +212,8 @@ Value:Dolphin:Height:3.0
 Value:Backtrack:PingSpoof:false
 Value:Backtrack:Ticks:20
 Value:Backtrack:Range:3
+Value:Regen:Packets:100
+Value:Regen:Health:20
+Value:Regen:inAir:false
+Value:Regen:Sneak:false
+Value:Regen:NoHunger:true
