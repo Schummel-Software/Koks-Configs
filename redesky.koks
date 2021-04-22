@@ -7,7 +7,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:true
 Module:BowAimBot:false:false
-Module:ChestStealer:false:true
+Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -15,6 +15,7 @@ Module:Disabler:false:false
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
+Module:FastBreak:false:false
 Module:FastPlace:false:false
 Module:FastUse:true:true
 Module:Fly:false:false
@@ -28,12 +29,13 @@ Module:KillAura:false:true
 Module:LongJump:false:true
 Module:NoClip:false:false
 Module:NoCobweb:false:false
-Module:NoFall:false:false
+Module:NoFall:false:true
 Module:NoHitSlow:true:true
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
 Module:NoSlowDown:true:true
+Module:ObstacleSpeed:false:false
 Module:OverArmor:false:false
 Module:Phase:false:false
 Module:Range:false:false
@@ -213,7 +215,9 @@ Value:Backtrack:PingSpoof:false
 Value:Backtrack:Ticks:20
 Value:Backtrack:Range:3
 Value:Regen:Packets:100
-Value:Regen:Health:20
 Value:Regen:inAir:false
 Value:Regen:Sneak:false
-Value:Regen:NoHunger:true
+Value:FastBreak:BreakTime:0.2
+Value:ObstacleSpeed:Jump:true
+Value:ObstacleSpeed:Spoof Jump:false
+Value:ObstacleSpeed:Boost:false
