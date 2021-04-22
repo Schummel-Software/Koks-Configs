@@ -3,6 +3,7 @@ Module:AntiBot:true:true
 Module:AntiHunger:false:false
 Module:AntiVoid:false:false
 Module:AutoArmor:true:true
+Module:AutoHeal:true:true
 Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:true
@@ -45,6 +46,7 @@ Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
+Module:Spammer:false:true
 Module:Speed:false:true
 Module:Spider:false:false
 Module:Sprint:true:true
@@ -94,7 +96,8 @@ Value:KillAura:MoveFix:true
 Value:KillAura:SilentMoveFix:true
 Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
-Value:KillAura:EatAttack:true
+Value:KillAura:EatAttack:false
+Value:KillAura:UseAttack:true
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
@@ -121,7 +124,8 @@ Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
-Value:NoSlowDown:Spoofing:false
+Value:NoSlowDown:Spoofing:true
+Value:NoSlowDown:Spoof-Mode:AAC4
 Value:Speed:Mode:AAC4
 Value:Speed:AAC4-BoostSpeed:50.22
 Value:Speed:AAC4-SlowingSpeed:0.1
@@ -209,6 +213,11 @@ Value:LongJump:Mode:Redesky
 Value:LongJump:Redesky-Motion:0.65
 Value:LongJump:Redesky-Boost:0.2
 Value:LongJump:Redesky-Speed:1.0
+Value:Spammer:Delay:3600
+Value:Spammer:Custom Words:false
+Value:Spammer:Randomizing:true
+Value:Spammer:RandomChoose:false
+Value:Spammer:RandomNumbers:false
 Value:Dolphin:Mode:Intave13
 Value:Dolphin:Height:3.0
 Value:Backtrack:PingSpoof:false
@@ -221,3 +230,6 @@ Value:FastBreak:BreakTime:0.2
 Value:ObstacleSpeed:Jump:true
 Value:ObstacleSpeed:Spoof Jump:false
 Value:ObstacleSpeed:Boost:false
+Value:AutoHeal:Damage:5
+Value:AutoHeal:Souping:false
+Value:AutoHeal:Silent:true
