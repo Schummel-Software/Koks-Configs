@@ -91,10 +91,12 @@ Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:false
+Value:KillAura:AttackDelay:true
 Value:KillAura:ThroughWalls:true
 Value:KillAura:ThroughWalls Range:3.0
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
+Value:KillAura:UseAttack:false
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
@@ -175,8 +177,7 @@ Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:true
 Value:Scaffold:SafeMode:false
-Value:Scaffold:Tower:true
-Value:Scaffold:Tower-Mode:CubeCraft
+Value:Scaffold:Tower:false
 Value:Scaffold:Expand:false
 Value:Scaffold:Silent:true
 Value:Scaffold:Silent Switch:false
