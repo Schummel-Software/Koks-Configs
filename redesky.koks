@@ -26,7 +26,7 @@ Module:IceSpeed:false:false
 Module:InvMove:true:true
 Module:InventoryCleaner:true:true
 Module:Jesus:false:false
-Module:KillAura:true:true
+Module:KillAura:false:true
 Module:LongJump:false:true
 Module:NoClip:false:false
 Module:NoCobweb:false:false
