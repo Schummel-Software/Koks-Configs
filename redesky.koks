@@ -26,7 +26,7 @@ Module:IceSpeed:false:false
 Module:InvMove:true:true
 Module:InventoryCleaner:true:true
 Module:Jesus:false:false
-Module:KillAura:false:true
+Module:KillAura:true:true
 Module:LongJump:false:true
 Module:NoClip:false:false
 Module:NoCobweb:false:false
@@ -101,7 +101,7 @@ Value:KillAura:UseAttack:true
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
-Value:KillAura:A3Fix:true
+Value:KillAura:A3Fix:false
 Value:KillAura:ResetRotation:false
 Value:KillAura:BestVector:true
 Value:KillAura:LockView:false
@@ -124,8 +124,7 @@ Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
-Value:NoSlowDown:Spoofing:true
-Value:NoSlowDown:Spoof-Mode:AAC4
+Value:NoSlowDown:Spoofing:false
 Value:Speed:Mode:AAC4
 Value:Speed:AAC4-BoostSpeed:50.22
 Value:Speed:AAC4-SlowingSpeed:0.1
