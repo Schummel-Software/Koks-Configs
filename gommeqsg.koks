@@ -31,7 +31,7 @@ Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
-Module:NoHitSlow:true:true
+Module:NoHitSlow:false:false
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
@@ -74,7 +74,7 @@ Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:CPS:20
-Value:KillAura:Range:3.19
+Value:KillAura:Range:3.0
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Criticals:false
@@ -143,7 +143,7 @@ Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
 Value:AutoArmor:Throw Delay:150
 Value:ChestStealer:Start Delay:249
-Value:ChestStealer:Grab Delay:203
+Value:ChestStealer:Grab Delay:151
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:RandomPick:false
 Value:ChestStealer:Auto Close:true
