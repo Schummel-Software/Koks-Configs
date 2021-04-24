@@ -143,7 +143,7 @@ Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
 Value:AutoArmor:Throw Delay:200
 Value:ChestStealer:Start Delay:249
-Value:ChestStealer:Grab Delay:200
+Value:ChestStealer:Grab Delay:203
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:RandomPick:false
 Value:ChestStealer:Auto Close:true
