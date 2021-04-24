@@ -25,13 +25,13 @@ Module:GodMode:false:false
 Module:IceSpeed:false:false
 Module:InvMove:false:false
 Module:InventoryCleaner:true:true
-Module:Jesus:false:false
+Module:Jesus:false:true
 Module:KillAura:false:true
 Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
-Module:NoHitSlow:false:false
+Module:NoHitSlow:true:true
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
@@ -74,7 +74,7 @@ Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:CPS:20
-Value:KillAura:Range:3.0
+Value:KillAura:Range:3.19
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Criticals:false
@@ -118,7 +118,8 @@ Value:InvMove:Jump:true
 Value:InvMove:Sprint:true
 Value:InvMove:Look:true
 Value:InvMove:LookWithArrow:false
-Value:Jesus:Mode:Vanilla
+Value:Jesus:Mode:Intave13
+Value:Jesus:Intave13-SpeedBoost:false
 Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
@@ -126,7 +127,7 @@ Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:true
 Value:NoSlowDown:Spoof-Mode:Intave
 Value:Speed:Mode:Intave
-Value:Spider:Mode:IntaveNew
+Value:Spider:Mode:Gomme
 Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
 Value:StairSpeed:MaxBoost:9.0
