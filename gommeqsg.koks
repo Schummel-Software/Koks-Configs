@@ -49,7 +49,7 @@ Module:ShopSaver:false:false
 Module:Spammer:false:false
 Module:Speed:false:false
 Module:Spider:false:true
-Module:Sprint:false:false
+Module:Sprint:true:false
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -100,7 +100,7 @@ Value:KillAura:UseAttack:false
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
-Value:KillAura:A3Fix:true
+Value:KillAura:A3Fix:false
 Value:KillAura:ResetRotation:false
 Value:KillAura:BestVector:true
 Value:KillAura:LockView:false
@@ -144,7 +144,7 @@ Value:AutoArmor:Throw Delay:150
 Value:ChestStealer:Start Delay:249
 Value:ChestStealer:Grab Delay:203
 Value:ChestStealer:StackItems:true
-Value:ChestStealer:RandomPick:true
+Value:ChestStealer:RandomPick:false
 Value:ChestStealer:Auto Close:true
 Value:FastUse:Packets:15
 Value:FastUse:inAir:false
