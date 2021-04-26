@@ -75,7 +75,7 @@ Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
-Value:KillAura:Range:3.19
+Value:KillAura:Range:3.0
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Criticals:false
@@ -142,7 +142,7 @@ Value:AntiVoid:Fall Distance:3.0
 Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
-Value:AutoArmor:Throw Delay:150
+Value:AutoArmor:Throw Delay:251
 Value:ChestStealer:Start Delay:249
 Value:ChestStealer:Grab Delay:203
 Value:ChestStealer:StackItems:true
@@ -162,7 +162,7 @@ Value:Fucker:Beacon:false
 Value:GodMode:Mode:Intave
 Value:InventoryCleaner:OpenedInventory:true
 Value:InventoryCleaner:Start Delay:250
-Value:InventoryCleaner:Throw Delay:150
+Value:InventoryCleaner:Throw Delay:200
 Value:InventoryCleaner:PreferSword:true
 Value:InventoryCleaner:KeepTools:true
 Value:InventoryCleaner:Weapon Slot:1
