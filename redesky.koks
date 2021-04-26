@@ -35,7 +35,7 @@ Module:NoHitSlow:true:true
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
-Module:NoSlowDown:true:true
+Module:NoSlowDown:false:false
 Module:ObstacleSpeed:false:false
 Module:OverArmor:false:false
 Module:Phase:false:false
@@ -126,8 +126,7 @@ Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
-Value:NoSlowDown:Spoofing:true
-Value:NoSlowDown:Spoof-Mode:AAC4
+Value:NoSlowDown:Spoofing:false
 Value:Speed:Mode:AAC4
 Value:Speed:AAC4-BoostSpeed:50.22
 Value:Speed:AAC4-SlowingSpeed:0.1
