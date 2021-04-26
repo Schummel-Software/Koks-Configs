@@ -47,9 +47,9 @@ Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Spammer:false:false
-Module:Speed:false:false
+Module:Speed:false:true
 Module:Spider:false:true
-Module:Sprint:true:false
+Module:Sprint:true:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -74,11 +74,12 @@ Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:CPS:20
-Value:KillAura:Range:3.0
+Value:KillAura:Range:3.05
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Criticals:false
-Value:KillAura:AutoBlock:false
+Value:KillAura:AutoBlock:true
+Value:KillAura:AutoBlock-Mode:Intave
 Value:KillAura:Player:true
 Value:KillAura:Animals:false
 Value:KillAura:Villager:false
@@ -113,11 +114,12 @@ Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
 Value:Fly:Mode:Intave13.0.0
 Value:IceSpeed:Slipperiness:0.1
-Value:InvMove:Spoof:false
+Value:InvMove:Spoof:true
 Value:InvMove:Jump:true
 Value:InvMove:Sprint:true
 Value:InvMove:Look:true
-Value:InvMove:LookWithArrow:false
+Value:InvMove:LookWithArrow:true
+Value:InvMove:RotationSpeed:5.0
 Value:Jesus:Mode:Intave13
 Value:Jesus:Intave13-SpeedBoost:false
 Value:NoCobweb:Mode:Vanilla
@@ -125,8 +127,10 @@ Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:true
-Value:NoSlowDown:Spoof-Mode:Intave
-Value:Speed:Mode:Intave13Carpet
+Value:NoSlowDown:Spoof-Mode:AAC4
+Value:Speed:Mode:AAC4
+Value:Speed:AAC4-BoostSpeed:6.66
+Value:Speed:AAC4-SlowingSpeed:0.22
 Value:Spider:Mode:Gomme
 Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
@@ -224,5 +228,6 @@ Value:ObstacleSpeed:Jump:true
 Value:ObstacleSpeed:Spoof Jump:false
 Value:ObstacleSpeed:Boost:false
 Value:AutoHeal:Damage:5
+Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:false

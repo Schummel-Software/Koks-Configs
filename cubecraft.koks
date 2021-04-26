@@ -8,7 +8,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
 Module:BowAimBot:false:true
-Module:ChestStealer:true:true
+Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -26,7 +26,7 @@ Module:IceSpeed:false:false
 Module:InvMove:true:true
 Module:InventoryCleaner:true:true
 Module:Jesus:false:false
-Module:KillAura:true:true
+Module:KillAura:false:true
 Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
@@ -74,7 +74,7 @@ Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:CPS:20
-Value:KillAura:Range:3.62
+Value:KillAura:Range:3.5
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:Packet
 Value:KillAura:Criticals:false
@@ -222,5 +222,6 @@ Value:ObstacleSpeed:Jump:true
 Value:ObstacleSpeed:Spoof Jump:false
 Value:ObstacleSpeed:Boost:false
 Value:AutoHeal:Damage:2
+Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:true
