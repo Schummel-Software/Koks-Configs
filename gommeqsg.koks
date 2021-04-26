@@ -31,7 +31,7 @@ Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
-Module:NoHitSlow:true:true
+Module:NoHitSlow:false:false
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
@@ -73,6 +73,7 @@ Value:BowAimBot:MoveFix:true
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
+Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
 Value:KillAura:Range:3.19
 Value:KillAura:TargetMode:Single
@@ -224,5 +225,6 @@ Value:ObstacleSpeed:Jump:true
 Value:ObstacleSpeed:Spoof Jump:false
 Value:ObstacleSpeed:Boost:false
 Value:AutoHeal:Damage:5
+Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:false
