@@ -30,7 +30,7 @@ Module:KillAura:false:true
 Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
-Module:NoFall:true:true
+Module:NoFall:false:false
 Module:NoHitSlow:false:false
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
@@ -73,6 +73,7 @@ Value:BowAimBot:MoveFix:false
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
+Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
 Value:KillAura:Range:5.5
 Value:KillAura:TargetMode:Single
@@ -92,8 +93,7 @@ Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:false
 Value:KillAura:AttackDelay:false
-Value:KillAura:ThroughWalls:true
-Value:KillAura:ThroughWalls Range:2.0
+Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
 Value:KillAura:UseAttack:false
