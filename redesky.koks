@@ -8,7 +8,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:true
 Module:BowAimBot:false:false
-Module:ChestStealer:true:true
+Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -73,10 +73,11 @@ Value:BowAimBot:MoveFix:false
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
+Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
 Value:KillAura:Range:5.5
 Value:KillAura:TargetMode:Single
-Value:KillAura:AttackType:PlayerController
+Value:KillAura:AttackType:Packet
 Value:KillAura:Criticals:true
 Value:KillAura:Criticals-Mode:onGround
 Value:KillAura:AutoBlock:true
@@ -94,6 +95,7 @@ Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
 Value:KillAura:SilentMoveFix:true
+Value:KillAura:AttackDelay:true
 Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
@@ -124,7 +126,8 @@ Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
-Value:NoSlowDown:Spoofing:false
+Value:NoSlowDown:Spoofing:true
+Value:NoSlowDown:Spoof-Mode:AAC4
 Value:Speed:Mode:AAC4
 Value:Speed:AAC4-BoostSpeed:50.22
 Value:Speed:AAC4-SlowingSpeed:0.1
@@ -230,5 +233,6 @@ Value:ObstacleSpeed:Jump:true
 Value:ObstacleSpeed:Spoof Jump:false
 Value:ObstacleSpeed:Boost:false
 Value:AutoHeal:Damage:5
+Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:true
