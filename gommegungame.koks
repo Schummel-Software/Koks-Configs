@@ -3,18 +3,18 @@ Module:AntiBot:false:false
 Module:AntiHunger:false:false
 Module:AntiVoid:false:false
 Module:AutoArmor:false:false
+Module:AutoHeal:false:false
 Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
 Module:BowAimBot:false:false
-Module:ChestStealer:false:false
+Module:ChestStealer:true:false
 Module:CivBreak:false:false
-Module:Debug:false:false
-Module:Debug2:false:false
 Module:Disabler:false:false
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
+Module:FastBreak:false:false
 Module:FastPlace:false:false
 Module:FastUse:false:false
 Module:Fly:false:false
@@ -29,22 +29,25 @@ Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
-Module:NoHitSlow:false:false
+Module:NoHitSlow:true:false
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
-Module:NoSlowDown:false:false
+Module:NoSlowDown:true:false
+Module:ObstacleSpeed:false:false
 Module:OverArmor:false:false
 Module:Phase:false:false
 Module:Range:false:false
+Module:Regen:false:false
 Module:SafeWalk:false:false
 Module:Scaffold:false:false
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
+Module:Spammer:false:false
 Module:Speed:false:false
 Module:Spider:false:true
-Module:Sprint:false:false
+Module:Sprint:true:false
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -68,12 +71,15 @@ Value:BowAimBot:MoveFix:true
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
-Value:KillAura:CPS:20
+Value:KillAura:HitChance:100
+Value:KillAura:CPS:14
 Value:KillAura:Range:3.0
-Value:KillAura:TargetMode:Single
+Value:KillAura:TargetMode:Hybrid
+Value:KillAura:PreferType:Distance
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Criticals:false
-Value:KillAura:AutoBlock:false
+Value:KillAura:AutoBlock:true
+Value:KillAura:AutoBlock-Mode:Intave
 Value:KillAura:Player:true
 Value:KillAura:Animals:false
 Value:KillAura:Villager:false
@@ -86,20 +92,24 @@ Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
-Value:KillAura:SilentMoveFix:false
+Value:KillAura:SilentMoveFix:true
+Value:KillAura:AttackDelay:true
 Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
+Value:KillAura:UseAttack:false
 Value:KillAura:PreAimAttack:false
-Value:KillAura:Haze Range:false
+Value:KillAura:Haze Range:true
+Value:KillAura:Max Haze Range:3.0
 Value:KillAura:Rotations:true
+Value:KillAura:A3Fix:false
 Value:KillAura:ResetRotation:false
 Value:KillAura:BestVector:true
 Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:100
-Value:Velocity:Mode:GommeZero
+Value:Velocity:Mode:AAC4
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
@@ -116,8 +126,10 @@ Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:true
-Value:NoSlowDown:Spoof-Mode:Intave
-Value:Speed:Mode:Intave
+Value:NoSlowDown:Spoof-Mode:AAC4
+Value:Speed:Mode:AAC4
+Value:Speed:AAC4-BoostSpeed:6.66
+Value:Speed:AAC4-SlowingSpeed:0.23
 Value:Spider:Mode:IntaveNew
 Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
@@ -136,8 +148,10 @@ Value:AutoArmor:Throw Delay:100
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
 Value:ChestStealer:StackItems:true
+Value:ChestStealer:RandomPick:true
 Value:ChestStealer:Auto Close:true
-Value:FastUse:Mode:Intave
+Value:FastUse:Packets:15
+Value:FastUse:inAir:false
 Value:Fucker:Range:10
 Value:Fucker:AutomaticDelay:true
 Value:Fucker:RayCast:true
@@ -167,6 +181,7 @@ Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
+Value:Scaffold:SafeMode:false
 Value:Scaffold:Tower:false
 Value:Scaffold:Expand:false
 Value:Scaffold:Silent:true
@@ -183,6 +198,7 @@ Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:RayCast:false
 Value:Scaffold:Rotations:true
+Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:BestVector:false
@@ -193,8 +209,24 @@ Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:LongJump:Mode:AAC3.3.12
 Value:LongJump:AAC3.3.12-Speed:4.5
+Value:Spammer:Delay:1000
+Value:Spammer:Custom Words:false
+Value:Spammer:Randomizing:true
+Value:Spammer:RandomChoose:false
+Value:Spammer:RandomNumbers:false
 Value:Dolphin:Mode:Intave
 Value:Dolphin:Height:3.0
 Value:Backtrack:PingSpoof:false
 Value:Backtrack:Ticks:20
 Value:Backtrack:Range:3
+Value:Regen:Packets:100
+Value:Regen:inAir:false
+Value:Regen:Sneak:false
+Value:FastBreak:BreakTime:0.2
+Value:ObstacleSpeed:Jump:true
+Value:ObstacleSpeed:Spoof Jump:false
+Value:ObstacleSpeed:Boost:false
+Value:AutoHeal:Damage:5
+Value:AutoHeal:InAir:false
+Value:AutoHeal:Souping:false
+Value:AutoHeal:Silent:false
