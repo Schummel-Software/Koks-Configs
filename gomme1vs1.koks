@@ -3,6 +3,7 @@ Module:AntiBot:false:false
 Module:AntiHunger:false:false
 Module:AntiVoid:false:false
 Module:AutoArmor:false:false
+Module:AutoHeal:true:true
 Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
@@ -15,6 +16,7 @@ Module:Disabler:false:false
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
+Module:FastBreak:false:false
 Module:FastPlace:false:false
 Module:FastUse:false:false
 Module:Fly:false:false
@@ -34,23 +36,26 @@ Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
 Module:NoSlowDown:false:false
+Module:ObstacleSpeed:false:false
 Module:OverArmor:false:false
 Module:Phase:false:false
 Module:Range:false:false
+Module:Regen:false:false
 Module:SafeWalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
+Module:Spammer:false:false
 Module:Speed:false:false
 Module:Spider:false:true
-Module:Sprint:false:false
+Module:Sprint:true:false
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:false
 Module:Teleport:false:false
-Module:Velocity:true:true
+Module:Velocity:false:false
 Module:WallSpeed:false:false
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
@@ -68,13 +73,14 @@ Value:BowAimBot:MoveFix:false
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
-Value:KillAura:CPS:11
+Value:KillAura:HitChance:100
+Value:KillAura:CPS:20
 Value:KillAura:Range:3.0
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
+Value:KillAura:Switch Delay:0
 Value:KillAura:Criticals:false
-Value:KillAura:AutoBlock:true
-Value:KillAura:AutoBlock-Mode:Intave
+Value:KillAura:AutoBlock:false
 Value:KillAura:Player:true
 Value:KillAura:Animals:false
 Value:KillAura:Villager:false
@@ -82,19 +88,23 @@ Value:KillAura:Mobs:false
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:Heuristics:true
-Value:KillAura:Prediction:false
+Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
 Value:KillAura:SilentMoveFix:false
+Value:KillAura:AttackDelay:true
 Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
+Value:KillAura:UseAttack:false
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
-Value:KillAura:ResetRotation:false
+Value:KillAura:A3Fix:false
+Value:KillAura:ResetRotation:true
+Value:KillAura:Reset-Mode:Silent
 Value:KillAura:BestVector:true
 Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
@@ -136,8 +146,10 @@ Value:AutoArmor:Throw Delay:100
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
 Value:ChestStealer:StackItems:true
+Value:ChestStealer:RandomPick:true
 Value:ChestStealer:Auto Close:true
-Value:FastUse:Mode:Intave13
+Value:FastUse:Packets:15
+Value:FastUse:inAir:false
 Value:Fucker:Range:10
 Value:Fucker:AutomaticDelay:true
 Value:Fucker:RayCast:true
@@ -167,6 +179,7 @@ Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
+Value:Scaffold:SafeMode:false
 Value:Scaffold:Tower:false
 Value:Scaffold:Expand:false
 Value:Scaffold:Silent:true
@@ -183,6 +196,8 @@ Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:RayCast:false
 Value:Scaffold:Rotations:true
+Value:Scaffold:ResetRotation:false
+Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:BestVector:false
@@ -193,8 +208,25 @@ Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:LongJump:Mode:AAC3.3.12
 Value:LongJump:AAC3.3.12-Speed:4.5
+Value:Spammer:Delay:1000
+Value:Spammer:Custom Words:false
+Value:Spammer:Randomizing:true
+Value:Spammer:RandomChoose:false
+Value:Spammer:RandomNumbers:false
 Value:Dolphin:Mode:Intave13
 Value:Dolphin:Height:3.0
 Value:Backtrack:PingSpoof:false
 Value:Backtrack:Ticks:20
 Value:Backtrack:Range:3
+Value:Regen:Packets:100
+Value:Regen:inAir:false
+Value:Regen:Sneak:false
+Value:FastBreak:BreakTime:0.2
+Value:ObstacleSpeed:Jump:true
+Value:ObstacleSpeed:Spoof Jump:false
+Value:ObstacleSpeed:Boost:false
+Value:AutoHeal:Damage:6
+Value:AutoHeal:Eat-Delay:103
+Value:AutoHeal:InAir:true
+Value:AutoHeal:Souping:true
+Value:AutoHeal:Silent:true

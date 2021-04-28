@@ -8,7 +8,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
 Module:BowAimBot:false:false
-Module:ChestStealer:true:true
+Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -78,6 +78,7 @@ Value:KillAura:CPS:20
 Value:KillAura:Range:3.0
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
+Value:KillAura:Switch Delay:0
 Value:KillAura:Criticals:false
 Value:KillAura:AutoBlock:false
 Value:KillAura:Player:true
@@ -102,7 +103,8 @@ Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
 Value:KillAura:A3Fix:false
-Value:KillAura:ResetRotation:false
+Value:KillAura:ResetRotation:true
+Value:KillAura:Reset-Mode:Silent
 Value:KillAura:BestVector:true
 Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
@@ -196,6 +198,7 @@ Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:RayCast:false
 Value:Scaffold:Rotations:true
+Value:Scaffold:ResetRotation:false
 Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
@@ -225,6 +228,7 @@ Value:ObstacleSpeed:Jump:true
 Value:ObstacleSpeed:Spoof Jump:false
 Value:ObstacleSpeed:Boost:false
 Value:AutoHeal:Damage:5
+Value:AutoHeal:Eat-Delay:500
 Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:false
