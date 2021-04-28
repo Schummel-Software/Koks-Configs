@@ -73,10 +73,12 @@ Value:BowAimBot:MoveFix:true
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
+Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
 Value:KillAura:Range:3.5
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:Packet
+Value:KillAura:Switch Delay:0
 Value:KillAura:Criticals:false
 Value:KillAura:AutoBlock:false
 Value:KillAura:Player:true
@@ -90,7 +92,8 @@ Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
-Value:KillAura:MoveFix:false
+Value:KillAura:MoveFix:true
+Value:KillAura:SilentMoveFix:true
 Value:KillAura:AttackDelay:true
 Value:KillAura:ThroughWalls:true
 Value:KillAura:ThroughWalls Range:3.0
@@ -188,7 +191,7 @@ Value:Scaffold:SmartPlacement:false
 Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
 Value:Scaffold:AutomaticVector:true
-Value:Scaffold:MoveFix:false
+Value:Scaffold:MoveFix:true
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
