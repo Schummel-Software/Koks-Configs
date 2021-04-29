@@ -7,7 +7,7 @@ Module:AutoHeal:false:false
 Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
-Module:BowAimBot:false:false
+Module:BowAimBot:false:true
 Module:ChestStealer:false:false
 Module:CivBreak:false:false
 Module:Debug:false:false
