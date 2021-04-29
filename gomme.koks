@@ -22,6 +22,7 @@ Module:FastUse:false:false
 Module:Fly:false:false
 Module:Fucker:false:false
 Module:GodMode:false:false
+Module:HighJump:false:false
 Module:IceSpeed:false:false
 Module:InvMove:false:false
 Module:InventoryCleaner:false:false
@@ -76,7 +77,8 @@ Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
 Value:KillAura:Range:3.0
-Value:KillAura:TargetMode:Single
+Value:KillAura:TargetMode:Hybrid
+Value:KillAura:PreferType:Health
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Switch Delay:0
 Value:KillAura:Criticals:false
@@ -233,3 +235,4 @@ Value:AutoHeal:Eat-Delay:500
 Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:false
+Value:HighJump:Mode:Intave13.0.8Slime
