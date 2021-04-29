@@ -48,7 +48,7 @@ Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:true
 Module:Spammer:false:false
-Module:Speed:true:false
+Module:Speed:false:false
 Module:Spider:false:false
 Module:Sprint:true:true
 Module:StairSpeed:false:false
@@ -185,7 +185,8 @@ Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
 Value:Scaffold:SafeMode:false
-Value:Scaffold:Tower:false
+Value:Scaffold:Tower:true
+Value:Scaffold:Tower-Mode:Mineplex
 Value:Scaffold:Expand:true
 Value:Scaffold:Expand Length:2
 Value:Scaffold:Silent:true
