@@ -22,6 +22,7 @@ Module:FastUse:false:false
 Module:Fly:false:false
 Module:Fucker:false:true
 Module:GodMode:false:false
+Module:HighJump:false:false
 Module:IceSpeed:false:false
 Module:InvMove:true:true
 Module:InventoryCleaner:true:true
@@ -73,14 +74,16 @@ Value:BowAimBot:MoveFix:false
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
+Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
-Value:KillAura:Range:5.01
-Value:KillAura:TargetMode:Single
-Value:KillAura:AttackType:Packet
+Value:KillAura:Range:4.8
+Value:KillAura:TargetMode:Switch
+Value:KillAura:AttackType:PlayerController
+Value:KillAura:Switch Delay:0
 Value:KillAura:Criticals:true
-Value:KillAura:Criticals-Mode:Packet
+Value:KillAura:Criticals-Mode:onGround
 Value:KillAura:AutoBlock:true
-Value:KillAura:AutoBlock-Mode:Intave
+Value:KillAura:AutoBlock-Mode:Full
 Value:KillAura:Player:true
 Value:KillAura:Animals:false
 Value:KillAura:Villager:false
@@ -97,7 +100,7 @@ Value:KillAura:AttackDelay:true
 Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
-Value:KillAura:UseAttack:false
+Value:KillAura:UseAttack:true
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
@@ -128,7 +131,7 @@ Value:NoSlowDown:Spoofing:true
 Value:NoSlowDown:Spoof-Mode:NCP
 Value:Speed:Mode:CubeCraft
 Value:Spider:Mode:Intave
-Value:Sprint:Legit:true
+Value:Sprint:Legit:false
 Value:StairSpeed:Boost:0.7
 Value:StairSpeed:MaxBoost:9.0
 Value:StairSpeed:Decrement:0.05
@@ -180,20 +183,23 @@ Value:Disabler:Mode:Hypixel
 Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
-Value:Scaffold:DownScaffold:true
+Value:Scaffold:DownScaffold:false
 Value:Scaffold:SafeMode:false
-Value:Scaffold:Tower:true
-Value:Scaffold:Tower-Mode:Mineplex
-Value:Scaffold:Expand:false
+Value:Scaffold:Tower:false
+Value:Scaffold:Expand:true
+Value:Scaffold:Expand Length:2
 Value:Scaffold:Silent:true
 Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
-Value:Scaffold:SameY:false
+Value:Scaffold:SameY:true
+Value:Scaffold:AutoJump:true
+Value:Scaffold:Speed Boost:0.27
 Value:Scaffold:NoSwing:true
 Value:Scaffold:NoSwing-Mode:Packet
 Value:Scaffold:SmartPlacement:false
 Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
+Value:Scaffold:AllowAir:false
 Value:Scaffold:AutomaticVector:true
 Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
@@ -201,13 +207,14 @@ Value:Scaffold:Sprint:true
 Value:Scaffold:Sneak:false
 Value:Scaffold:RayCast:false
 Value:Scaffold:Rotations:true
+Value:Scaffold:ResetRotation:false
 Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:BestVector:false
-Value:Scaffold:Necessary Rotations:true
+Value:Scaffold:Necessary Rotations:false
 Value:Scaffold:MouseFix:true
-Value:Scaffold:Simple Rotations:false
+Value:Scaffold:Simple Rotations:true
 Value:Scaffold:Static Pitch:true
 Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0
@@ -233,5 +240,8 @@ Value:ObstacleSpeed:Jump:true
 Value:ObstacleSpeed:Spoof Jump:false
 Value:ObstacleSpeed:Boost:false
 Value:AutoHeal:Damage:5
+Value:AutoHeal:Eat-Delay:500
+Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:false
+Value:HighJump:Mode:Intave13.0.8Slime
