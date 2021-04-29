@@ -3,6 +3,7 @@ Module:AntiBot:true:true
 Module:AntiHunger:false:false
 Module:AntiVoid:false:false
 Module:AutoArmor:true:true
+Module:AutoHeal:false:false
 Module:Backtrack:false:false
 Module:Blink:false:true
 Module:BoatFly:false:false
@@ -15,6 +16,7 @@ Module:Disabler:false:false
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
+Module:FastBreak:false:false
 Module:FastPlace:false:false
 Module:FastUse:false:false
 Module:Fly:false:false
@@ -34,15 +36,18 @@ Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
 Module:NoSlowDown:false:false
+Module:ObstacleSpeed:false:false
 Module:OverArmor:false:false
 Module:Phase:false:false
 Module:Range:false:false
+Module:Regen:false:false
 Module:SafeWalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
-Module:Speed:false:true
+Module:Spammer:false:true
+Module:Speed:true:true
 Module:Spider:false:false
 Module:Sprint:true:true
 Module:StairSpeed:false:false
@@ -68,10 +73,12 @@ Value:BowAimBot:MoveFix:false
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
+Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
 Value:KillAura:Range:3.08
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
+Value:KillAura:Switch Delay:0
 Value:KillAura:Criticals:false
 Value:KillAura:AutoBlock:false
 Value:KillAura:Player:true
@@ -86,9 +93,11 @@ Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:false
 Value:KillAura:MoveFix:false
+Value:KillAura:AttackDelay:true
 Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
+Value:KillAura:UseAttack:false
 Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
@@ -116,7 +125,7 @@ Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:false
-Value:Speed:Mode:Mineplex FAST
+Value:Speed:Mode:Mineplex SuperFAST
 Value:Spider:Mode:Intave
 Value:Sprint:Legit:false
 Value:StairSpeed:Boost:1.12
@@ -135,8 +144,10 @@ Value:AutoArmor:Throw Delay:100
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
 Value:ChestStealer:StackItems:true
+Value:ChestStealer:RandomPick:true
 Value:ChestStealer:Auto Close:true
-Value:FastUse:Mode:Intave
+Value:FastUse:Packets:15
+Value:FastUse:inAir:false
 Value:Fucker:Range:10
 Value:Fucker:AutomaticDelay:true
 Value:Fucker:RayCast:true
@@ -166,6 +177,7 @@ Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:true
+Value:Scaffold:SafeMode:false
 Value:Scaffold:Tower:true
 Value:Scaffold:Tower-Mode:Mineplex
 Value:Scaffold:Expand:false
@@ -185,6 +197,7 @@ Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:RayCast:false
 Value:Scaffold:Rotations:true
+Value:Scaffold:ResetRotation:false
 Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
@@ -196,8 +209,25 @@ Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:true
 Value:LongJump:Mode:AAC3.3.12
 Value:LongJump:AAC3.3.12-Speed:4.5
+Value:Spammer:Delay:1000
+Value:Spammer:Custom Words:false
+Value:Spammer:Randomizing:true
+Value:Spammer:RandomChoose:false
+Value:Spammer:RandomNumbers:false
 Value:Dolphin:Mode:Intave
 Value:Dolphin:Height:3.0
 Value:Backtrack:PingSpoof:false
 Value:Backtrack:Ticks:20
 Value:Backtrack:Range:3
+Value:Regen:Packets:100
+Value:Regen:inAir:false
+Value:Regen:Sneak:false
+Value:FastBreak:BreakTime:0.2
+Value:ObstacleSpeed:Jump:true
+Value:ObstacleSpeed:Spoof Jump:false
+Value:ObstacleSpeed:Boost:false
+Value:AutoHeal:Damage:5
+Value:AutoHeal:Eat-Delay:500
+Value:AutoHeal:InAir:false
+Value:AutoHeal:Souping:false
+Value:AutoHeal:Silent:false
