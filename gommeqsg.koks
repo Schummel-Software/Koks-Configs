@@ -22,6 +22,7 @@ Module:FastUse:false:false
 Module:Fly:false:false
 Module:Fucker:false:false
 Module:GodMode:false:false
+Module:HighJump:false:false
 Module:IceSpeed:false:false
 Module:InvMove:false:false
 Module:InventoryCleaner:true:true
@@ -55,7 +56,7 @@ Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:false
 Module:Teleport:false:false
-Module:Velocity:false:false
+Module:Velocity:true:true
 Module:WallSpeed:false:false
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
@@ -110,7 +111,7 @@ Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:100
-Value:Velocity:Mode:GommeZero
+Value:Velocity:Mode:IntaveWall
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
@@ -232,3 +233,4 @@ Value:AutoHeal:Eat-Delay:500
 Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:false
+Value:HighJump:Mode:Intave13.0.8Slime
