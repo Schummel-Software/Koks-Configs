@@ -48,7 +48,7 @@ Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:true
 Module:Spammer:false:false
-Module:Speed:false:false
+Module:Speed:true:false
 Module:Spider:false:false
 Module:Sprint:true:true
 Module:StairSpeed:false:false
@@ -157,7 +157,7 @@ Value:Fucker:Range:5
 Value:Fucker:Delay:0
 Value:Fucker:AutomaticDelay:false
 Value:Fucker:RayCast:false
-Value:Fucker:ThroughWalls:false
+Value:Fucker:ThroughWalls:true
 Value:Fucker:MoveFix:false
 Value:Fucker:NoSwing:false
 Value:Fucker:Bed:true
@@ -191,15 +191,13 @@ Value:Scaffold:Expand Length:2
 Value:Scaffold:Silent:true
 Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
-Value:Scaffold:SameY:true
-Value:Scaffold:AutoJump:true
-Value:Scaffold:Speed Boost:0.27
+Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:true
 Value:Scaffold:NoSwing-Mode:Packet
 Value:Scaffold:SmartPlacement:false
 Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
-Value:Scaffold:AllowAir:false
+Value:Scaffold:AllowAir:true
 Value:Scaffold:AutomaticVector:true
 Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
