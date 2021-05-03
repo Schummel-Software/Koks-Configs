@@ -16,7 +16,7 @@ Module:Disabler:false:false
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
-Module:FastBreak:true:true
+Module:FastBreak:false:true
 Module:FastPlace:false:false
 Module:FastUse:false:false
 Module:Fly:false:false
@@ -147,7 +147,7 @@ Value:AntiVoid:Fall Distance:3.0
 Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
-Value:AutoArmor:Throw Delay:151
+Value:AutoArmor:Throw Delay:226
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
 Value:ChestStealer:StackItems:true
@@ -167,7 +167,7 @@ Value:Fucker:Beacon:false
 Value:GodMode:Mode:Intave
 Value:InventoryCleaner:OpenedInventory:true
 Value:InventoryCleaner:Start Delay:250
-Value:InventoryCleaner:Throw Delay:100
+Value:InventoryCleaner:Throw Delay:200
 Value:InventoryCleaner:PreferSword:true
 Value:InventoryCleaner:KeepTools:true
 Value:InventoryCleaner:Weapon Slot:1
@@ -194,7 +194,8 @@ Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
 Value:Scaffold:SmartPlacement:true
 Value:Scaffold:NecessaryPlacement:false
-Value:Scaffold:BlockCheck:false
+Value:Scaffold:BlockCheck:true
+Value:Scaffold:AllowAir:true
 Value:Scaffold:MoveFix:true
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false

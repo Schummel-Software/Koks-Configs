@@ -8,7 +8,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
 Module:BowAimBot:false:false
-Module:ChestStealer:false:true
+Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -39,7 +39,7 @@ Module:NoRotate:false:false
 Module:NoSlowDown:false:false
 Module:ObstacleSpeed:false:false
 Module:OverArmor:false:false
-Module:Phase:false:false
+Module:Phase:false:true
 Module:Range:false:false
 Module:Regen:false:false
 Module:SafeWalk:false:false
@@ -50,13 +50,13 @@ Module:ShopSaver:false:false
 Module:Spammer:false:false
 Module:Speed:false:false
 Module:Spider:false:true
-Module:Sprint:true:false
+Module:Sprint:false:false
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:false
 Module:Teleport:false:false
-Module:Velocity:true:true
+Module:Velocity:false:true
 Module:WallSpeed:false:false
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
@@ -147,7 +147,7 @@ Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
 Value:AutoArmor:Throw Delay:251
 Value:ChestStealer:Start Delay:249
-Value:ChestStealer:Grab Delay:203
+Value:ChestStealer:Grab Delay:251
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:RandomPick:false
 Value:ChestStealer:Auto Close:true
@@ -165,7 +165,7 @@ Value:Fucker:Beacon:false
 Value:GodMode:Mode:Intave
 Value:InventoryCleaner:OpenedInventory:true
 Value:InventoryCleaner:Start Delay:250
-Value:InventoryCleaner:Throw Delay:200
+Value:InventoryCleaner:Throw Delay:251
 Value:InventoryCleaner:PreferSword:true
 Value:InventoryCleaner:KeepTools:true
 Value:InventoryCleaner:Weapon Slot:1
@@ -173,7 +173,7 @@ Value:InventoryCleaner:Bow Slot:2
 Value:InventoryCleaner:PickAxe Slot:0
 Value:InventoryCleaner:Axe Slot:0
 Value:InventoryCleaner:Shovel Slot:0
-Value:Phase:Mode:Intave
+Value:Phase:Mode:Intave13
 Value:SetBack:Mode:Intave
 Value:ShopSaver:Spoof:false
 Value:Teleport:Mode:Vanilla
