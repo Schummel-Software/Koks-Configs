@@ -26,13 +26,14 @@ Module:HighJump:false:false
 Module:IceSpeed:false:false
 Module:InvMove:true:true
 Module:InventoryCleaner:true:true
+Module:ItemTP:false:false
 Module:Jesus:false:false
 Module:KillAura:false:true
 Module:LongJump:false:true
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:true
-Module:NoHitSlow:true:true
+Module:NoHitSlow:false:false
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
@@ -78,7 +79,7 @@ Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
 Value:KillAura:Range:6.0
 Value:KillAura:TargetMode:Single
-Value:KillAura:AttackType:Packet
+Value:KillAura:AttackType:PlayerController
 Value:KillAura:Switch Delay:0
 Value:KillAura:Criticals:true
 Value:KillAura:Criticals-Mode:onGround
@@ -97,7 +98,7 @@ Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
 Value:KillAura:SilentMoveFix:true
-Value:KillAura:AttackDelay:false
+Value:KillAura:AttackDelay:true
 Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
@@ -210,6 +211,7 @@ Value:Scaffold:A3Fix:true
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:Necessary Rotations:true
+Value:Scaffold:Rotate in Air:false
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
@@ -240,3 +242,4 @@ Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:true
 Value:HighJump:Mode:Intave13.0.8Slime
+Value:ItemTP:Reach:100
