@@ -37,7 +37,7 @@ Module:NoHitSlow:false:false
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
-Module:NoSlowDown:false:true
+Module:NoSlowDown:false:false
 Module:ObstacleSpeed:false:false
 Module:OverArmor:false:false
 Module:Phase:false:true
@@ -51,7 +51,7 @@ Module:ShopSaver:false:false
 Module:Spammer:false:true
 Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:true:true
+Module:Sprint:false:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -146,6 +146,7 @@ Value:Step:Mode:Mineplex
 Value:TargetStrafe:Mode:Legit
 Value:WallSpeed:Mode:Intave
 Value:AntiVoid:Fall Distance:3.0
+Value:AntiVoid:OnlyVoid:true
 Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
@@ -156,7 +157,7 @@ Value:ChestStealer:Make it Intelligent:true
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:RandomPick:true
 Value:ChestStealer:Auto Close:true
-Value:FastUse:Packets:15
+Value:FastUse:Packets:10
 Value:FastUse:inAir:false
 Value:Fucker:Range:10
 Value:Fucker:Delay:0
@@ -238,8 +239,9 @@ Value:FastBreak:BreakTime:0.2
 Value:ObstacleSpeed:Jump:true
 Value:ObstacleSpeed:Spoof Jump:false
 Value:ObstacleSpeed:Boost:false
-Value:AutoHeal:Damage:10
-Value:AutoHeal:Eat-Delay:1500
+Value:AutoHeal:Damage:5
+Value:AutoHeal:Eat-Delay:1029
+Value:AutoHeal:FastUse-Delay:0
 Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:true
