@@ -8,7 +8,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:true
 Module:BowAimBot:false:false
-Module:ChestStealer:false:true
+Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -32,7 +32,7 @@ Module:KillAura:false:true
 Module:LongJump:false:true
 Module:NoClip:false:false
 Module:NoCobweb:false:false
-Module:NoFall:false:true
+Module:NoFall:true:true
 Module:NoHitSlow:false:false
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
@@ -77,7 +77,7 @@ Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
-Value:KillAura:Range:6.0
+Value:KillAura:Range:5.5
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Switch Delay:0
@@ -91,6 +91,7 @@ Value:KillAura:Villager:false
 Value:KillAura:Mobs:false
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
+Value:KillAura:NoSwing:false
 Value:KillAura:Heuristics:true
 Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
@@ -127,7 +128,7 @@ Value:InvMove:Look:true
 Value:InvMove:LookWithArrow:false
 Value:Jesus:Mode:Vanilla
 Value:NoCobweb:Mode:Vanilla
-Value:NoFall:Mode:Mineplex
+Value:NoFall:Mode:Redesky
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:false
@@ -151,6 +152,7 @@ Value:AutoArmor:Start Delay:250
 Value:AutoArmor:Throw Delay:31
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:43
+Value:ChestStealer:Make it Intelligent:true
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:RandomPick:true
 Value:ChestStealer:Auto Close:true
@@ -236,8 +238,8 @@ Value:FastBreak:BreakTime:0.2
 Value:ObstacleSpeed:Jump:true
 Value:ObstacleSpeed:Spoof Jump:false
 Value:ObstacleSpeed:Boost:false
-Value:AutoHeal:Damage:5
-Value:AutoHeal:Eat-Delay:1003
+Value:AutoHeal:Damage:10
+Value:AutoHeal:Eat-Delay:1500
 Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:true

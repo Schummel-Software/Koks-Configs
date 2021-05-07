@@ -26,6 +26,7 @@ Module:HighJump:false:false
 Module:IceSpeed:false:false
 Module:InvMove:false:true
 Module:InventoryCleaner:true:true
+Module:ItemTP:false:false
 Module:Jesus:false:false
 Module:KillAura:false:true
 Module:LongJump:false:false
@@ -48,9 +49,9 @@ Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Spammer:false:false
-Module:Speed:false:false
+Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:false:false
+Module:Sprint:true:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -89,6 +90,7 @@ Value:KillAura:Villager:false
 Value:KillAura:Mobs:false
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
+Value:KillAura:NoSwing:false
 Value:KillAura:Heuristics:true
 Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
@@ -130,9 +132,7 @@ Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:true
 Value:NoSlowDown:Spoof-Mode:AAC4
-Value:Speed:Mode:AAC4
-Value:Speed:AAC4-BoostSpeed:6.66
-Value:Speed:AAC4-SlowingSpeed:0.23
+Value:Speed:Mode:Intave14
 Value:Spider:Mode:IntaveNew
 Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
@@ -150,6 +150,7 @@ Value:AutoArmor:Start Delay:250
 Value:AutoArmor:Throw Delay:226
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
+Value:ChestStealer:Make it Intelligent:true
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:RandomPick:true
 Value:ChestStealer:Auto Close:true
@@ -184,7 +185,6 @@ Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
-Value:Scaffold:SafeMode:false
 Value:Scaffold:Tower:false
 Value:Scaffold:Expand:false
 Value:Scaffold:Silent:true
@@ -207,8 +207,8 @@ Value:Scaffold:Reset-Mode:Silent
 Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
-Value:Scaffold:BestVector:false
 Value:Scaffold:Necessary Rotations:true
+Value:Scaffold:Rotate in Air:false
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
@@ -224,7 +224,6 @@ Value:Dolphin:Mode:Intave
 Value:Dolphin:Height:3.0
 Value:Backtrack:PingSpoof:false
 Value:Backtrack:Ticks:20
-Value:Backtrack:Range:3
 Value:Regen:Packets:100
 Value:Regen:inAir:false
 Value:Regen:Sneak:false
@@ -238,3 +237,4 @@ Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:false
 Value:HighJump:Mode:Intave13.0.8Slime
+Value:ItemTP:Reach:100

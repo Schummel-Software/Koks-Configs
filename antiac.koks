@@ -19,13 +19,14 @@ Module:FastBow:false:false
 Module:FastBreak:false:false
 Module:FastPlace:false:false
 Module:FastUse:false:false
-Module:Fly:false:false
+Module:Fly:false:true
 Module:Fucker:false:true
 Module:GodMode:false:false
 Module:HighJump:false:false
 Module:IceSpeed:false:false
 Module:InvMove:true:true
 Module:InventoryCleaner:true:true
+Module:ItemTP:false:false
 Module:Jesus:false:false
 Module:KillAura:false:true
 Module:LongJump:false:false
@@ -47,10 +48,10 @@ Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
-Module:Spammer:false:false
-Module:Speed:false:false
+Module:Spammer:false:true
+Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:false:true
+Module:Sprint:true:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -77,8 +78,8 @@ Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
 Value:KillAura:Range:5.0
-Value:KillAura:TargetMode:Switch
-Value:KillAura:AttackType:Packet
+Value:KillAura:TargetMode:Single
+Value:KillAura:AttackType:PlayerController
 Value:KillAura:Switch Delay:0
 Value:KillAura:Criticals:false
 Value:KillAura:AutoBlock:false
@@ -110,13 +111,11 @@ Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:100
-Value:Velocity:Mode:Cancel
+Value:Velocity:Mode:Vulcan
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
-Value:Fly:Mode:AAC1.9.10
-Value:Fly:AAC1.9.10-Speed:1.41
-Value:Fly:AAC1.9.10-MotionY:0.92
+Value:Fly:Mode:VulcanVoid
 Value:IceSpeed:Slipperiness:0.1
 Value:InvMove:Spoof:false
 Value:InvMove:Jump:true
@@ -130,7 +129,7 @@ Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:true
 Value:NoSlowDown:Spoof-Mode:NCP
-Value:Speed:Mode:Intave
+Value:Speed:Mode:Vulcan
 Value:Spider:Mode:Intave
 Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
@@ -148,6 +147,7 @@ Value:AutoArmor:Start Delay:250
 Value:AutoArmor:Throw Delay:100
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
+Value:ChestStealer:Make it Intelligent:true
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:RandomPick:true
 Value:ChestStealer:Auto Close:true
@@ -193,7 +193,7 @@ Value:Scaffold:NoSwing:false
 Value:Scaffold:SmartPlacement:false
 Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
-Value:Scaffold:AllowAir:true
+Value:Scaffold:AllowAir:false
 Value:Scaffold:AutomaticVector:true
 Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
@@ -207,17 +207,18 @@ Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:Necessary Rotations:true
+Value:Scaffold:Rotate in Air:false
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:LongJump:Mode:AAC3.3.12
 Value:LongJump:AAC3.3.12-Speed:4.5
-Value:Spammer:Delay:1000
+Value:Spammer:Delay:971
 Value:Spammer:Custom Words:false
 Value:Spammer:Randomizing:true
-Value:Spammer:RandomChoose:false
-Value:Spammer:RandomNumbers:false
+Value:Spammer:RandomChoose:true
+Value:Spammer:RandomNumbers:true
 Value:Dolphin:Mode:Intave
 Value:Dolphin:Height:3.0
 Value:Backtrack:PingSpoof:false
@@ -235,3 +236,4 @@ Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:false
 Value:HighJump:Mode:Intave13.0.8Slime
+Value:ItemTP:Reach:100
