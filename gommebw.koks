@@ -5,10 +5,10 @@ Module:AntiVoid:false:false
 Module:AutoArmor:true:true
 Module:AutoHeal:false:false
 Module:Backtrack:false:false
-Module:Blink:false:true
+Module:Blink:false:false
 Module:BoatFly:false:false
-Module:BowAimBot:false:true
-Module:ChestStealer:false:false
+Module:BowAimBot:false:false
+Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -16,7 +16,7 @@ Module:Disabler:false:false
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
-Module:FastBreak:false:true
+Module:FastBreak:false:false
 Module:FastPlace:false:false
 Module:FastUse:false:false
 Module:Fly:false:false
@@ -24,11 +24,11 @@ Module:Fucker:false:false
 Module:GodMode:false:false
 Module:HighJump:false:false
 Module:IceSpeed:false:false
-Module:InvMove:false:true
+Module:InvMove:false:false
 Module:InventoryCleaner:true:true
 Module:ItemTP:false:false
-Module:Jesus:false:false
-Module:KillAura:false:true
+Module:Jesus:false:true
+Module:KillAura:true:true
 Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
@@ -40,24 +40,24 @@ Module:NoRotate:false:false
 Module:NoSlowDown:false:false
 Module:ObstacleSpeed:false:false
 Module:OverArmor:false:false
-Module:Phase:false:false
+Module:Phase:false:true
 Module:Range:false:false
 Module:Regen:false:false
 Module:SafeWalk:false:false
-Module:Scaffold:false:true
+Module:Scaffold:false:false
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Spammer:false:false
-Module:Speed:false:true
-Module:Spider:false:false
-Module:Sprint:true:true
+Module:Speed:false:false
+Module:Spider:false:true
+Module:Sprint:true:false
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:false
 Module:Teleport:false:false
-Module:Velocity:false:false
+Module:Velocity:false:true
 Module:WallSpeed:false:false
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
@@ -75,11 +75,10 @@ Value:BowAimBot:MoveFix:true
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
-Value:KillAura:HitChance:100
-Value:KillAura:CPS:20
+Value:KillAura:HitChance:98
+Value:KillAura:CPS:16
 Value:KillAura:Range:3.0
-Value:KillAura:TargetMode:Hybrid
-Value:KillAura:PreferType:Health
+Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Switch Delay:0
 Value:KillAura:Criticals:false
@@ -94,7 +93,7 @@ Value:KillAura:NoSwing:false
 Value:KillAura:Heuristics:true
 Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
-Value:KillAura:RotationFix:false
+Value:KillAura:RotationFix:true
 Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
 Value:KillAura:SilentMoveFix:false
@@ -114,26 +113,27 @@ Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:100
-Value:Velocity:Mode:GommeZero
+Value:Velocity:Mode:IntaveWall
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
-Value:Fly:Mode:Vanilla
+Value:Fly:Mode:Verus
 Value:IceSpeed:Slipperiness:0.1
-Value:InvMove:Spoof:true
+Value:InvMove:Spoof:false
 Value:InvMove:Jump:true
 Value:InvMove:Sprint:true
 Value:InvMove:Look:true
 Value:InvMove:LookWithArrow:false
-Value:Jesus:Mode:Vanilla
+Value:Jesus:Mode:Intave13
+Value:Jesus:Intave13-SpeedBoost:false
 Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:true
-Value:NoSlowDown:Spoof-Mode:AAC4
-Value:Speed:Mode:Intave14
-Value:Spider:Mode:IntaveNew
+Value:NoSlowDown:Spoof-Mode:Intave
+Value:Speed:Mode:Tired
+Value:Spider:Mode:Gomme
 Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
 Value:StairSpeed:MaxBoost:9.0
@@ -144,15 +144,16 @@ Value:Step:Mode:Intave
 Value:TargetStrafe:Mode:Legit
 Value:WallSpeed:Mode:Intave
 Value:AntiVoid:Fall Distance:3.0
+Value:AntiVoid:OnlyVoid:true
 Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
-Value:AutoArmor:Throw Delay:226
-Value:ChestStealer:Start Delay:150
-Value:ChestStealer:Grab Delay:150
+Value:AutoArmor:Throw Delay:251
+Value:ChestStealer:Start Delay:249
+Value:ChestStealer:Grab Delay:251
 Value:ChestStealer:Make it Intelligent:true
 Value:ChestStealer:StackItems:true
-Value:ChestStealer:RandomPick:true
+Value:ChestStealer:RandomPick:false
 Value:ChestStealer:Auto Close:true
 Value:FastUse:Packets:15
 Value:FastUse:inAir:false
@@ -168,7 +169,7 @@ Value:Fucker:Beacon:false
 Value:GodMode:Mode:Intave
 Value:InventoryCleaner:OpenedInventory:true
 Value:InventoryCleaner:Start Delay:250
-Value:InventoryCleaner:Throw Delay:200
+Value:InventoryCleaner:Throw Delay:251
 Value:InventoryCleaner:PreferSword:true
 Value:InventoryCleaner:KeepTools:true
 Value:InventoryCleaner:Weapon Slot:1
@@ -176,13 +177,13 @@ Value:InventoryCleaner:Bow Slot:2
 Value:InventoryCleaner:PickAxe Slot:0
 Value:InventoryCleaner:Axe Slot:0
 Value:InventoryCleaner:Shovel Slot:0
-Value:Phase:Mode:Intave
+Value:Phase:Mode:Intave13
 Value:SetBack:Mode:Intave
-Value:ShopSaver:Spoof:true
+Value:ShopSaver:Spoof:false
 Value:Teleport:Mode:Vanilla
-Value:Disabler:Mode:Hypixel
+Value:Disabler:Mode:Mineplex
 Value:Scaffold:Delay:0
-Value:Scaffold:Motion:1.0
+Value:Scaffold:Motion:1.09
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
 Value:Scaffold:Tower:false
@@ -190,20 +191,21 @@ Value:Scaffold:Expand:false
 Value:Scaffold:Silent:true
 Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
-Value:Scaffold:SameY:false
+Value:Scaffold:SameY:true
+Value:Scaffold:AutoJump:true
+Value:Scaffold:Jump-Motion:0.42
+Value:Scaffold:Speed Boost:0.2
 Value:Scaffold:NoSwing:false
 Value:Scaffold:SmartPlacement:true
-Value:Scaffold:NecessaryPlacement:false
-Value:Scaffold:BlockCheck:true
-Value:Scaffold:AllowAir:true
+Value:Scaffold:NecessaryPlacement:true
+Value:Scaffold:BlockCheck:false
 Value:Scaffold:MoveFix:true
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:RayCast:false
 Value:Scaffold:Rotations:true
-Value:Scaffold:ResetRotation:true
-Value:Scaffold:Reset-Mode:Silent
+Value:Scaffold:ResetRotation:false
 Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
@@ -227,7 +229,7 @@ Value:Backtrack:Ticks:20
 Value:Regen:Packets:100
 Value:Regen:inAir:false
 Value:Regen:Sneak:false
-Value:FastBreak:BreakTime:0.02
+Value:FastBreak:BreakTime:0.2
 Value:ObstacleSpeed:Jump:true
 Value:ObstacleSpeed:Spoof Jump:false
 Value:ObstacleSpeed:Boost:false

@@ -92,7 +92,7 @@ Value:KillAura:Mobs:false
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:NoSwing:false
-Value:KillAura:Heuristics:true
+Value:KillAura:Heuristics:false
 Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
@@ -241,7 +241,7 @@ Value:ObstacleSpeed:Spoof Jump:false
 Value:ObstacleSpeed:Boost:false
 Value:AutoHeal:Damage:5
 Value:AutoHeal:Eat-Delay:1029
-Value:AutoHeal:FastUse-Delay:0
+Value:AutoHeal:FastUse-Delay:457
 Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:true
