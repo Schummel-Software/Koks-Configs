@@ -8,11 +8,11 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:true
 Module:BowAimBot:false:false
-Module:ChestStealer:true:true
+Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
-Module:Disabler:false:false
+Module:Disabler:true:true
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
@@ -68,7 +68,6 @@ Value:AntiBot:TabListCheck:false
 Value:AntiBot:PingCheck:false
 Value:AntiBot:Sound Check:false
 Value:AntiBot:Rotation Check:false
-Value:AntiBot:Gamster Check:false
 Value:BowAimBot:OnlyPlayers:true
 Value:BowAimBot:ThroughWalls:true
 Value:BowAimBot:MoveFix:false
@@ -79,7 +78,7 @@ Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
 Value:KillAura:Range:5.5
 Value:KillAura:TargetMode:Single
-Value:KillAura:AttackType:PlayerController
+Value:KillAura:AttackType:Packet
 Value:KillAura:Switch Delay:0
 Value:KillAura:Criticals:true
 Value:KillAura:Criticals-Mode:onGround
@@ -133,8 +132,8 @@ Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:false
 Value:Speed:Mode:AAC4
-Value:Speed:AAC4-BoostSpeed:50.0
-Value:Speed:AAC4-SlowingSpeed:0.1
+Value:Speed:AAC4-BoostSpeed:20.23
+Value:Speed:AAC4-SlowingSpeed:1.0
 Value:Spider:Mode:Intave
 Value:Sprint:Legit:false
 Value:StairSpeed:Boost:0.7
@@ -185,7 +184,8 @@ Value:Phase:Mode:Redesky
 Value:SetBack:Mode:Intave
 Value:ShopSaver:Spoof:false
 Value:Teleport:Mode:Vanilla
-Value:Disabler:Mode:Mineplex
+Value:Disabler:Mode:Redesky
+Value:Disabler:Semi-Disabler:true
 Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
