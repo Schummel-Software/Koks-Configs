@@ -8,7 +8,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
 Module:BowAimBot:false:true
-Module:ChestStealer:false:true
+Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -29,7 +29,7 @@ Module:InventoryCleaner:true:true
 Module:ItemTP:false:false
 Module:Jesus:false:false
 Module:KillAura:false:true
-Module:LongJump:false:false
+Module:LongJump:false:true
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
@@ -51,7 +51,7 @@ Module:ShopSaver:false:false
 Module:Spammer:false:false
 Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:false:true
+Module:Sprint:true:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -76,7 +76,7 @@ Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
-Value:KillAura:Range:3.5
+Value:KillAura:Range:3.31
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:Packet
 Value:KillAura:Switch Delay:0
@@ -131,7 +131,7 @@ Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:false
 Value:Speed:Mode:CubeCraft
 Value:Spider:Mode:Intave
-Value:Sprint:Legit:false
+Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
 Value:StairSpeed:MaxBoost:9.0
 Value:StairSpeed:Decrement:0.05
@@ -147,7 +147,7 @@ Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:251
 Value:AutoArmor:Throw Delay:150
 Value:ChestStealer:Start Delay:220
-Value:ChestStealer:Grab Delay:214
+Value:ChestStealer:Grab Delay:123
 Value:ChestStealer:Make it Intelligent:true
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:RandomPick:true
@@ -178,9 +178,9 @@ Value:Phase:Mode:AAC1.9.10
 Value:SetBack:Mode:Intave
 Value:ShopSaver:Spoof:false
 Value:Teleport:Mode:Hypixel
-Value:Disabler:Mode:Hypixel
-Value:Disabler:Semi-Disabler:true
-Value:Disabler:Timer-Disabler:true
+Value:Disabler:Mode:CubeCraft
+Value:Disabler:Semi-Disabler:false
+Value:Disabler:PacketOverloading-Disabler:true
 Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true

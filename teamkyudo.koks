@@ -189,7 +189,7 @@ Value:Disabler:Timer-Disabler:true
 Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
-Value:Scaffold:DownScaffold:false
+Value:Scaffold:DownScaffold:true
 Value:Scaffold:Tower:true
 Value:Scaffold:Tower-Mode:Mineplex
 Value:Scaffold:Expand:true
