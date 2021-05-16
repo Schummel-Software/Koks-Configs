@@ -44,12 +44,12 @@ Module:Phase:false:false
 Module:Range:false:false
 Module:Regen:false:false
 Module:SafeWalk:false:false
-Module:Scaffold:true:true
+Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Spammer:false:false
-Module:Speed:false:false
+Module:Speed:false:true
 Module:Spider:false:false
 Module:Sprint:false:true
 Module:StairSpeed:false:false
@@ -130,7 +130,7 @@ Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:true
 Value:NoSlowDown:Spoof-Mode:NCP
-Value:Speed:Mode:Mineplex Ground
+Value:Speed:Mode:HypixelGround
 Value:Spider:Mode:Intave
 Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
