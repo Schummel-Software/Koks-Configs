@@ -197,7 +197,9 @@ Value:Scaffold:Expand Length:5
 Value:Scaffold:Silent:true
 Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
-Value:Scaffold:SameY:false
+Value:Scaffold:SameY:true
+Value:Scaffold:AutoJump:false
+Value:Scaffold:Speed Boost:0.2
 Value:Scaffold:NoSwing:true
 Value:Scaffold:NoSwing-Mode:Packet
 Value:Scaffold:SmartPlacement:false
