@@ -12,7 +12,7 @@ Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
-Module:Disabler:false:false
+Module:Disabler:true:true
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
@@ -112,7 +112,7 @@ Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:251
-Value:Velocity:Mode:Vulcan
+Value:Velocity:Mode:CubeCraft
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
@@ -147,7 +147,7 @@ Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:251
 Value:AutoArmor:Throw Delay:150
 Value:ChestStealer:Start Delay:220
-Value:ChestStealer:Grab Delay:123
+Value:ChestStealer:Grab Delay:209
 Value:ChestStealer:Make it Intelligent:true
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:RandomPick:true

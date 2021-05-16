@@ -1,5 +1,5 @@
 Module:AlwaysPlace:false:false
-Module:AntiBot:true:true
+Module:AntiBot:true:false
 Module:AntiHunger:false:false
 Module:AntiVoid:false:false
 Module:AutoArmor:true:true
@@ -9,16 +9,16 @@ Module:Blink:false:false
 Module:BoatFly:false:false
 Module:BowAimBot:false:false
 Module:ChestStealer:false:false
-Module:CivBreak:false:false
+Module:CivBreak:false:true
 Module:Debug:false:false
 Module:Debug2:false:false
 Module:Disabler:false:false
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
-Module:FastBreak:false:false
+Module:FastBreak:false:true
 Module:FastPlace:false:false
-Module:FastUse:false:false
+Module:FastUse:false:true
 Module:Fly:false:false
 Module:Fucker:false:true
 Module:GodMode:false:false
@@ -33,23 +33,23 @@ Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
-Module:NoHitSlow:false:false
+Module:NoHitSlow:true:true
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
-Module:NoSlowDown:false:false
+Module:NoSlowDown:true:true
 Module:ObstacleSpeed:false:false
 Module:OverArmor:false:false
 Module:Phase:false:false
-Module:Range:false:false
+Module:Range:true:false
 Module:Regen:false:false
 Module:SafeWalk:false:false
 Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
-Module:ShopSaver:false:false
-Module:Spammer:false:true
-Module:Speed:false:false
+Module:ShopSaver:false:true
+Module:Spammer:false:false
+Module:Speed:false:true
 Module:Spider:false:false
 Module:Sprint:true:true
 Module:StairSpeed:false:false
@@ -76,7 +76,7 @@ Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
-Value:KillAura:Range:5.0
+Value:KillAura:Range:5.5
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Switch Delay:0
@@ -89,12 +89,13 @@ Value:KillAura:Mobs:false
 Value:KillAura:Ignore Death:true
 Value:KillAura:Ignore Invisible:true
 Value:KillAura:NoSwing:false
-Value:KillAura:Heuristics:true
+Value:KillAura:Heuristics:false
 Value:KillAura:Prediction:true
 Value:KillAura:RayCast:true
 Value:KillAura:RotationFix:false
 Value:KillAura:MouseFix:true
-Value:KillAura:MoveFix:false
+Value:KillAura:MoveFix:true
+Value:KillAura:SilentMoveFix:true
 Value:KillAura:AttackDelay:true
 Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
@@ -111,8 +112,8 @@ Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:100
-Value:Velocity:Mode:Vulcan
-Value:Range:Range:3.0
+Value:Velocity:Mode:AAC3.3.14
+Value:Range:Range:6.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
 Value:Fly:Mode:VulcanVoid
@@ -124,20 +125,19 @@ Value:InvMove:Look:true
 Value:InvMove:LookWithArrow:false
 Value:Jesus:Mode:Vanilla
 Value:NoCobweb:Mode:Vanilla
-Value:NoFall:Mode:Mineplex
+Value:NoFall:Mode:Redesky
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
-Value:NoSlowDown:Spoofing:true
-Value:NoSlowDown:Spoof-Mode:NCP
-Value:Speed:Mode:Vulcan
+Value:NoSlowDown:Spoofing:false
+Value:Speed:Mode:Intave14.0.3
 Value:Spider:Mode:Intave
-Value:Sprint:Legit:true
+Value:Sprint:Legit:false
 Value:StairSpeed:Boost:0.7
 Value:StairSpeed:MaxBoost:9.0
 Value:StairSpeed:Decrement:0.05
 Value:StairSpeed:Air-Decrement:3.0
 Value:StairSpeed:KeepBoost:false
-Value:Step:Mode:Intave
+Value:Step:Mode:Intave13
 Value:TargetStrafe:Mode:Legit
 Value:WallSpeed:Mode:Intave
 Value:AntiVoid:Fall Distance:3.0
@@ -154,18 +154,17 @@ Value:ChestStealer:RandomPick:true
 Value:ChestStealer:Auto Close:true
 Value:FastUse:Packets:15
 Value:FastUse:inAir:false
-Value:Fucker:Range:5
-Value:Fucker:Delay:0
-Value:Fucker:AutomaticDelay:false
+Value:Fucker:Range:10
+Value:Fucker:AutomaticDelay:true
 Value:Fucker:RayCast:false
-Value:Fucker:ThroughWalls:false
+Value:Fucker:ThroughWalls:true
 Value:Fucker:MoveFix:true
 Value:Fucker:NoSwing:false
 Value:Fucker:Bed:true
 Value:Fucker:DragonEgg:false
 Value:Fucker:Cake:false
 Value:Fucker:Beacon:false
-Value:GodMode:Mode:Intave Border
+Value:GodMode:Mode:Intave
 Value:InventoryCleaner:OpenedInventory:true
 Value:InventoryCleaner:Start Delay:250
 Value:InventoryCleaner:Throw Delay:100
@@ -176,8 +175,8 @@ Value:InventoryCleaner:Bow Slot:2
 Value:InventoryCleaner:PickAxe Slot:0
 Value:InventoryCleaner:Axe Slot:0
 Value:InventoryCleaner:Shovel Slot:0
-Value:Phase:Mode:AAC1.9.10
-Value:SetBack:Mode:Intave
+Value:Phase:Mode:Redesky
+Value:SetBack:Mode:AAC3.0.1
 Value:ShopSaver:Spoof:false
 Value:Teleport:Mode:Vanilla
 Value:Disabler:Mode:Hypixel
@@ -188,20 +187,17 @@ Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
 Value:Scaffold:Tower:false
-Value:Scaffold:Expand:true
-Value:Scaffold:Expand Length:5
-Value:Scaffold:All Direction Expand:false
+Value:Scaffold:Expand:false
 Value:Scaffold:Silent:true
 Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
 Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
-Value:Scaffold:SmartPlacement:false
+Value:Scaffold:SmartPlacement:true
 Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
-Value:Scaffold:AllowAir:false
-Value:Scaffold:AutomaticVector:true
-Value:Scaffold:MoveFix:false
+Value:Scaffold:AllowAir:true
+Value:Scaffold:MoveFix:true
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
@@ -215,28 +211,28 @@ Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:Necessary Rotations:true
 Value:Scaffold:Rotate in Air:false
 Value:Scaffold:MouseFix:true
-Value:Scaffold:Simple Rotations:true
-Value:Scaffold:DynamicYaw:false
+Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
 Value:LongJump:Mode:AAC3.3.12
 Value:LongJump:AAC3.3.12-Speed:4.5
-Value:Spammer:Delay:971
+Value:Spammer:Delay:1000
 Value:Spammer:Custom Words:false
 Value:Spammer:Randomizing:true
-Value:Spammer:RandomChoose:true
-Value:Spammer:RandomNumbers:true
+Value:Spammer:RandomChoose:false
+Value:Spammer:RandomNumbers:false
 Value:Dolphin:Mode:Intave
 Value:Dolphin:Height:3.0
 Value:Backtrack:PingSpoof:false
-Value:Backtrack:Ticks:20
+Value:Backtrack:Ticks:12
 Value:Regen:Packets:100
 Value:Regen:inAir:false
 Value:Regen:Sneak:false
-Value:FastBreak:BreakTime:0.2
-Value:ObstacleSpeed:Jump:true
-Value:ObstacleSpeed:Spoof Jump:false
-Value:ObstacleSpeed:Boost:false
+Value:FastBreak:BreakTime:0.0
+Value:ObstacleSpeed:Jump:false
+Value:ObstacleSpeed:Boost:true
+Value:ObstacleSpeed:KeepBoost:true
+Value:ObstacleSpeed:Speed:0.17
 Value:AutoHeal:Damage:5
 Value:AutoHeal:Eat-Delay:500
 Value:AutoHeal:InAir:false
