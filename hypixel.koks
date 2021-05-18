@@ -28,7 +28,7 @@ Module:InvMove:false:true
 Module:InventoryCleaner:true:true
 Module:ItemTP:false:false
 Module:Jesus:false:false
-Module:KillAura:false:true
+Module:KillAura:true:true
 Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
@@ -130,7 +130,7 @@ Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:true
 Value:NoSlowDown:Spoof-Mode:NCP
-Value:Speed:Mode:HypixelAutomatic
+Value:Speed:Mode:HypixelBhop
 Value:Spider:Mode:Intave
 Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
@@ -182,8 +182,8 @@ Value:SetBack:Mode:Intave
 Value:ShopSaver:Spoof:false
 Value:Teleport:Mode:HypixelHover
 Value:Disabler:Mode:Hypixel
-Value:Disabler:Semi-Disabler:true
-Value:Disabler:Timer-Disabler:false
+Value:Disabler:Semi-Disabler:false
+Value:Disabler:Timer-Disabler:true
 Value:Scaffold:Delay:20
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
