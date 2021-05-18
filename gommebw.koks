@@ -7,8 +7,8 @@ Module:AutoHeal:false:false
 Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
-Module:BowAimBot:false:false
-Module:ChestStealer:false:true
+Module:BowAimBot:true:true
+Module:ChestStealer:false:false
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -27,8 +27,8 @@ Module:IceSpeed:false:false
 Module:InvMove:false:false
 Module:InventoryCleaner:true:true
 Module:ItemTP:false:false
-Module:Jesus:false:true
-Module:KillAura:true:true
+Module:Jesus:false:false
+Module:KillAura:false:true
 Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
@@ -40,24 +40,24 @@ Module:NoRotate:false:false
 Module:NoSlowDown:false:false
 Module:ObstacleSpeed:false:false
 Module:OverArmor:false:false
-Module:Phase:false:true
+Module:Phase:false:false
 Module:Range:false:false
 Module:Regen:false:false
 Module:SafeWalk:false:false
-Module:Scaffold:false:false
+Module:Scaffold:false:true
 Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Spammer:false:false
 Module:Speed:false:false
-Module:Spider:false:true
-Module:Sprint:true:false
+Module:Spider:false:false
+Module:Sprint:true:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
 Module:TargetStrafe:false:false
 Module:Teleport:false:false
-Module:Velocity:false:true
+Module:Velocity:false:false
 Module:WallSpeed:false:false
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
@@ -68,15 +68,14 @@ Value:AntiBot:TabListCheck:false
 Value:AntiBot:PingCheck:false
 Value:AntiBot:Sound Check:false
 Value:AntiBot:Rotation Check:false
-Value:AntiBot:Gamster Check:false
 Value:BowAimBot:OnlyPlayers:true
 Value:BowAimBot:ThroughWalls:false
 Value:BowAimBot:MoveFix:true
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
-Value:KillAura:HitChance:98
-Value:KillAura:CPS:16
+Value:KillAura:HitChance:100
+Value:KillAura:CPS:20
 Value:KillAura:Range:3.0
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
@@ -132,7 +131,7 @@ Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:Spoofing:true
 Value:NoSlowDown:Spoof-Mode:Intave
-Value:Speed:Mode:Tired
+Value:Speed:Mode:Intave14.0.3
 Value:Spider:Mode:Gomme
 Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
@@ -182,8 +181,9 @@ Value:SetBack:Mode:Intave
 Value:ShopSaver:Spoof:false
 Value:Teleport:Mode:Vanilla
 Value:Disabler:Mode:Mineplex
+Value:Disabler:Ban-Disabler:false
 Value:Scaffold:Delay:0
-Value:Scaffold:Motion:1.09
+Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
 Value:Scaffold:DownScaffold:false
 Value:Scaffold:Tower:false
@@ -191,26 +191,25 @@ Value:Scaffold:Expand:false
 Value:Scaffold:Silent:true
 Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
-Value:Scaffold:SameY:true
-Value:Scaffold:AutoJump:true
-Value:Scaffold:Jump-Motion:0.42
-Value:Scaffold:Speed Boost:0.2
+Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
 Value:Scaffold:SmartPlacement:true
-Value:Scaffold:NecessaryPlacement:true
-Value:Scaffold:BlockCheck:false
+Value:Scaffold:NecessaryPlacement:false
+Value:Scaffold:BlockCheck:true
+Value:Scaffold:AllowAir:true
 Value:Scaffold:MoveFix:true
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:RayCast:false
 Value:Scaffold:Rotations:true
-Value:Scaffold:ResetRotation:false
+Value:Scaffold:ResetRotation:true
+Value:Scaffold:Reset-Mode:Silent
 Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:Necessary Rotations:true
-Value:Scaffold:Rotate in Air:false
+Value:Scaffold:Rotate in Air:true
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
