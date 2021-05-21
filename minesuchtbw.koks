@@ -68,7 +68,6 @@ Value:AntiBot:TabListCheck:false
 Value:AntiBot:PingCheck:false
 Value:AntiBot:Sound Check:false
 Value:AntiBot:Rotation Check:false
-Value:AntiBot:Gamster Check:false
 Value:BowAimBot:OnlyPlayers:true
 Value:BowAimBot:ThroughWalls:true
 Value:BowAimBot:MoveFix:true
@@ -77,6 +76,7 @@ Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
+Value:KillAura:Calculate CPS on Hit:false
 Value:KillAura:Range:3.17
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
@@ -143,6 +143,7 @@ Value:Step:StepHeight:4.0
 Value:TargetStrafe:Mode:Legit
 Value:WallSpeed:Mode:Intave
 Value:AntiVoid:Fall Distance:3.0
+Value:AntiVoid:OnlyVoid:true
 Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
@@ -181,6 +182,8 @@ Value:SetBack:Mode:Intave
 Value:ShopSaver:Spoof:false
 Value:Teleport:Mode:Hypixel
 Value:Disabler:Mode:Hypixel
+Value:Disabler:Semi-Disabler:true
+Value:Disabler:Timer-Disabler:true
 Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
@@ -195,7 +198,6 @@ Value:Scaffold:AutoJump:true
 Value:Scaffold:Jump-Motion:0.42
 Value:Scaffold:Speed Boost:0.2
 Value:Scaffold:NoSwing:false
-Value:Scaffold:SmartPlacement:true
 Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
 Value:Scaffold:AllowAir:true
@@ -204,8 +206,8 @@ Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:true
 Value:Scaffold:SpoofSneak:false
-Value:Scaffold:Sneak after...:7
-Value:Scaffold:RayCast:false
+Value:Scaffold:Sneak after...:5
+Value:Scaffold:RayCast:true
 Value:Scaffold:Rotations:true
 Value:Scaffold:ResetRotation:true
 Value:Scaffold:Reset-Mode:Silent
@@ -218,6 +220,8 @@ Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
+Value:NoHitSlow:Slowness:0.6
+Value:NoHitSlow:Sprinting:true
 Value:LongJump:Mode:AAC3.3.12
 Value:LongJump:AAC3.3.12-Speed:4.5
 Value:Spammer:Delay:1000

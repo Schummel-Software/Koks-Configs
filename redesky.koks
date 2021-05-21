@@ -51,7 +51,7 @@ Module:ShopSaver:false:false
 Module:Spammer:false:true
 Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:false:true
+Module:Sprint:true:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -76,6 +76,7 @@ Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
+Value:KillAura:Calculate CPS on Hit:false
 Value:KillAura:Range:5.5
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:Packet
@@ -114,7 +115,9 @@ Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:100
-Value:Velocity:Mode:Cancel
+Value:Velocity:Mode:Packet
+Value:Velocity:Cancel:true
+Value:Velocity:HypixelBypass:false
 Value:Range:Range:4.03
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
@@ -197,12 +200,12 @@ Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
 Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
-Value:Scaffold:SmartPlacement:false
 Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
 Value:Scaffold:AllowAir:false
 Value:Scaffold:AutomaticVector:true
 Value:Scaffold:MoveFix:true
+Value:Scaffold:ShouldYaw:true
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
@@ -219,6 +222,8 @@ Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
+Value:NoHitSlow:Slowness:0.6
+Value:NoHitSlow:Sprinting:true
 Value:LongJump:Mode:Redesky
 Value:LongJump:Redesky-Motion:0.65
 Value:LongJump:Redesky-Boost:0.2

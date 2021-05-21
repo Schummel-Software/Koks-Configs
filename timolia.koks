@@ -194,7 +194,7 @@ Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:SpoofSneak:false
 Value:Scaffold:Sneak after...:1
-Value:Scaffold:RayCast:false
+Value:Scaffold:RayCast:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:BestVector:false
 Value:Scaffold:Necessary Rotations:false

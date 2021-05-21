@@ -76,6 +76,7 @@ Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
+Value:KillAura:Calculate CPS on Hit:false
 Value:KillAura:Range:3.0
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
@@ -193,15 +194,15 @@ Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
 Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
-Value:Scaffold:SmartPlacement:true
 Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
 Value:Scaffold:AllowAir:true
 Value:Scaffold:MoveFix:true
+Value:Scaffold:ShouldYaw:true
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
-Value:Scaffold:RayCast:false
+Value:Scaffold:RayCast:true
 Value:Scaffold:Rotations:true
 Value:Scaffold:ResetRotation:true
 Value:Scaffold:Reset-Mode:Silent
@@ -209,11 +210,13 @@ Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:Necessary Rotations:true
-Value:Scaffold:Rotate in Air:true
+Value:Scaffold:Rotate in Air:false
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
+Value:NoHitSlow:Slowness:0.6
+Value:NoHitSlow:Sprinting:true
 Value:LongJump:Mode:AAC3.3.12
 Value:LongJump:AAC3.3.12-Speed:4.5
 Value:Spammer:Delay:1000

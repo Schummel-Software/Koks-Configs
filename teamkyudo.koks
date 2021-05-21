@@ -51,7 +51,7 @@ Module:ShopSaver:false:true
 Module:Spammer:false:false
 Module:Speed:false:false
 Module:Spider:false:false
-Module:Sprint:false:true
+Module:Sprint:true:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -194,6 +194,7 @@ Value:Scaffold:Tower:true
 Value:Scaffold:Tower-Mode:Mineplex
 Value:Scaffold:Expand:true
 Value:Scaffold:Expand Length:5
+Value:Scaffold:All Direction Expand:false
 Value:Scaffold:Silent:true
 Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
@@ -221,6 +222,7 @@ Value:Scaffold:AlwaysRotate:true
 Value:Scaffold:Necessary Rotations:false
 Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:true
+Value:Scaffold:DynamicYaw:true
 Value:Scaffold:Static Pitch:true
 Value:Scaffold:Ignore Yaw:false
 Value:Scaffold:Pitch:82.0

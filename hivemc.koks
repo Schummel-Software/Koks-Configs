@@ -178,7 +178,7 @@ Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:true
 Value:Scaffold:Sneak:false
-Value:Scaffold:RayCast:false
+Value:Scaffold:RayCast:true
 Value:Scaffold:Rotations:true
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:false

@@ -199,7 +199,7 @@ Value:Scaffold:MoveFix:true
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
-Value:Scaffold:RayCast:false
+Value:Scaffold:RayCast:true
 Value:Scaffold:Rotations:true
 Value:Scaffold:ResetRotation:false
 Value:Scaffold:A3Fix:false
