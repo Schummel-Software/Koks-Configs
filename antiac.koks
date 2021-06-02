@@ -24,6 +24,7 @@ Module:Fucker:false:true
 Module:GodMode:false:false
 Module:HighJump:false:false
 Module:IceSpeed:false:false
+Module:InvManager(WIP):false:false
 Module:InvMove:true:true
 Module:InventoryCleaner:true:true
 Module:ItemTP:false:false
@@ -49,9 +50,9 @@ Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Spammer:false:true
-Module:Speed:false:false
+Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:true:true
+Module:Sprint:false:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -76,6 +77,7 @@ Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
+Value:KillAura:Calculate CPS on Hit:false
 Value:KillAura:Range:5.0
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
@@ -116,6 +118,7 @@ Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
 Value:Fly:Mode:VulcanVoid
+Value:Fly:Intave13.0.8-BoostMotion:1.49
 Value:IceSpeed:Slipperiness:0.1
 Value:InvMove:Spoof:false
 Value:InvMove:Jump:true
@@ -127,9 +130,12 @@ Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
+Value:NoSlowDown:OnlySword:false
 Value:NoSlowDown:Spoofing:true
 Value:NoSlowDown:Spoof-Mode:NCP
-Value:Speed:Mode:Vulcan
+Value:Speed:Mode:AAC4
+Value:Speed:AAC4-BoostSpeed:40.6
+Value:Speed:AAC4-SlowingSpeed:0.23
 Value:Spider:Mode:Intave
 Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
@@ -146,6 +152,7 @@ Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
 Value:AutoArmor:Throw Delay:100
+Value:Blink:DismountVehicle:true
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:150
 Value:ChestStealer:Make it Intelligent:true
@@ -196,7 +203,6 @@ Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
 Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
-Value:Scaffold:SmartPlacement:false
 Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
 Value:Scaffold:AllowAir:false
@@ -219,6 +225,8 @@ Value:Scaffold:Simple Rotations:true
 Value:Scaffold:DynamicYaw:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
+Value:NoHitSlow:Slowness:0.6
+Value:NoHitSlow:Sprinting:true
 Value:LongJump:Mode:AAC3.3.12
 Value:LongJump:AAC3.3.12-Speed:4.5
 Value:Spammer:Delay:971
@@ -243,4 +251,9 @@ Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:false
 Value:HighJump:Mode:Intave13.0.8Slime
+Value:InvManager(WIP):Drop Delay:100
+Value:InvManager(WIP):Start Delay:100
+Value:InvManager(WIP):Random:false
+Value:InvManager(WIP):Ignore Inventory:false
+Value:InvManager(WIP):Single Drop:true
 Value:ItemTP:Reach:100

@@ -3,33 +3,34 @@ Module:AntiBot:true:true
 Module:AntiHunger:false:false
 Module:AntiVoid:false:false
 Module:AutoArmor:true:true
-Module:AutoHeal:true:true
+Module:AutoHeal:false:false
 Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:true
-Module:BowAimBot:false:false
-Module:ChestStealer:false:true
+Module:BowAimBot:true:true
+Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
-Module:Disabler:true:true
+Module:Disabler:false:false
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
 Module:FastBreak:false:false
 Module:FastPlace:false:false
-Module:FastUse:true:true
-Module:Fly:false:true
+Module:FastUse:false:false
+Module:Fly:false:false
 Module:Fucker:false:true
 Module:GodMode:false:false
 Module:HighJump:false:false
 Module:IceSpeed:false:false
+Module:InvManager(WIP):false:false
 Module:InvMove:true:true
 Module:InventoryCleaner:true:true
 Module:ItemTP:false:false
 Module:Jesus:false:false
 Module:KillAura:false:true
-Module:LongJump:false:true
+Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:true:true
@@ -69,8 +70,8 @@ Value:AntiBot:PingCheck:false
 Value:AntiBot:Sound Check:false
 Value:AntiBot:Rotation Check:false
 Value:BowAimBot:OnlyPlayers:true
-Value:BowAimBot:ThroughWalls:true
-Value:BowAimBot:MoveFix:false
+Value:BowAimBot:ThroughWalls:false
+Value:BowAimBot:MoveFix:true
 Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
@@ -81,8 +82,7 @@ Value:KillAura:Range:5.5
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:Packet
 Value:KillAura:Switch Delay:0
-Value:KillAura:Criticals:true
-Value:KillAura:Criticals-Mode:onGround
+Value:KillAura:Criticals:false
 Value:KillAura:AutoBlock:true
 Value:KillAura:AutoBlock-Mode:Full
 Value:KillAura:Player:true
@@ -115,13 +115,12 @@ Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:100
-Value:Velocity:Mode:Packet
-Value:Velocity:Cancel:true
-Value:Velocity:HypixelBypass:false
+Value:Velocity:Mode:Intave13KeepLow
 Value:Range:Range:4.03
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
-Value:Fly:Mode:Redesky
+Value:Fly:Mode:Vanilla
+Value:Fly:Vanilla-Speed:0.01
 Value:IceSpeed:Slipperiness:0.1
 Value:InvMove:Spoof:false
 Value:InvMove:Jump:true
@@ -133,6 +132,7 @@ Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Redesky
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
+Value:NoSlowDown:OnlySword:false
 Value:NoSlowDown:Spoofing:false
 Value:Speed:Mode:AAC4
 Value:Speed:AAC4-BoostSpeed:20.23
@@ -153,6 +153,7 @@ Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
 Value:AutoArmor:Throw Delay:31
+Value:Blink:DismountVehicle:true
 Value:ChestStealer:Start Delay:150
 Value:ChestStealer:Grab Delay:43
 Value:ChestStealer:Make it Intelligent:true
@@ -200,7 +201,7 @@ Value:Scaffold:Silent Switch:false
 Value:Scaffold:Switch Blocks:false
 Value:Scaffold:SameY:false
 Value:Scaffold:NoSwing:false
-Value:Scaffold:NecessaryPlacement:false
+Value:Scaffold:NecessaryPlacement:true
 Value:Scaffold:BlockCheck:true
 Value:Scaffold:AllowAir:false
 Value:Scaffold:AutomaticVector:true
@@ -225,9 +226,9 @@ Value:Scaffold:Ignore Yaw:false
 Value:NoHitSlow:Slowness:0.6
 Value:NoHitSlow:Sprinting:true
 Value:LongJump:Mode:Redesky
-Value:LongJump:Redesky-Motion:0.65
-Value:LongJump:Redesky-Boost:0.2
-Value:LongJump:Redesky-Speed:1.0
+Value:LongJump:Redesky-Motion:0.06
+Value:LongJump:Redesky-Boost:0.15
+Value:LongJump:Redesky-Speed:0.3
 Value:Spammer:Delay:3838
 Value:Spammer:Custom Words:false
 Value:Spammer:Randomizing:true
@@ -246,9 +247,13 @@ Value:ObstacleSpeed:Spoof Jump:false
 Value:ObstacleSpeed:Boost:false
 Value:AutoHeal:Damage:5
 Value:AutoHeal:Eat-Delay:1029
-Value:AutoHeal:FastUse-Delay:457
 Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:true
 Value:HighJump:Mode:Intave13.0.8Slime
+Value:InvManager(WIP):Drop Delay:100
+Value:InvManager(WIP):Start Delay:100
+Value:InvManager(WIP):Random:false
+Value:InvManager(WIP):Ignore Inventory:false
+Value:InvManager(WIP):Single Drop:true
 Value:ItemTP:Reach:100
