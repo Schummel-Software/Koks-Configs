@@ -12,7 +12,7 @@ Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
-Module:Disabler:true:true
+Module:Disabler:false:false
 Module:Dolphin:false:false
 Module:DoubleJump:false:false
 Module:FastBow:false:false
@@ -24,6 +24,7 @@ Module:Fucker:false:true
 Module:GodMode:false:false
 Module:HighJump:false:false
 Module:IceSpeed:false:false
+Module:InvManager(WIP):false:false
 Module:InvMove:true:true
 Module:InventoryCleaner:true:true
 Module:ItemTP:false:false
@@ -76,10 +77,10 @@ Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
 Value:KillAura:CPS:20
-Value:KillAura:Calculate CPS on Hit:false
-Value:KillAura:Range:3.31
+Value:KillAura:Calculate CPS on Hit:true
+Value:KillAura:Range:3.0
 Value:KillAura:TargetMode:Single
-Value:KillAura:AttackType:Packet
+Value:KillAura:AttackType:PlayerController
 Value:KillAura:Switch Delay:0
 Value:KillAura:Criticals:false
 Value:KillAura:AutoBlock:false
@@ -98,8 +99,7 @@ Value:KillAura:MouseFix:true
 Value:KillAura:MoveFix:true
 Value:KillAura:SilentMoveFix:true
 Value:KillAura:AttackDelay:true
-Value:KillAura:ThroughWalls:true
-Value:KillAura:ThroughWalls Range:3.0
+Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
 Value:KillAura:EatAttack:false
 Value:KillAura:UseAttack:false
@@ -107,20 +107,22 @@ Value:KillAura:PreAimAttack:false
 Value:KillAura:Haze Range:false
 Value:KillAura:Rotations:true
 Value:KillAura:A3Fix:false
-Value:KillAura:ResetRotation:false
+Value:KillAura:ResetRotation:true
+Value:KillAura:Reset-Mode:Silent
 Value:KillAura:BestVector:true
 Value:KillAura:LockView:false
 Value:KillAura:Necessary Rotations:false
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:251
 Value:Velocity:Mode:Packet
-Value:Velocity:Cancel:false
-Value:Velocity:Vertical:7
-Value:Velocity:Horizontal:7
+Value:Velocity:Cancel:true
+Value:Velocity:HypixelBypass:true
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
 Value:Fly:Mode:Vanilla
+Value:Fly:Intave13.0.8-BoostMotion:1.49
+Value:Fly:Vanilla-Speed:0.05000000074505806
 Value:IceSpeed:Slipperiness:0.1
 Value:InvMove:Spoof:false
 Value:InvMove:Jump:true
@@ -132,6 +134,7 @@ Value:NoCobweb:Mode:Vanilla
 Value:NoFall:Mode:Mineplex
 Value:NoSlowDown:Speed:1.0
 Value:NoSlowDown:CanSprint:true
+Value:NoSlowDown:OnlySword:false
 Value:NoSlowDown:Spoofing:false
 Value:Speed:Mode:CubeCraft
 Value:Spider:Mode:Intave
@@ -150,6 +153,7 @@ Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:251
 Value:AutoArmor:Throw Delay:150
+Value:Blink:DismountVehicle:true
 Value:ChestStealer:Start Delay:220
 Value:ChestStealer:Grab Delay:209
 Value:ChestStealer:Make it Intelligent:true
@@ -200,13 +204,15 @@ Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
 Value:Scaffold:AllowAir:true
 Value:Scaffold:AutomaticVector:true
-Value:Scaffold:MoveFix:false
+Value:Scaffold:MoveFix:true
+Value:Scaffold:ShouldYaw:true
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
 Value:Scaffold:RayCast:false
 Value:Scaffold:Rotations:true
-Value:Scaffold:ResetRotation:false
+Value:Scaffold:ResetRotation:true
+Value:Scaffold:Reset-Mode:Silent
 Value:Scaffold:A3Fix:false
 Value:Scaffold:Prediction:true
 Value:Scaffold:AlwaysRotate:true
@@ -241,4 +247,9 @@ Value:AutoHeal:InAir:false
 Value:AutoHeal:Souping:false
 Value:AutoHeal:Silent:true
 Value:HighJump:Mode:Intave13.0.8Slime
+Value:InvManager(WIP):Drop Delay:100
+Value:InvManager(WIP):Start Delay:100
+Value:InvManager(WIP):Random:false
+Value:InvManager(WIP):Ignore Inventory:false
+Value:InvManager(WIP):Single Drop:true
 Value:ItemTP:Reach:100

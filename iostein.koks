@@ -8,7 +8,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
 Module:BowAimBot:false:false
-Module:ChestStealer:false:false
+Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -50,7 +50,7 @@ Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Spammer:false:true
-Module:Speed:false:false
+Module:Speed:false:true
 Module:Spider:false:false
 Module:Sprint:true:true
 Module:StairSpeed:false:false
@@ -117,7 +117,7 @@ Value:KillAura:Near Rotate:true
 Value:KillAura:Near Distance:0.5
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:251
-Value:Velocity:Mode:Intave13Wall
+Value:Velocity:Mode:Intave13Reverse
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
 Value:BoatFly:AAC4-Boost:8
@@ -138,7 +138,9 @@ Value:NoSlowDown:CanSprint:true
 Value:NoSlowDown:OnlySword:false
 Value:NoSlowDown:Spoofing:true
 Value:NoSlowDown:Spoof-Mode:Intave
-Value:Speed:Mode:Intave14.0.3
+Value:Speed:Mode:AAC4
+Value:Speed:AAC4-BoostSpeed:9.49
+Value:Speed:AAC4-SlowingSpeed:0.15
 Value:Spider:Mode:Intave
 Value:Sprint:Legit:false
 Value:StairSpeed:Boost:0.7
@@ -154,10 +156,10 @@ Value:AntiVoid:OnlyVoid:true
 Value:AntiVoid:Mode:Hypixel
 Value:AutoArmor:Opened Inventory:true
 Value:AutoArmor:Start Delay:250
-Value:AutoArmor:Throw Delay:100
+Value:AutoArmor:Throw Delay:263
 Value:Blink:DismountVehicle:true
-Value:ChestStealer:Start Delay:150
-Value:ChestStealer:Grab Delay:150
+Value:ChestStealer:Start Delay:200
+Value:ChestStealer:Grab Delay:0
 Value:ChestStealer:Make it Intelligent:true
 Value:ChestStealer:StackItems:true
 Value:ChestStealer:RandomPick:true
@@ -177,7 +179,7 @@ Value:Fucker:Beacon:false
 Value:GodMode:Mode:Intave Border
 Value:InventoryCleaner:OpenedInventory:true
 Value:InventoryCleaner:Start Delay:250
-Value:InventoryCleaner:Throw Delay:100
+Value:InventoryCleaner:Throw Delay:257
 Value:InventoryCleaner:PreferSword:true
 Value:InventoryCleaner:KeepTools:true
 Value:InventoryCleaner:Weapon Slot:1
