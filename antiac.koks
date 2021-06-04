@@ -50,7 +50,7 @@ Module:SendPublic:false:false
 Module:SetBack:false:false
 Module:ShopSaver:false:false
 Module:Spammer:false:true
-Module:Speed:false:true
+Module:Speed:false:false
 Module:Spider:false:false
 Module:Sprint:false:true
 Module:StairSpeed:false:false
@@ -62,7 +62,9 @@ Module:Velocity:true:true
 Module:WallSpeed:false:false
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
+Value:AntiBot:GroundSpawnCheck:false
 Value:AntiBot:Name Check:true
+Value:AntiBot:TeamColorCheck:false
 Value:AntiBot:Swing Check:false
 Value:AntiBot:HitBefore:false
 Value:AntiBot:TabListCheck:false
@@ -110,9 +112,15 @@ Value:KillAura:ResetRotation:true
 Value:KillAura:Reset-Mode:Silent
 Value:KillAura:BestVector:true
 Value:KillAura:LockView:false
-Value:KillAura:Necessary Rotations:false
+Value:KillAura:Necessary Rotations:true
+Value:KillAura:Necessary Mode:Both
+Value:KillAura:Near Rotate:true
+Value:KillAura:Near Distance:0.5
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:100
+Value:SuperHit:StepDistance:6
+Value:SuperHit:AllowGround:false
+Value:SuperHit:Jump:false
 Value:Velocity:Mode:Vulcan
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
@@ -134,8 +142,8 @@ Value:NoSlowDown:OnlySword:false
 Value:NoSlowDown:Spoofing:true
 Value:NoSlowDown:Spoof-Mode:NCP
 Value:Speed:Mode:AAC4
-Value:Speed:AAC4-BoostSpeed:40.6
-Value:Speed:AAC4-SlowingSpeed:0.23
+Value:Speed:AAC4-BoostSpeed:49.65
+Value:Speed:AAC4-SlowingSpeed:0.1
 Value:Spider:Mode:Intave
 Value:Sprint:Legit:true
 Value:StairSpeed:Boost:0.7
@@ -207,6 +215,7 @@ Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
 Value:Scaffold:AllowAir:false
 Value:Scaffold:AutomaticVector:true
+Value:Scaffold:AutomaticFacing:false
 Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false

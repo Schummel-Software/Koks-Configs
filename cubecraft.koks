@@ -8,7 +8,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
 Module:BowAimBot:false:true
-Module:ChestStealer:true:true
+Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -52,7 +52,7 @@ Module:ShopSaver:false:false
 Module:Spammer:false:false
 Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:true:true
+Module:Sprint:false:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:false
@@ -62,7 +62,9 @@ Module:Velocity:true:true
 Module:WallSpeed:false:false
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
+Value:AntiBot:GroundSpawnCheck:false
 Value:AntiBot:Name Check:false
+Value:AntiBot:TeamColorCheck:false
 Value:AntiBot:Swing Check:false
 Value:AntiBot:HitBefore:false
 Value:AntiBot:TabListCheck:false
@@ -78,7 +80,7 @@ Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
 Value:KillAura:CPS:18
 Value:KillAura:Calculate CPS on Hit:false
-Value:KillAura:Range:3.19
+Value:KillAura:Range:3.5
 Value:KillAura:TargetMode:Single
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Switch Delay:0
@@ -118,6 +120,9 @@ Value:KillAura:Near Rotate:true
 Value:KillAura:Near Distance:0.5
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:251
+Value:SuperHit:StepDistance:6
+Value:SuperHit:AllowGround:false
+Value:SuperHit:Jump:false
 Value:Velocity:Mode:Vulcan
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
@@ -194,6 +199,8 @@ Value:Disabler:PacketOverloading-Disabler:true
 Value:Scaffold:Delay:20
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
+Value:Scaffold:UpScaffold:true
+Value:Scaffold:CanUp-Check:true
 Value:Scaffold:DownScaffold:true
 Value:Scaffold:Tower:false
 Value:Scaffold:Expand:false
@@ -206,8 +213,8 @@ Value:Scaffold:NecessaryPlacement:false
 Value:Scaffold:BlockCheck:true
 Value:Scaffold:AllowAir:true
 Value:Scaffold:AutomaticVector:true
-Value:Scaffold:MoveFix:true
-Value:Scaffold:ShouldYaw:true
+Value:Scaffold:FacingCheck:false
+Value:Scaffold:MoveFix:false
 Value:Scaffold:SafeWalk:false
 Value:Scaffold:Sprint:false
 Value:Scaffold:Sneak:false
