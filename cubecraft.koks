@@ -8,7 +8,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
 Module:BowAimBot:false:true
-Module:ChestStealer:false:true
+Module:ChestStealer:true:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -34,7 +34,7 @@ Module:LongJump:false:true
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
-Module:NoHitSlow:false:false
+Module:NoHitSlow:true:true
 Module:NoJumpDelay:false:false
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
@@ -78,7 +78,8 @@ Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
-Value:KillAura:CPS:18
+Value:KillAura:CPS:18.0
+Value:KillAura:StaticCPS:false
 Value:KillAura:Calculate CPS on Hit:false
 Value:KillAura:Range:3.5
 Value:KillAura:TargetMode:Single
@@ -104,6 +105,7 @@ Value:KillAura:AttackDelay:true
 Value:KillAura:ThroughWalls:true
 Value:KillAura:ThroughWalls Range:3.0
 Value:KillAura:NoInvAttack:true
+Value:KillAura:CloseInventory:false
 Value:KillAura:EatAttack:false
 Value:KillAura:UseAttack:false
 Value:KillAura:PreAimAttack:false
@@ -169,7 +171,7 @@ Value:ChestStealer:RandomPick:true
 Value:ChestStealer:Auto Close:true
 Value:FastUse:Packets:15
 Value:FastUse:inAir:false
-Value:Fucker:Range:10
+Value:Fucker:Range:5
 Value:Fucker:AutomaticDelay:true
 Value:Fucker:RayCast:true
 Value:Fucker:MoveFix:false
@@ -231,8 +233,8 @@ Value:Scaffold:MouseFix:true
 Value:Scaffold:Simple Rotations:false
 Value:Scaffold:Static Pitch:false
 Value:Scaffold:Ignore Yaw:false
-Value:NoHitSlow:Slowness:0.6
-Value:NoHitSlow:Sprinting:true
+Value:NoHitSlow:Slowness:1.0
+Value:NoHitSlow:Sprinting:false
 Value:LongJump:Mode:CubeCraft
 Value:Spammer:Delay:1000
 Value:Spammer:Custom Words:false
