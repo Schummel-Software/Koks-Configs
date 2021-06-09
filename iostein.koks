@@ -8,7 +8,7 @@ Module:Backtrack:false:false
 Module:Blink:false:false
 Module:BoatFly:false:false
 Module:BowAimBot:false:false
-Module:ChestStealer:true:true
+Module:ChestStealer:false:true
 Module:CivBreak:false:false
 Module:Debug:false:false
 Module:Debug2:false:false
@@ -34,7 +34,7 @@ Module:LongJump:false:false
 Module:NoClip:false:false
 Module:NoCobweb:false:false
 Module:NoFall:false:false
-Module:NoHitSlow:true:true
+Module:NoHitSlow:false:false
 Module:NoJumpDelay:true:true
 Module:NoPitchLimit:false:false
 Module:NoRotate:false:false
@@ -52,7 +52,7 @@ Module:ShopSaver:false:false
 Module:Spammer:false:true
 Module:Speed:false:true
 Module:Spider:false:false
-Module:Sprint:true:true
+Module:Sprint:false:true
 Module:StairSpeed:false:false
 Module:Step:false:false
 Module:SuperHit:false:true
@@ -62,7 +62,9 @@ Module:Velocity:true:true
 Module:WallSpeed:false:false
 Value:AntiBot:Health NaN Check:false
 Value:AntiBot:GroundCheck:false
+Value:AntiBot:GroundSpawnCheck:false
 Value:AntiBot:Name Check:false
+Value:AntiBot:TeamColorCheck:false
 Value:AntiBot:Swing Check:false
 Value:AntiBot:HitBefore:false
 Value:AntiBot:TabListCheck:true
@@ -76,9 +78,10 @@ Value:BowAimBot:LockView:false
 Value:FastBow:Mode:Vanilla
 Value:FastBow:Strength:20
 Value:KillAura:HitChance:100
-Value:KillAura:CPS:20
+Value:KillAura:CPS:20.0
+Value:KillAura:StaticCPS:false
 Value:KillAura:Calculate CPS on Hit:true
-Value:KillAura:Range:3.07
+Value:KillAura:Range:3.0
 Value:KillAura:TargetMode:Switch
 Value:KillAura:AttackType:PlayerController
 Value:KillAura:Switch Delay:0
@@ -101,6 +104,7 @@ Value:KillAura:SilentMoveFix:true
 Value:KillAura:AttackDelay:true
 Value:KillAura:ThroughWalls:false
 Value:KillAura:NoInvAttack:true
+Value:KillAura:CloseInventory:false
 Value:KillAura:EatAttack:false
 Value:KillAura:UseAttack:false
 Value:KillAura:PreAimAttack:false
@@ -117,6 +121,9 @@ Value:KillAura:Near Rotate:true
 Value:KillAura:Near Distance:0.5
 Value:KillAura:Smooth Rotations:false
 Value:SuperHit:Reach:251
+Value:SuperHit:StepDistance:6
+Value:SuperHit:AllowGround:false
+Value:SuperHit:Jump:false
 Value:Velocity:Mode:Intave13Reverse
 Value:Range:Range:3.0
 Value:BoatFly:Mode:AAC4
@@ -197,6 +204,8 @@ Value:Disabler:Timer-Disabler:true
 Value:Scaffold:Delay:0
 Value:Scaffold:Motion:1.0
 Value:Scaffold:Diagonal:true
+Value:Scaffold:UpScaffold:true
+Value:Scaffold:CanUp-Check:false
 Value:Scaffold:DownScaffold:false
 Value:Scaffold:Tower:false
 Value:Scaffold:Expand:false
