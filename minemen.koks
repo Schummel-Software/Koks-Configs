@@ -1,6 +1,11 @@
 {
   "Creator": "Kroko",
-  "Date": 1630431678245,
+  "Date": 1635680971376,
+  "AirStuck": {
+    "toggled": false,
+    "bypass": false,
+    "values": {}
+  },
   "AlwaysPlace": {
     "toggled": false,
     "bypass": false,
@@ -196,13 +201,8 @@
       "Spartan406-Slowness": "0.6",
       "Spartan406-Boost": "0.01",
       "Vanilla-Speed": "0.05",
-      "Verus-Speed": "2.0",
-      "Verus-Slowness": "0.1",
-      "Verus-Boost": "15.0",
-      "Verus-BoostY": "0.5",
-      "Verus-BoostDelay": "3",
-      "Verus-UpMotion": "0.01",
-      "Verus-DownMotion": "0.01"
+      "Vanilla-SpigotFlyKickBypass": "false",
+      "Verus1187-Boost": "true"
     }
   },
   "Fucker": {
@@ -226,14 +226,17 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Intave Border"
+      "Mode": "Intave Border",
+      "When sneak": "false"
     }
   },
   "HighJump": {
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Intave13.0.8Slime"
+      "Mode": "Intave13.0.8Slime",
+      "Spartan246-Height": "10",
+      "Karhu2.1.9 163-PRE-Height": "50"
     }
   },
   "IceSpeed": {
@@ -299,22 +302,26 @@
     }
   },
   "KillAura": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "HitChance": "100",
+      "OnlyWhenNotRayCast": "false",
       "CPS": "20.0",
-      "StaticCPS": "false",
-      "Calculate CPS on Hit": "false",
-      "Range": "3.11",
+      "Cps-Mode": "Randomize",
+      "SmoothCPS-AfterHit": "false",
+      "NoTimerAttack": "false",
+      "SmoothCPS-CPS-Speed": "0.5",
+      "SmoothCPS-RandomStrength": "0.85",
+      "SmoothCPS-Randomizing": "true",
+      "Range": "3.29",
       "TargetMode": "Single",
-      "PreferType": "Distance",
-      "AttackType": "PlayerController",
+      "PreferType": "",
       "Switch Delay": "0",
       "Criticals": "false",
-      "Criticals-Mode": "onGround",
+      "Criticals-Mode": "",
       "AutoBlock": "false",
-      "AutoBlock-Mode": "Intave",
+      "AutoBlock-Mode": "",
       "Player": "true",
       "Animals": "false",
       "Villager": "false",
@@ -322,19 +329,20 @@
       "Ignore Death": "true",
       "Ignore Invisible": "true",
       "NoSwing": "false",
-      "NoSwing-Mode": "Vanilla",
+      "NoSwing-Mode": "",
       "Heuristics": "true",
-      "Prediction": "false",
+      "Prediction": "true",
       "RayCast": "true",
       "StaticPitch": "false",
       "Pitch": "-90",
-      "RotationFix": "false",
       "MouseFix": "true",
       "MoveFix": "true",
       "SilentMoveFix": "true",
-      "AttackDelay": "true",
+      "AttackDelay": "false",
+      "RightAttackPacketOrdering": "true",
       "ThroughWalls": "false",
       "ThroughWalls Range": "3.0",
+      "HitWhileRespawnScreen": "false",
       "NoInvAttack": "false",
       "CloseInventory": "false",
       "EatAttack": "false",
@@ -344,23 +352,29 @@
       "Haze Range": "false",
       "Max Haze Range": "1.0",
       "Rotations": "true",
-      "A3Fix": "true",
-      "ResetRotation": "false",
+      "A3Fix": "false",
+      "ResetRotation": "true",
       "Reset-Mode": "Silent",
       "BestVector": "true",
+      "Inaccuracy": "0.0",
       "LockView": "false",
-      "Necessary Rotations": "false",
+      "Necessary Rotations": "true",
       "Necessary Mode": "Both",
-      "Near Rotate": "false",
+      "Near Rotate": "true",
       "Near Distance": "0.5",
-      "Smooth Rotations": "false"
+      "Smooth Rotations": "false",
+      "HurtTime": "10"
     }
   },
   "LongJump": {
     "toggled": false,
-    "bypass": false,
+    "bypass": true,
     "values": {
-      "Mode": "AAC3.3.12",
+      "Mode": "AGCBow",
+      "AGCBow-Boost": "3.4",
+      "AGCBow-HurtTime": "6",
+      "AGCBow-FastStop": "true",
+      "AGCBow-ToggleDelay": "true",
       "Intave14GommeSW-Boost": "4",
       "AAC3.3.12-Speed": "4.5",
       "Redesky-Motion": "0.65",
@@ -470,13 +484,22 @@
     "bypass": true,
     "values": {
       "Delay": "0",
+      "MaxDelay": "10",
+      "RandomizeDelay": "false",
+      "CalculateDelayAfterBuild": "false",
+      "Smooth Delay": "false",
+      "Smooth Delay-Delay-Speed": "0.5",
+      "Smooth Delay-RandomStrength": "0.85",
+      "Smooth Delay-Randomizing": "true",
       "Motion": "1.0",
       "Diagonal": "true",
       "UpScaffold": "true",
       "CanUp-Check": "true",
       "DownScaffold": "false",
+      "WorldHeightCheck": "true",
       "Tower": "false",
       "Tower-Mode": "Mineplex",
+      "Tower-WhileMoving": "false",
       "Expand": "false",
       "Expand Length": "1",
       "All Direction Expand": "false",
@@ -491,6 +514,7 @@
       "NoSwing": "false",
       "NoSwing-Mode": "Vanilla",
       "NecessaryPlacement": "true",
+      "Necessary Chance": "100",
       "BlockCheck": "true",
       "AllowAir": "true",
       "AutomaticVector": "false",
@@ -500,11 +524,13 @@
       "SafeWalk": "false",
       "OnlyGround": "false",
       "Sprint": "true",
+      "Sprint-Mode": "Normal",
       "Sneak": "false",
       "SpoofSneak": "false",
       "Sneak after...": "1",
       "RayCast": "true",
       "Rotations": "true",
+      "RandomAim": "false",
       "ResetRotation": "true",
       "Reset-Mode": "Silent",
       "A3Fix": "false",
@@ -571,7 +597,7 @@
     }
   },
   "Sprint": {
-    "toggled": false,
+    "toggled": true,
     "bypass": false,
     "values": {
       "Legit": "true"
@@ -603,7 +629,8 @@
       "Reach": "100",
       "StepDistance": "6",
       "AllowGround": "false",
-      "Jump": "false"
+      "Jump": "false",
+      "Mode": "Vanilla"
     }
   },
   "TargetStrafe": {
@@ -617,15 +644,16 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Vanilla"
+      "Mode": "Vanilla",
+      "Karhu2.1.9 163-PRE Instant": "false"
     }
   },
   "Velocity": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {
-      "Mode": "IntaveReverse",
-      "Cancel": "true",
+      "Mode": "Intave14.1.2",
+      "Cancel": "false",
       "HypixelBypass": "false",
       "Vertical": "0",
       "Horizontal": "0"

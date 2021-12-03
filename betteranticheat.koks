@@ -1,6 +1,11 @@
 {
   "Creator": "Kroko",
-  "Date": 1625251312273,
+  "Date": 1632528718469,
+  "AirStuck": {
+    "toggled": false,
+    "bypass": false,
+    "values": {}
+  },
   "AlwaysPlace": {
     "toggled": false,
     "bypass": false,
@@ -11,16 +16,16 @@
     "bypass": true,
     "values": {
       "Health NaN Check": "false",
-      "GroundCheck": "true",
+      "GroundCheck": "false",
       "GroundSpawnCheck": "false",
       "Name Check": "false",
       "TeamColorCheck": "false",
       "TeamColorRGB": "-1",
       "Swing Check": "false",
       "HitBefore": "false",
-      "TabListCheck": "false",
+      "TabListCheck": "true",
       "PingCheck": "false",
-      "Sound Check": "false",
+      "Sound Check": "true",
       "Rotation Check": "false"
     }
   },
@@ -74,14 +79,6 @@
       "DismountVehicle": "true"
     }
   },
-  "BoatFly": {
-    "toggled": false,
-    "bypass": false,
-    "values": {
-      "Mode": "AAC4",
-      "AAC4-Boost": "8"
-    }
-  },
   "BowAimBot": {
     "toggled": false,
     "bypass": false,
@@ -109,6 +106,16 @@
     "bypass": false,
     "values": {}
   },
+  "Crasher": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Mode": "Swing",
+      "Swing-Packets": "100",
+      "Intave13-Packets": "100",
+      "Intave13-Range": "10"
+    }
+  },
   "Debug": {
     "toggled": false,
     "bypass": false,
@@ -124,6 +131,8 @@
     "bypass": false,
     "values": {
       "Mode": "Hypixel",
+      "Accurancy-Mode": "1.1 Semi",
+      "Cytooxien-Mode": "Full (Payload)",
       "Semi-Disabler": "true",
       "Ban-Disabler": "false",
       "Timer-Disabler": "true",
@@ -156,7 +165,9 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "BreakTime": "0.04"
+      "Mode": "Vanilla",
+      "BreakTime": "0.04",
+      "Packets": "100"
     }
   },
   "FastPlace": {
@@ -177,9 +188,11 @@
     "bypass": false,
     "values": {
       "Mode": "AAC3.3.12",
+      "MegaCraft-Speed": "1.0",
       "AAC1.9.10-Speed": "2.34",
       "AAC1.9.10-MotionY": "0.8",
       "AAC3.3.12-Boost": "9",
+      "AAC4-Boat-Boost": "8",
       "Intave13.0.0-Speed": "0.2",
       "Intave13.0.8-Boost": "0.6",
       "Intave13.0.8-MotionY": "0.19",
@@ -188,13 +201,8 @@
       "Spartan406-Slowness": "0.6",
       "Spartan406-Boost": "0.01",
       "Vanilla-Speed": "0.05000000074505806",
-      "Verus-Speed": "2.0",
-      "Verus-Slowness": "0.1",
-      "Verus-Boost": "15.0",
-      "Verus-BoostY": "0.5",
-      "Verus-BoostDelay": "3",
-      "Verus-UpMotion": "0.01",
-      "Verus-DownMotion": "0.01"
+      "Vanilla-SpigotFlyKickBypass": "false",
+      "Verus1187-Boost": "true"
     }
   },
   "Fucker": {
@@ -218,14 +226,16 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Intave"
+      "Mode": "Intave",
+      "When sneak": "false"
     }
   },
   "HighJump": {
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Intave13.0.8Slime"
+      "Mode": "Intave13.0.8Slime",
+      "Spartan246-Height": "10"
     }
   },
   "IceSpeed": {
@@ -286,65 +296,72 @@
     "bypass": false,
     "values": {
       "Mode": "Matrix",
-      "Intave13-SpeedBoost": "false"
+      "Intave13-SpeedBoost": "false",
+      "Matrix6.0.3-Speed": "0.6"
     }
   },
   "KillAura": {
     "toggled": false,
     "bypass": true,
     "values": {
-      "HitChance": "75",
+      "HitChance": "69",
+      "OnlyWhenNotRayCast": "true",
       "CPS": "20.0",
-      "StaticCPS": "false",
-      "Calculate CPS on Hit": "false",
-      "Range": "3.0",
+      "Cps-Mode": "Randomize",
+      "SmoothCPS-AfterHit": "false",
+      "SmoothCPS-CPS-Speed": "0.5",
+      "SmoothCPS-RandomStrength": "0.85",
+      "SmoothCPS-Randomizing": "false",
+      "Range": "2.91",
       "TargetMode": "Single",
-      "PreferType": "Distance",
-      "AttackType": "Packet",
+      "PreferType": "",
       "Switch Delay": "0",
       "Criticals": "false",
-      "Criticals-Mode": "onGround",
-      "AutoBlock": "true",
-      "AutoBlock-Mode": "Full",
-      "Player": "false",
+      "Criticals-Mode": "",
+      "AutoBlock": "false",
+      "AutoBlock-Mode": "",
+      "Player": "true",
       "Animals": "false",
       "Villager": "true",
       "Mobs": "false",
       "Ignore Death": "true",
       "Ignore Invisible": "true",
       "NoSwing": "false",
-      "NoSwing-Mode": "Vanilla",
+      "NoSwing-Mode": "",
       "Heuristics": "true",
       "Prediction": "true",
       "RayCast": "true",
       "StaticPitch": "false",
       "Pitch": "-90",
-      "RotationFix": "false",
       "MouseFix": "true",
       "MoveFix": "true",
       "SilentMoveFix": "false",
       "AttackDelay": "false",
+      "RightAttackPacketOrdering": "true",
       "ThroughWalls": "false",
       "ThroughWalls Range": "3.0",
-      "NoInvAttack": "true",
+      "HitWhileRespawnScreen": "false",
+      "NoInvAttack": "false",
       "CloseInventory": "false",
       "EatAttack": "false",
       "UseAttack": "true",
       "PreAimAttack": "true",
-      "KeepCPS": "true",
+      "KeepCPS": "false",
       "Haze Range": "false",
       "Max Haze Range": "1.0",
       "Rotations": "true",
       "A3Fix": "false",
       "ResetRotation": "false",
-      "Reset-Mode": "Silent",
+      "Reset-Mode": "",
       "BestVector": "true",
+      "Inaccuracy": "0.0",
       "LockView": "false",
-      "Necessary Rotations": "false",
+      "Necessary Rotations": "true",
       "Necessary Mode": "Both",
-      "Near Rotate": "false",
+      "Near Rotate": "true",
       "Near Distance": "0.5",
-      "Smooth Rotations": "false"
+      "Smooth Rotations": "false",
+      "HurtTime": "10"
     }
   },
   "LongJump": {
@@ -352,6 +369,11 @@
     "bypass": false,
     "values": {
       "Mode": "AAC3.3.12",
+      "AGCBow-Boost": "3.4",
+      "AGCBow-HurtTime": "6",
+      "AGCBow-FastStop": "true",
+      "AGCBow-ToggleDelay": "true",
+      "Intave14GommeSW-Boost": "4",
       "AAC3.3.12-Speed": "4.5",
       "Redesky-Motion": "0.65",
       "Redesky-Boost": "0.1",
@@ -460,13 +482,18 @@
     "bypass": true,
     "values": {
       "Delay": "0",
+      "MaxDelay": "10",
+      "RandomizeDelay": "false",
+      "CalculateDelayAfterBuild": "false",
       "Motion": "0.91",
       "Diagonal": "true",
       "UpScaffold": "true",
       "CanUp-Check": "false",
       "DownScaffold": "false",
+      "WorldHeightCheck": "true",
       "Tower": "false",
       "Tower-Mode": "Mineplex",
+      "Tower-WhileMoving": "false",
       "Expand": "false",
       "Expand Length": "1",
       "All Direction Expand": "true",
@@ -490,11 +517,13 @@
       "SafeWalk": "false",
       "OnlyGround": "true",
       "Sprint": "false",
+      "Sprint-Mode": "Normal",
       "Sneak": "false",
       "SpoofSneak": "false",
       "Sneak after...": "1",
       "RayCast": "false",
       "Rotations": "true",
+      "RandomAim": "false",
       "ResetRotation": "false",
       "Reset-Mode": "Silent",
       "A3Fix": "true",
@@ -549,7 +578,8 @@
       "Timer-Randomizing": "false",
       "Timer-RandomizeRange": "1.0",
       "AAC4-BoostSpeed": "50.0",
-      "AAC4-SlowingSpeed": "0.1"
+      "AAC4-SlowingSpeed": "0.1",
+      "AAC4-Steps": "3"
     }
   },
   "Spider": {
@@ -560,7 +590,7 @@
     }
   },
   "Sprint": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "Legit": "false"
