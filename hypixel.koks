@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1644589899412,
+  "Date": 1644616380959,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -103,7 +103,7 @@
     }
   },
   "ChestStealer": {
-    "toggled": false,
+    "toggled": true,
     "bypass": true,
     "values": {
       "Start Delay": "150",
@@ -162,7 +162,8 @@
     "values": {
       "Mode": "Intave",
       "Intave13-Height": "3.0",
-      "Matrix6.6.1-Boost": "1.9"
+      "Matrix6.6.1-Boost": "1.9",
+      "Matrix6.6.1-BoostY": "1.0"
     }
   },
   "FastBow": {
@@ -337,7 +338,7 @@
     }
   },
   "KillAura": {
-    "toggled": false,
+    "toggled": true,
     "bypass": true,
     "values": {
       "HitChance": "100",
@@ -442,7 +443,8 @@
     "bypass": false,
     "values": {
       "Mode": "Vanilla",
-      "Motion": "0.15"
+      "Motion": "0.15",
+      "Sneak": "false"
     }
   },
   "NoFall": {
@@ -558,6 +560,7 @@
       "CanUp-Check": "true",
       "DownScaffold": "false",
       "WorldHeightCheck": "true",
+      "Drag Blocks to Hotbar": "false",
       "Tower": "false",
       "Tower-Mode": "",
       "Tower-Motion": "0.42",
@@ -648,7 +651,7 @@
     }
   },
   "Speed": {
-    "toggled": false,
+    "toggled": true,
     "bypass": true,
     "values": {
       "Mode": "Hypixel",
@@ -753,7 +756,7 @@
       "Mode": "Packet",
       "Cancel": "true",
       "Cancel Explosion": "true",
-      "Detect Staff Bot": "true",
+      "Detect Staff Velocity": "true",
       "Vertical": "0",
       "Horizontal": "0",
       "Intave14.1.2-Improve": "false",
