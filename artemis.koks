@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1644498151005,
+  "Date": 1644350535628,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -70,7 +70,7 @@
   },
   "Backtrack": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
       "Delay": "450",
       "MaxHitRange": "6.0",
@@ -92,7 +92,7 @@
   },
   "BowAimBot": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
       "OnlyPlayers": "true",
       "AutoShoot": "true",
@@ -143,9 +143,9 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Hypixel",
-      "NCP-Timer Disabler": "true",
-      "Redesky-Packet Kick": "true",
+      "Mode": "Verus",
+      "NCP-Timer Disabler": "false",
+      "Redesky-Packet Kick": "false",
       "Accurancy-Full": "false",
       "Accurancy-Capability": "false",
       "Verus-b3733-Flight Disabler": "false",
@@ -207,16 +207,16 @@
   },
   "Fly": {
     "toggled": false,
-    "bypass": false,
+    "bypass": true,
     "values": {
-      "Mode": "Intave13.0.0",
-      "Intave-Version": "13.0.8",
-      "Spartan-Version": "439",
-      "AAC-Version": "4.x (Boat)",
-      "Verus-Version": "b1187",
-      "Vanilla-Mode": "Capability",
-      "Hypixel-Mode": "Dash",
-      "Verus b3733-Mode": "Slow",
+      "Mode": "Minemora",
+      "Intave-Version": "",
+      "Spartan-Version": "",
+      "AAC-Version": "",
+      "Verus-Version": "",
+      "Vanilla-Mode": "",
+      "Hypixel-Mode": "",
+      "Verus b3733-Mode": "",
       "Verus-Damage-Speed": "1.0",
       "MegaCraft-Speed": "1.0",
       "AAC1.9.10-Speed": "2.34",
@@ -226,13 +226,13 @@
       "Intave12.5.5-Speed": "0.2",
       "Intave13.0.8-Boost": "0.6",
       "Intave13.0.8-MotionY": "0.19",
-      "Intave13.0.8-SneakBoost": "true",
+      "Intave13.0.8-SneakBoost": "false",
       "Intave13.0.8-BoostMotion": "1.49",
       "Spartan406-Slowness": "0.6",
       "Spartan406-Boost": "0.01",
-      "Vanilla-Speed": "0.05000000074505806",
+      "Vanilla-Speed": "0.05",
       "Vanilla-SpigotFlyKickBypass": "false",
-      "Verus b1187-Boost": "true",
+      "Verus b1187-Boost": "false",
       "FastStop": "true",
       "Bobbing": "true"
     }
@@ -343,7 +343,7 @@
       "HitChance": "100",
       "OnlyWhenNotRayCast": "false",
       "CPS": "20.0",
-      "Cps-Mode": "Legit",
+      "Cps-Mode": "Randomize",
       "SmoothCPS-AfterHit": "false",
       "NoTimerAttack": "false",
       "SmoothCPS-CPS-Speed": "0.5",
@@ -372,9 +372,9 @@
       "StaticPitch": "false",
       "Pitch": "-90",
       "MouseFix": "true",
-      "MoveFix": "true",
-      "SilentMoveFix": "true",
-      "AttackDelay": "true",
+      "MoveFix": "false",
+      "SilentMoveFix": "false",
+      "AttackDelay": "false",
       "RightAttackPacketOrdering": "true",
       "ThroughWalls": "false",
       "ThroughWalls Range": "3.0",
@@ -397,9 +397,9 @@
       "BestVector": "true",
       "Inaccuracy": "0.0",
       "LockView": "false",
-      "Necessary Rotations": "false",
-      "Necessary Mode": "",
-      "Near Rotate": "false",
+      "Necessary Rotations": "true",
+      "Necessary Mode": "Pitch",
+      "Near Rotate": "true",
       "Near Distance": "0.5",
       "Smooth Rotations": "false",
       "FOV": "180",
@@ -452,10 +452,10 @@
     }
   },
   "NoHitSlow": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {
-      "Slowness": "0.6",
+      "Slowness": "1.0",
       "Sprinting": "true"
     }
   },
@@ -563,8 +563,8 @@
       "Tower-VerusDisabler": "false",
       "Tower-WhileMoving": "false",
       "No Speed Effect": "false",
-      "Expand": "false",
-      "Expand Length": "1",
+      "Expand": "true",
+      "Expand Length": "3",
       "All Direction Expand": "false",
       "Silent": "true",
       "Delayed back switch": "true",
@@ -595,7 +595,7 @@
       "Sneak": "false",
       "SpoofSneak": "false",
       "Sneak after...": "1",
-      "RayCast": "true",
+      "RayCast": "false",
       "Rotations": "true",
       "Clamp Yaw": "false",
       "RandomAim": "false",
@@ -650,15 +650,15 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "AAC4",
-      "Rededark-Mode": "Bhop",
-      "Verus-Mode": "b3783 Bhop",
+      "Mode": "HypixelHop",
+      "Rededark-Mode": "",
+      "Verus-Mode": "",
       "Timer-Speed": "1.0",
       "Legit-Strafing": "false",
       "Timer-Randomizing": "false",
       "Timer-RandomizeRange": "1.0",
-      "AAC4-BoostSpeed": "6.66",
-      "AAC4-SlowingSpeed": "0.23",
+      "AAC4-BoostSpeed": "50.0",
+      "AAC4-SlowingSpeed": "0.1",
       "AAC4-Steps": "3"
     }
   },
@@ -733,13 +733,13 @@
     "toggled": true,
     "bypass": true,
     "values": {
-      "Mode": "Intave14.1.2",
+      "Mode": "BackToBlock",
       "Cancel": "false",
       "Cancel Explosion": "false",
       "Vertical": "0",
       "Horizontal": "0",
       "Intave14.1.2-Improve": "false",
-      "BackToBlock-HurtTime": "5"
+      "BackToBlock-HurtTime": "10"
     }
   },
   "WallSpeed": {

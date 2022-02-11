@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1644329473556,
+  "Date": 1644530462018,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -103,7 +103,7 @@
     }
   },
   "ChestStealer": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "Start Delay": "0",
@@ -357,7 +357,7 @@
       "Criticals": "true",
       "Criticals-Mode": "Delayed Packet",
       "AutoBlock": "true",
-      "AutoBlock-Mode": "Keep Block",
+      "AutoBlock-Mode": "Spam Block",
       "Player": "true",
       "Animals": "false",
       "Villager": "false",
@@ -376,8 +376,8 @@
       "SilentMoveFix": "false",
       "AttackDelay": "true",
       "RightAttackPacketOrdering": "true",
-      "ThroughWalls": "false",
-      "ThroughWalls Range": "3.0",
+      "ThroughWalls": "true",
+      "ThroughWalls Range": "3.63",
       "HitWhileRespawnScreen": "false",
       "NoInvAttack": "false",
       "CloseInventory": "false",
@@ -411,19 +411,20 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "AAC3.3.12",
+      "Mode": "QPlay20211023",
       "Spartan439-Boost": "5.0",
-      "AGC2021-DamageMethod": "Bow",
+      "AGC2021-DamageMethod": "",
       "AGC2021-Boost": "3.4",
       "AGC2021-HurtTime": "6",
-      "AGC2021-FastStop": "true",
-      "AGC2021-ToggleDelay": "true",
+      "AGC2021-FastStop": "false",
+      "AGC2021-ToggleDelay": "false",
       "Intave14GommeSW-Boost": "4",
       "AAC3.3.12-Speed": "4.5",
       "Redesky2021-Motion": "0.65",
       "Redesky2021-Boost": "0.1",
       "Redesky2021-Speed": "1.5",
-      "Disable Velocity": "false"
+      "Disable Velocity": "true",
+      "SpoofY": "true"
     }
   },
   "MurderScanner": {
@@ -651,15 +652,31 @@
     "bypass": true,
     "values": {
       "Mode": "BlocksMC",
+      "NCP-Version": "",
+      "NCP3.16.0-Mode": "",
+      "Spartan-Version": "",
+      "AAC-Version": "",
+      "Mineplex-Mode": "",
+      "Intave-Version": "",
+      "Hypixel-Mode": "",
+      "Vanilla-Mode": "",
       "Rededark-Mode": "",
       "Verus-Mode": "",
       "Timer-Speed": "1.0",
+      "Mineplex-LongJump-Motion": "0.43",
+      "Mineplex-LongJump-Collide-Motion": "0.28",
+      "Mineplex-LongJump-Stops": "false",
+      "Mineplex-LongJump-NormalJump": "false",
+      "Mineplex-LongJump-JumpMotion": "0.34",
+      "Mineplex-LongJump-JumpBoost": "false",
+      "Mineplex-LongJump-JumpBoostMotion": "0.03",
       "Legit-Strafing": "false",
       "Timer-Randomizing": "false",
       "Timer-RandomizeRange": "1.0",
       "AAC4-BoostSpeed": "50.0",
       "AAC4-SlowingSpeed": "0.1",
-      "AAC4-Steps": "3"
+      "AAC4-Steps": "3",
+      "SpoofY": "false"
     }
   },
   "Spider": {
@@ -736,6 +753,7 @@
       "Mode": "Packet",
       "Cancel": "true",
       "Cancel Explosion": "true",
+      "Detect Staff Bot": "false",
       "Vertical": "0",
       "Horizontal": "0",
       "Intave14.1.2-Improve": "false",

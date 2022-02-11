@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1644005869021,
+  "Date": 1644518310302,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -25,7 +25,7 @@
       "HitBefore": "false",
       "TabListCheck": "false",
       "PingCheck": "false",
-      "StaticPing": "0",
+      "StaticPing": "1",
       "SkinCheck": "false",
       "DuplicateEntityCheck": "false",
       "Sound Check": "true",
@@ -183,6 +183,15 @@
       "Packets": "100"
     }
   },
+  "FastClimbing": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Mode": "Vanilla",
+      "Up Motion": "0.2",
+      "Down Motion": "-0.15"
+    }
+  },
   "FastPlace": {
     "toggled": false,
     "bypass": false,
@@ -319,10 +328,10 @@
     }
   },
   "Jesus": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
-      "Mode": "Vanilla",
+      "Mode": "Solid",
       "Intave13-SpeedBoost": "false",
       "Matrix6.0.3-Speed": "0.6"
     }
@@ -363,7 +372,6 @@
       "StaticPitch": "false",
       "Pitch": "-90",
       "MouseFix": "false",
-      "Mouse Speed": "5.0",
       "MoveFix": "false",
       "SilentMoveFix": "false",
       "AttackDelay": "true",
@@ -418,6 +426,11 @@
       "Disable Velocity": "false"
     }
   },
+  "MurderScanner": {
+    "toggled": false,
+    "bypass": false,
+    "values": {}
+  },
   "NoClip": {
     "toggled": false,
     "bypass": false,
@@ -427,7 +440,8 @@
     "toggled": true,
     "bypass": true,
     "values": {
-      "Mode": "Vanilla"
+      "Mode": "Vanilla",
+      "Motion": "0.15"
     }
   },
   "NoFall": {
@@ -467,6 +481,7 @@
       "Speed": "1.0",
       "CanSprint": "true",
       "OnlySword": "false",
+      "Only Air": "false",
       "Spoofing": "false",
       "Spoof-Mode": "NCP"
     }
@@ -534,6 +549,7 @@
       "Smooth Delay-Randomizing": "false",
       "Boost Mode": "None",
       "Motion-Speed": "1.0",
+      "Modify In Air": "false",
       "Blocks": "0",
       "Diagonal": "true",
       "UpScaffold": "true",
@@ -560,6 +576,7 @@
       "Speed Boost": "0.2",
       "NoSwing": "true",
       "NoSwing-Mode": "Vanilla",
+      "Edge Check": "false",
       "NecessaryPlacement": "false",
       "Necessary Chance": "100",
       "BlockCheck": "false",
@@ -633,10 +650,25 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "Mode": "Mineplex New",
+      "Mode": "Mineplex",
+      "NCP-Version": "",
+      "NCP3.16.0-Mode": "",
+      "Spartan-Version": "",
+      "AAC-Version": "",
+      "Mineplex-Mode": "Obstacle",
+      "Intave-Version": "",
+      "Hypixel-Mode": "",
+      "Vanilla-Mode": "",
       "Rededark-Mode": "",
       "Verus-Mode": "",
       "Timer-Speed": "1.0",
+      "Mineplex-LongJump-Motion": "0.43",
+      "Mineplex-LongJump-Collide-Motion": "0.28",
+      "Mineplex-LongJump-Stops": "false",
+      "Mineplex-LongJump-NormalJump": "false",
+      "Mineplex-LongJump-JumpMotion": "0.34",
+      "Mineplex-LongJump-JumpBoost": "false",
+      "Mineplex-LongJump-JumpBoostMotion": "0.03",
       "Legit-Strafing": "false",
       "Timer-Randomizing": "false",
       "Timer-RandomizeRange": "1.0",
@@ -718,10 +750,11 @@
     "values": {
       "Mode": "Packet",
       "Cancel": "true",
-      "Cancel Explosion": "false",
+      "Cancel Explosion": "true",
+      "Detect Staff Bot": "false",
       "Vertical": "0",
       "Horizontal": "0",
-      "Intave14.1.2-Improve": "true",
+      "Intave14.1.2-Improve": "false",
       "BackToBlock-HurtTime": "5"
     }
   },

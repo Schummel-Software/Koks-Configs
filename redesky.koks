@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1644349240575,
+  "Date": 1644518401247,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -103,7 +103,7 @@
     }
   },
   "ChestStealer": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "Start Delay": "150",
@@ -650,10 +650,25 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "Mode": "Spartan422.1 Ground",
+      "Mode": "Spartan",
+      "NCP-Version": "",
+      "NCP3.16.0-Mode": "",
+      "Spartan-Version": "422.1",
+      "AAC-Version": "",
+      "Mineplex-Mode": "",
+      "Intave-Version": "",
+      "Hypixel-Mode": "",
+      "Vanilla-Mode": "",
       "Rededark-Mode": "",
       "Verus-Mode": "",
       "Timer-Speed": "1.0",
+      "Mineplex-LongJump-Motion": "0.43",
+      "Mineplex-LongJump-Collide-Motion": "0.28",
+      "Mineplex-LongJump-Stops": "false",
+      "Mineplex-LongJump-NormalJump": "false",
+      "Mineplex-LongJump-JumpMotion": "0.34",
+      "Mineplex-LongJump-JumpBoost": "false",
+      "Mineplex-LongJump-JumpBoostMotion": "0.03",
       "Legit-Strafing": "false",
       "Timer-Randomizing": "false",
       "Timer-RandomizeRange": "1.0",
@@ -736,6 +751,7 @@
       "Mode": "Intave14.1.2",
       "Cancel": "false",
       "Cancel Explosion": "false",
+      "Detect Staff Bot": "false",
       "Vertical": "0",
       "Horizontal": "0",
       "Intave14.1.2-Improve": "false",
