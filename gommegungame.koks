@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1644672616964,
+  "Date": 1644672577676,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -343,7 +343,7 @@
     }
   },
   "KillAura": {
-    "toggled": false,
+    "toggled": true,
     "bypass": true,
     "values": {
       "HitChance": "100",
@@ -404,11 +404,11 @@
       "Inaccuracy": "0.0",
       "LockView": "false",
       "Necessary Rotations": "true",
-      "Necessary Mode": "Pitch",
+      "Necessary Mode": "Both",
       "Near Rotate": "true",
       "Near Distance": "0.5",
       "Smooth Rotations": "false",
-      "Rotation Fix": "false",
+      "Rotation Fix": "true",
       "FOV": "180",
       "Rotation Speed": "180",
       "HurtTime": "10"

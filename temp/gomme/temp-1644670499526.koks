@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1644672616964,
+  "Date": 1644670499526,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -348,8 +348,8 @@
     "values": {
       "HitChance": "100",
       "OnlyWhenNotRayCast": "false",
-      "CPS": "20.0",
-      "Cps-Mode": "Legit",
+      "CPS": "6.1",
+      "Cps-Mode": "Randomize",
       "SmoothCPS-AfterHit": "false",
       "NoTimerAttack": "false",
       "SmoothCPS-CPS-Speed": "0.5",
@@ -364,9 +364,9 @@
       "Criticals-Mode": "",
       "AutoBlock": "false",
       "AutoBlock-Mode": "",
-      "Player": "true",
+      "Player": "false",
       "Animals": "false",
-      "Villager": "false",
+      "Villager": "true",
       "Mobs": "false",
       "Ignore Death": "true",
       "Ignore Invisible": "true",
@@ -404,11 +404,10 @@
       "Inaccuracy": "0.0",
       "LockView": "false",
       "Necessary Rotations": "true",
-      "Necessary Mode": "Pitch",
+      "Necessary Mode": "Both",
       "Near Rotate": "true",
       "Near Distance": "0.5",
       "Smooth Rotations": "false",
-      "Rotation Fix": "false",
       "FOV": "180",
       "Rotation Speed": "180",
       "HurtTime": "10"

@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1644616380959,
+  "Date": 1644666960011,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -103,7 +103,7 @@
     }
   },
   "ChestStealer": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "Start Delay": "150",
@@ -205,6 +205,11 @@
       "Packets": "15",
       "inAir": "false"
     }
+  },
+  "FastVillagerShop": {
+    "toggled": false,
+    "bypass": false,
+    "values": {}
   },
   "Fly": {
     "toggled": false,
@@ -338,7 +343,7 @@
     }
   },
   "KillAura": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "HitChance": "100",
@@ -561,6 +566,8 @@
       "DownScaffold": "false",
       "WorldHeightCheck": "true",
       "Drag Blocks to Hotbar": "false",
+      "Spoof Inventory": "true",
+      "Block Movement": "false",
       "Tower": "false",
       "Tower-Mode": "",
       "Tower-Motion": "0.42",
@@ -611,6 +618,7 @@
       "Necessary Rotations": "true",
       "Rotate in Air": "true",
       "MouseFix": "true",
+      "Distance Fix": "false",
       "Simple Rotations": "false",
       "DynamicYaw": "false",
       "Static Pitch": "false",
@@ -651,7 +659,7 @@
     }
   },
   "Speed": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "Mode": "Hypixel",

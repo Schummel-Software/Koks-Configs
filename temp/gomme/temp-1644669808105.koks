@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1644672616964,
+  "Date": 1644669808106,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -366,7 +366,7 @@
       "AutoBlock-Mode": "",
       "Player": "true",
       "Animals": "false",
-      "Villager": "false",
+      "Villager": "true",
       "Mobs": "false",
       "Ignore Death": "true",
       "Ignore Invisible": "true",
@@ -403,12 +403,11 @@
       "BestVector": "true",
       "Inaccuracy": "0.0",
       "LockView": "false",
-      "Necessary Rotations": "true",
-      "Necessary Mode": "Pitch",
-      "Near Rotate": "true",
+      "Necessary Rotations": "false",
+      "Necessary Mode": "",
+      "Near Rotate": "false",
       "Near Distance": "0.5",
       "Smooth Rotations": "false",
-      "Rotation Fix": "false",
       "FOV": "180",
       "Rotation Speed": "180",
       "HurtTime": "10"
@@ -567,7 +566,7 @@
       "DownScaffold": "false",
       "WorldHeightCheck": "true",
       "Drag Blocks to Hotbar": "false",
-      "Spoof Inventory": "true",
+      "Spoof Inventory": "false",
       "Block Movement": "false",
       "Tower": "false",
       "Tower-Mode": "",
@@ -625,7 +624,7 @@
       "Static Pitch": "false",
       "Ignore Yaw": "false",
       "Pitch": "82.0",
-      "RandomizePitch": "true"
+      "RandomizePitch": "false"
     }
   },
   "SendPublic": {
