@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1644672577676,
+  "Date": 1644683145491,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -343,7 +343,7 @@
     }
   },
   "KillAura": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "HitChance": "100",
@@ -359,7 +359,7 @@
       "PreAim Range": "1.5",
       "TargetMode": "Hybrid",
       "PreferType": "Health",
-      "Switch Delay": "0",
+      "Switch Delay": "103",
       "Criticals": "false",
       "Criticals-Mode": "",
       "AutoBlock": "false",
@@ -403,9 +403,9 @@
       "BestVector": "true",
       "Inaccuracy": "0.0",
       "LockView": "false",
-      "Necessary Rotations": "true",
-      "Necessary Mode": "Both",
-      "Near Rotate": "true",
+      "Necessary Rotations": "false",
+      "Necessary Mode": "",
+      "Near Rotate": "false",
       "Near Distance": "0.5",
       "Smooth Rotations": "false",
       "Rotation Fix": "true",
@@ -567,7 +567,7 @@
       "DownScaffold": "false",
       "WorldHeightCheck": "true",
       "Drag Blocks to Hotbar": "false",
-      "Spoof Inventory": "true",
+      "Spoof Inventory": "false",
       "Block Movement": "false",
       "Tower": "false",
       "Tower-Mode": "",
@@ -612,14 +612,13 @@
       "Clamp Yaw": "false",
       "RandomAim": "false",
       "ResetRotation": "true",
-      "Reset-Mode": "Silent",
+      "Reset-Mode": "Rotate Back",
       "A3Fix": "false",
       "Prediction": "true",
       "AlwaysRotate": "true",
       "Necessary Rotations": "true",
       "Rotate in Air": "false",
       "MouseFix": "true",
-      "Distance Fix": "false",
       "Simple Rotations": "false",
       "DynamicYaw": "false",
       "Static Pitch": "false",
@@ -759,7 +758,7 @@
     }
   },
   "Velocity": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "Mode": "Intave14.1.2",
