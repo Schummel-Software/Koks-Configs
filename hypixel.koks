@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1644685851924,
+  "Date": 1645385654087,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -17,7 +17,6 @@
     "values": {
       "Health NaN Check": "false",
       "GroundCheck": "false",
-      "GroundSpawnCheck": "false",
       "Name Check": "false",
       "TeamColorCheck": "false",
       "TeamColorRGB": "-1",
@@ -28,9 +27,23 @@
       "StaticPing": "1",
       "SkinCheck": "false",
       "DuplicateEntityCheck": "false",
+      "ValidUUIDCheck": "false",
       "Sound Check": "false",
       "Rotation Check": "false",
+      "Copy Name Check": "false",
       "Ticks Existed": "0"
+    }
+  },
+  "AntiCactus": {
+    "toggled": false,
+    "bypass": false,
+    "values": {}
+  },
+  "AntiFire": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Packets": "15"
     }
   },
   "AntiHunger": {
@@ -216,12 +229,14 @@
     "bypass": false,
     "values": {
       "Mode": "Vanilla",
+      "NCP-Mode": "",
       "Intave-Version": "",
       "Spartan-Version": "",
       "AAC-Version": "",
       "Verus-Version": "",
       "Vanilla-Mode": "Capability",
       "Hypixel-Mode": "",
+      "Rededark-Mode": "",
       "Verus b3733-Mode": "",
       "Verus-Damage-Speed": "1.0",
       "MegaCraft-Speed": "1.0",
@@ -355,7 +370,7 @@
       "SmoothCPS-CPS-Speed": "0.5",
       "SmoothCPS-RandomStrength": "0.85",
       "SmoothCPS-Randomizing": "false",
-      "Range": "4.2",
+      "Range": "3.8",
       "PreAim Range": "0.0",
       "TargetMode": "Switch",
       "PreferType": "",
@@ -557,8 +572,8 @@
       "Smooth Delay-RandomStrength": "0.85",
       "Smooth Delay-Randomizing": "false",
       "Boost Mode": "When Place",
-      "Motion-Speed": "0.51",
-      "Modify In Air": "false",
+      "Motion-Speed": "0.2",
+      "Modify In Air": "true",
       "Blocks": "0",
       "Diagonal": "true",
       "UpScaffold": "true",
@@ -590,10 +605,10 @@
       "NoSwing-Mode": "",
       "Edge Check": "false",
       "NecessaryPlacement": "false",
-      "Necessary Chance": "100",
+      "Necessary Chance": "67",
       "BlockCheck": "true",
       "AllowAir": "true",
-      "AutomaticVector": "false",
+      "AutomaticVector": "true",
       "FacingCheck": "false",
       "MoveFix": "false",
       "Jump Fix": "false",
@@ -617,14 +632,14 @@
       "Prediction": "true",
       "AlwaysRotate": "true",
       "Necessary Rotations": "true",
-      "Rotate in Air": "true",
+      "Rotate in Air": "false",
       "MouseFix": "true",
       "Simple Rotations": "false",
       "DynamicYaw": "false",
       "Static Pitch": "false",
       "Ignore Yaw": "false",
       "Pitch": "82.0",
-      "RandomizePitch": "false"
+      "RandomizePitch": "true"
     }
   },
   "SendPublic": {
@@ -662,14 +677,14 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "Mode": "Hypixel",
+      "Mode": "Legit",
       "NCP-Version": "",
       "NCP3.16.0-Mode": "",
       "Spartan-Version": "",
       "AAC-Version": "",
       "Mineplex-Mode": "",
       "Intave-Version": "",
-      "Hypixel-Mode": "Ground Strafe",
+      "Hypixel-Mode": "",
       "Vanilla-Mode": "",
       "Rededark-Mode": "",
       "Verus-Mode": "",
@@ -721,7 +736,8 @@
     "bypass": false,
     "values": {
       "Mode": "Vanilla",
-      "StepHeight": "4.0"
+      "StepHeight": "4.0",
+      "Matrix6.6.1-Boost": "true"
     }
   },
   "SuperHit": {
@@ -762,6 +778,7 @@
     "bypass": true,
     "values": {
       "Mode": "Packet",
+      "Matrix6.6.1-Mode": "",
       "Cancel": "true",
       "Cancel Explosion": "true",
       "Detect Staff Velocity": "true",

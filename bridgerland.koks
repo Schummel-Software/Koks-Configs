@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1644334239848,
+  "Date": 1645124452111,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -17,7 +17,6 @@
     "values": {
       "Health NaN Check": "false",
       "GroundCheck": "false",
-      "GroundSpawnCheck": "false",
       "Name Check": "false",
       "TeamColorCheck": "false",
       "TeamColorRGB": "-1",
@@ -28,9 +27,23 @@
       "StaticPing": "1",
       "SkinCheck": "false",
       "DuplicateEntityCheck": "false",
+      "ValidUUIDCheck": "false",
       "Sound Check": "false",
       "Rotation Check": "false",
+      "Copy Name Check": "false",
       "Ticks Existed": "0"
+    }
+  },
+  "AntiCactus": {
+    "toggled": false,
+    "bypass": false,
+    "values": {}
+  },
+  "AntiFire": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Packets": "15"
     }
   },
   "AntiHunger": {
@@ -162,7 +175,8 @@
     "values": {
       "Mode": "Intave",
       "Intave13-Height": "3.0",
-      "Matrix6.6.1-Boost": "1.9"
+      "Matrix6.6.1-Boost": "1.9",
+      "Matrix6.6.1-BoostY": "1.0"
     }
   },
   "FastBow": {
@@ -205,11 +219,17 @@
       "inAir": "false"
     }
   },
+  "FastVillagerShop": {
+    "toggled": false,
+    "bypass": false,
+    "values": {}
+  },
   "Fly": {
     "toggled": false,
     "bypass": true,
     "values": {
       "Mode": "Verus",
+      "NCP-Mode": "",
       "Intave-Version": "",
       "Spartan-Version": "",
       "AAC-Version": "",
@@ -217,7 +237,7 @@
       "Vanilla-Mode": "",
       "Hypixel-Mode": "",
       "Verus b3733-Mode": "Damage",
-      "Verus-Damage-Speed": "4.11",
+      "Verus-Damage-Speed": "9.0",
       "MegaCraft-Speed": "1.0",
       "AAC1.9.10-Speed": "2.34",
       "AAC1.9.10-MotionY": "0.8",
@@ -402,6 +422,7 @@
       "Near Rotate": "true",
       "Near Distance": "0.5",
       "Smooth Rotations": "false",
+      "Rotation Fix": "false",
       "FOV": "180",
       "Rotation Speed": "180",
       "HurtTime": "10"
@@ -423,7 +444,8 @@
       "Redesky2021-Motion": "0.65",
       "Redesky2021-Boost": "0.1",
       "Redesky2021-Speed": "1.5",
-      "Disable Velocity": "false"
+      "Disable Velocity": "false",
+      "SpoofY": "false"
     }
   },
   "MurderScanner": {
@@ -441,7 +463,8 @@
     "bypass": false,
     "values": {
       "Mode": "Vanilla",
-      "Motion": "0.15"
+      "Motion": "0.15",
+      "Sneak": "false"
     }
   },
   "NoFall": {
@@ -557,6 +580,9 @@
       "CanUp-Check": "true",
       "DownScaffold": "false",
       "WorldHeightCheck": "true",
+      "Drag Blocks to Hotbar": "false",
+      "Spoof Inventory": "true",
+      "Block Movement": "false",
       "Tower": "true",
       "Tower-Mode": "Teleport",
       "Tower-Motion": "0.42",
@@ -650,16 +676,32 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "Mode": "HypixelHop",
+      "Mode": "Hypixel",
+      "NCP-Version": "",
+      "NCP3.16.0-Mode": "",
+      "Spartan-Version": "",
+      "AAC-Version": "",
+      "Mineplex-Mode": "",
+      "Intave-Version": "",
+      "Hypixel-Mode": "Ground Strafe",
+      "Vanilla-Mode": "",
       "Rededark-Mode": "",
       "Verus-Mode": "",
       "Timer-Speed": "1.0",
+      "Mineplex-LongJump-Motion": "0.43",
+      "Mineplex-LongJump-Collide-Motion": "0.28",
+      "Mineplex-LongJump-Stops": "false",
+      "Mineplex-LongJump-NormalJump": "false",
+      "Mineplex-LongJump-JumpMotion": "0.34",
+      "Mineplex-LongJump-JumpBoost": "false",
+      "Mineplex-LongJump-JumpBoostMotion": "0.03",
       "Legit-Strafing": "false",
       "Timer-Randomizing": "false",
       "Timer-RandomizeRange": "1.0",
       "AAC4-BoostSpeed": "50.0",
       "AAC4-SlowingSpeed": "0.1",
-      "AAC4-Steps": "3"
+      "AAC4-Steps": "3",
+      "SpoofY": "false"
     }
   },
   "Spider": {
@@ -693,18 +735,19 @@
     "bypass": false,
     "values": {
       "Mode": "Intave",
-      "StepHeight": "4.0"
+      "StepHeight": "4.0",
+      "Matrix6.6.1-Boost": "true"
     }
   },
   "SuperHit": {
     "toggled": false,
-    "bypass": false,
+    "bypass": true,
     "values": {
       "Reach": "100",
       "StepDistance": "6",
       "AllowGround": "false",
       "Jump": "false",
-      "Mode": "Vanilla"
+      "Mode": "Karhu2.1.9 162"
     }
   },
   "TargetStrafe": {
@@ -734,8 +777,10 @@
     "bypass": true,
     "values": {
       "Mode": "Packet",
+      "Matrix6.6.1-Mode": "BackTP",
       "Cancel": "true",
       "Cancel Explosion": "true",
+      "Detect Staff Velocity": "false",
       "Vertical": "0",
       "Horizontal": "0",
       "Intave14.1.2-Improve": "false",
