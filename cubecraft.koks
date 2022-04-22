@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1648320323953,
+  "Date": 1649612948159,
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -27,14 +27,23 @@
       "StaticPing": "1",
       "SkinCheck": "false",
       "DuplicateEntityCheck": "false",
+      "DuplicateCheckMode": "Name",
       "ValidUUIDCheck": "false",
+      "CanDamagedCheck": "false",
       "Sound Check": "false",
+      "Vanish Check": "false",
+      "Latency Check": "false",
       "Rotation Check": "false",
       "Copy Name Check": "false",
       "Ticks Existed": "0"
     }
   },
   "AntiCactus": {
+    "toggled": false,
+    "bypass": true,
+    "values": {}
+  },
+  "AntiEnderman": {
     "toggled": false,
     "bypass": false,
     "values": {}
@@ -47,13 +56,13 @@
     }
   },
   "AntiHunger": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {}
   },
   "AntiVoid": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {
       "Fall Distance": "3.0",
       "OnlyVoid": "true",
@@ -120,7 +129,7 @@
     "bypass": true,
     "values": {
       "Start Delay": "220",
-      "Grab Delay": "189",
+      "Grab Delay": "143",
       "Make it Intelligent": "true",
       "StackItems": "true",
       "RandomPick": "true",
@@ -154,11 +163,11 @@
     "values": {}
   },
   "Disabler": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {
-      "Mode": "None",
-      "Hypixel-Stafe-Timer-Disabler": "false",
+      "Mode": "CubeCraft",
+      "CubeCraft-Semi Disabler": "true",
       "NCP-Timer Disabler": "false",
       "Redesky-Packet Kick": "false",
       "Accurancy-Full": "false",
@@ -204,7 +213,7 @@
     "bypass": false,
     "values": {
       "Mode": "Vanilla",
-      "Up Motion": "0.2",
+      "Up Motion": "0.29",
       "Down Motion": "-0.15"
     }
   },
@@ -228,15 +237,15 @@
   },
   "Fly": {
     "toggled": false,
-    "bypass": false,
+    "bypass": true,
     "values": {
-      "Mode": "Vanilla",
+      "Mode": "CubeCraft",
       "NCP-Mode": "",
       "Intave-Version": "",
       "Spartan-Version": "",
       "AAC-Version": "",
       "Verus-Version": "",
-      "Vanilla-Mode": "AirJump",
+      "Vanilla-Mode": "",
       "Hypixel-Mode": "",
       "Rededark-Mode": "",
       "Verus b3733-Mode": "",
@@ -254,6 +263,7 @@
       "Spartan406-Slowness": "0.6",
       "Spartan406-Boost": "0.01",
       "Vanilla-Speed": "0.05",
+      "Vanilla-Motion-Speed": "0.25",
       "Vanilla-SpigotFlyKickBypass": "false",
       "Verus b1187-Boost": "false",
       "FastStop": "true",
@@ -315,8 +325,8 @@
     }
   },
   "InvMove": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {
       "Spoof": "false",
       "Jump": "true",
@@ -325,6 +335,13 @@
       "Look": "true",
       "LookWithArrow": "false",
       "RotationSpeed": "5.0"
+    }
+  },
+  "Inventory+": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Only send open inventory when needed": "true"
     }
   },
   "InventoryCleaner": {
@@ -373,13 +390,13 @@
       "SmoothCPS-CPS-Speed": "0.5",
       "SmoothCPS-RandomStrength": "0.85",
       "SmoothCPS-Randomizing": "false",
-      "Range": "3.29",
+      "Range": "6.0",
       "PreAim Range": "1.5",
       "TargetMode": "Single",
       "PreferType": "",
       "Switch Delay": "0",
-      "Criticals": "false",
-      "Criticals-Mode": "",
+      "Criticals": "true",
+      "Criticals-Mode": "onGround",
       "AutoBlock": "false",
       "SmartBlock": "false",
       "AutoBlock-Mode": "",
@@ -389,11 +406,10 @@
       "Mobs": "false",
       "Ignore Death": "true",
       "Ignore Invisible": "true",
-      "NoSwing": "false",
-      "NoSwing-Mode": "",
-      "Heuristics": "true",
+      "Swing-Mode": "After Attack",
+      "Heuristics": "false",
       "Prediction": "true",
-      "RayCast": "true",
+      "RayCast": "false",
       "StaticPitch": "false",
       "Pitch": "-90",
       "MouseFix": "true",
@@ -410,7 +426,7 @@
       "UseAttack": "false",
       "PreAimAttack": "false",
       "KeepCPS": "false",
-      "SprintReset": "false",
+      "SprintReset": "true",
       "Haze Range": "false",
       "Haze Range Adjustment": "0.5",
       "Max Haze Range": "1.0",
@@ -435,11 +451,11 @@
   },
   "LongJump": {
     "toggled": false,
-    "bypass": false,
+    "bypass": true,
     "values": {
       "Mode": "CubeCraft",
       "Spartan439-Boost": "5.0",
-      "AGC2021-DamageMethod": "Bow",
+      "AGC2021-DamageMethod": "",
       "AGC2021-Boost": "3.4",
       "AGC2021-HurtTime": "6",
       "AGC2021-FastStop": "false",
@@ -449,8 +465,10 @@
       "Redesky2021-Motion": "0.65",
       "Redesky2021-Boost": "0.1",
       "Redesky2021-Speed": "1.5",
-      "Disable Velocity": "false",
-      "SpoofY": "false"
+      "Disable Velocity": "true",
+      "SpoofY": "false",
+      "AirBob": "true",
+      "Static Camera Pitch": "true"
     }
   },
   "MurderScanner": {
@@ -503,8 +521,8 @@
     "values": {}
   },
   "NoSlowDown": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {
       "Speed": "1.0",
       "CanSprint": "true",
@@ -575,10 +593,10 @@
       "Smooth Delay-Delay-Speed": "0.5",
       "Smooth Delay-RandomStrength": "0.85",
       "Smooth Delay-Randomizing": "false",
-      "Boost Mode": "None",
+      "Boost Mode": "Timer",
       "Timer-Mode": "Always",
-      "Timer-Speed": "1.0",
-      "Motion-Mode": "When Air",
+      "Timer-Speed": "2.07",
+      "Motion-Mode": "",
       "Motion-Speed": "1.0",
       "Modify In Air": "false",
       "Blocks": "0",
@@ -592,7 +610,8 @@
       "Spoof Inventory": "false",
       "Block Movement": "false",
       "Tower": "false",
-      "Tower-Mode": "Motion",
+      "Tower-Mode": "",
+      "Tower-Damage Motion": "1.0",
       "Tower-Motion": "0.42",
       "Tower-VerusDisabler": "false",
       "Tower-WhileMoving": "false",
@@ -610,7 +629,7 @@
       "Speed Boost": "0.2",
       "Jump Delay": "false",
       "NoSwing": "false",
-      "NoSwing-Mode": "Vanilla",
+      "NoSwing-Mode": "",
       "Edge Check": "false",
       "NecessaryPlacement": "false",
       "Necessary Chance": "60",
@@ -625,7 +644,7 @@
       "SafeWalk": "false",
       "OnlyGround": "false",
       "Sprint": "false",
-      "Sprint-Mode": "Normal",
+      "Sprint-Mode": "",
       "All Direction Sprint": "false",
       "Sneak": "false",
       "SpoofSneak": "false",
@@ -683,9 +702,10 @@
   },
   "Speed": {
     "toggled": false,
-    "bypass": false,
+    "bypass": true,
     "values": {
       "Mode": "CubeCraft",
+      "CubeCraft-Mode": "FastHop",
       "NCP-Version": "3.16.0",
       "NCP3.16.0-Mode": "YPort",
       "Spartan-Version": "441",
@@ -712,6 +732,7 @@
       "AAC4-BoostSpeed": "50.0",
       "AAC4-SlowingSpeed": "0.1",
       "AAC4-Steps": "3",
+      "Block Jumping": "false",
       "SpoofY": "false"
     }
   },
@@ -723,7 +744,7 @@
     }
   },
   "Sprint": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "Legit": "true",
@@ -747,7 +768,7 @@
     "values": {
       "Mode": "Mineplex",
       "StepHeight": "4.0",
-      "Matrix6.6.1-Boost": "true"
+      "Matrix6.6.1-Boost": "false"
     }
   },
   "SuperHit": {
@@ -763,8 +784,8 @@
     }
   },
   "SwingFixer": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {}
   },
   "TargetStrafe": {
@@ -794,7 +815,7 @@
     "bypass": true,
     "values": {
       "Mode": "Packet",
-      "Matrix6.6.1-Mode": "Reverse",
+      "Matrix6.6.1-Mode": "",
       "Cancel": "true",
       "Cancel Explosion": "true",
       "Detect Staff Velocity": "false",
