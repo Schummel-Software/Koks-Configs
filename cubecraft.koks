@@ -1,7 +1,7 @@
 {
   "Creator": "Kroko",
-  "Date": 1652382036064,
-  "Version": "4.1.0 22w18a",
+  "Date": 1654797428537,
+  "Version": "4.1.0 22w23a",
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -41,7 +41,8 @@
       "Latency Check": "false",
       "Rotation Check": "false",
       "Copy Name Check": "false",
-      "Ticks Existed": "0"
+      "Ticks Existed": "0",
+      "Exclude Bots": "false"
     }
   },
   "AntiCactus": {
@@ -61,10 +62,36 @@
       "Packets": "15"
     }
   },
+  "AntiFireball": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Range": "6.0",
+      "Delay": "50",
+      "Rotations": "false",
+      "MouseFix": "false",
+      "MoveFix": "false",
+      "RayCast": "false"
+    }
+  },
   "AntiHunger": {
     "toggled": false,
     "bypass": false,
     "values": {}
+  },
+  "AntiSoulSand": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Motion": "1.0"
+    }
+  },
+  "AntiVanish": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Gomme": "true"
+    }
   },
   "AntiVoid": {
     "toggled": true,
@@ -82,6 +109,15 @@
       "Opened Inventory": "true",
       "Start Delay": "251",
       "Throw Delay": "183"
+    }
+  },
+  "AutoClicker": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "CPS": "20",
+      "Randomization": "true",
+      "Fast Place": "false"
     }
   },
   "AutoHeal": {
@@ -117,7 +153,9 @@
     "bypass": false,
     "values": {
       "DismountVehicle": "true",
-      "OnlyMovePackets": "true"
+      "OnlyMovePackets": "true",
+      "Pulse": "false",
+      "Delay": "500"
     }
   },
   "BowAimBot": {
@@ -142,6 +180,7 @@
       "StackItems": "true",
       "RandomPick": "true",
       "Auto Close": "true",
+      "Silent": "false",
       "Simulate Mouse": "false"
     }
   },
@@ -158,6 +197,18 @@
       "Swing-Packets": "100",
       "Intave13-Packets": "100",
       "Intave13-Range": "10"
+    }
+  },
+  "Damage": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Type": "Teleport",
+      "Jumps": "3",
+      "Distance": "3.5",
+      "Small Steps": "false",
+      "Addition": "0.25",
+      "SpoofY": "true"
     }
   },
   "Debug": {
@@ -181,13 +232,14 @@
       "Kauri-Version": "",
       "CubeCraft-Capability": "false",
       "CubeCraft-SwingFixer": "true",
-      "CubeCraft-C0F": "true",
-      "CubeCraft-Super Idol": "true",
+      "CubeCraft-C0F": "false",
+      "CubeCraft-Super Idol": "false",
       "CubeCraft-Semi Disabler": "false",
       "CubeCraft-Strafe Disabler": "false",
       "CubeCraft-Ping Disabler": "false",
       "CubeCraft-Timer Disabler": "false",
       "CubeCraft-Dildo Disabler": "true",
+      "Cubecraft-Ich habe die Kontrolle über mein Leben verloren": "true",
       "NCP-Timer Disabler": "false",
       "Redesky-Packet Kick": "false",
       "Accurancy-Full": "false",
@@ -209,6 +261,13 @@
       "Intave13-Height": "3.0",
       "Matrix6.6.1-Boost": "1.9",
       "Matrix6.6.1-BoostY": "1.0"
+    }
+  },
+  "Eagle": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Unsneak Delay": "0"
     }
   },
   "FastBow": {
@@ -277,6 +336,9 @@
       "Vanilla-Mode": "",
       "Hypixel-Mode": "",
       "Rededark-Mode": "",
+      "Minebox-Horizontal": "0.25",
+      "Minebox-Vertical": "0.25",
+      "Minemora-Speed": "4.0",
       "Verus b3733-Mode": "",
       "Verus-Damage-Speed": "1.0",
       "Verus-Damage-Slowdown": "false",
@@ -295,6 +357,7 @@
       "Vanilla-Speed": "0.05",
       "Vanilla-Motion-Speed": "0.25",
       "Vanilla-SpigotFlyKickBypass": "false",
+      "Vanilla-Collide-Block Jump": "false",
       "Verus b1187-Boost": "false",
       "CubeCraft-Stop Sneaking": "false",
       "CubeCraft-C08": "true",
@@ -305,6 +368,14 @@
       "Only Move Packets": "false",
       "FastStop": "true",
       "Bobbing": "true"
+    }
+  },
+  "FreeCamera": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Speed": "2.5",
+      "React to Teleport": "true"
     }
   },
   "Fucker": {
@@ -431,7 +502,7 @@
       "SmoothCPS-CPS-Speed": "0.5",
       "SmoothCPS-RandomStrength": "0.85",
       "SmoothCPS-Randomizing": "false",
-      "Range": "4.0",
+      "Range": "5.51",
       "PreAim Range": "0.0",
       "TargetMode": "Single",
       "PreferType": "",
@@ -441,6 +512,8 @@
       "AutoBlock": "false",
       "SmartBlock": "false",
       "AutoBlock-Mode": "",
+      "Time Travel": "false",
+      "Travel Ticks": "4",
       "Player": "true",
       "Animals": "false",
       "Villager": "false",
@@ -459,7 +532,7 @@
       "AttackDelay": "true",
       "RightAttackPacketOrdering": "true",
       "ThroughWalls": "true",
-      "ThroughWalls Range": "2.0",
+      "ThroughWalls Range": "5.29",
       "HitWhileRespawnScreen": "false",
       "NoInvAttack": "false",
       "CloseInventory": "false",
@@ -506,6 +579,7 @@
       "Redesky2021-Motion": "0.65",
       "Redesky2021-Boost": "0.1",
       "Redesky2021-Speed": "1.5",
+      "Zonecraft-Damage": "false",
       "Disable Velocity": "true",
       "Auto Disable": "true",
       "SpoofY": "false",
@@ -516,7 +590,11 @@
   "MurderScanner": {
     "toggled": false,
     "bypass": false,
-    "values": {}
+    "values": {
+      "Announce": "false",
+      "Fake News": "false",
+      "Fake News Delay": "5000"
+    }
   },
   "NoClip": {
     "toggled": false,
@@ -533,10 +611,10 @@
     }
   },
   "NoFall": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {
-      "Mode": "Mineplex"
+      "Mode": "Sentinel"
     }
   },
   "NoHitSlow": {
@@ -558,8 +636,8 @@
     "values": {}
   },
   "NoRotate": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {}
   },
   "NoSlowDown": {
@@ -571,7 +649,7 @@
       "OnlySword": "false",
       "Only Air": "false",
       "Spoofing": "false",
-      "Spoof-Mode": "NCP"
+      "Spoof-Mode": ""
     }
   },
   "ObstacleSpeed": {
@@ -589,6 +667,15 @@
     "toggled": false,
     "bypass": false,
     "values": {}
+  },
+  "Oxygen": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Steps": "5",
+      "Verus Disabler": "false",
+      "Teleport Back": "true"
+    }
   },
   "Phase": {
     "toggled": false,
@@ -651,8 +738,8 @@
       "Drag Blocks to Hotbar": "false",
       "Spoof Inventory": "false",
       "Block Movement": "false",
-      "Tower": "false",
-      "Tower-Mode": "",
+      "Tower": "true",
+      "Tower-Mode": "AAC442",
       "Tower-Damage Motion": "1.0",
       "Tower-Motion": "0.42",
       "Tower-VerusDisabler": "false",
@@ -705,11 +792,11 @@
       "Simple Rotations": "false",
       "DynamicYaw": "false",
       "Static Pitch": "true",
-      "Ignore Yaw": "false",
       "Pitch": "90.0",
+      "Ignore Yaw": "false",
       "RandomizePitch": "false",
-      "Reset Progress After Place": "true",
-      "Progress Value": "0.0",
+      "Reset Progress After Place": "false",
+      "Progress Value": "-0.4",
       "Block Counter": "true",
       "NoBob": "false"
     }
@@ -734,6 +821,13 @@
       "Silent Sprint": "false"
     }
   },
+  "SilentMurder": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Weapon Slot": "2"
+    }
+  },
   "Spammer": {
     "toggled": false,
     "bypass": false,
@@ -750,6 +844,7 @@
     "bypass": true,
     "values": {
       "Mode": "CubeCraft",
+      "BlocksMC-Mode": "Verus",
       "Vulcan-Version": "",
       "CubeCraft-Mode": "FastHop",
       "NCP-Version": "",
@@ -786,7 +881,8 @@
       "AAC4-SlowingSpeed": "0.1",
       "AAC4-Steps": "3",
       "Block Jumping": "true",
-      "SpoofY": "false"
+      "Hide Jumps": "true",
+      "Only Third Person": "true"
     }
   },
   "Spider": {
@@ -841,11 +937,23 @@
       "Mode": "Vanilla"
     }
   },
+  "SuperKnockback": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Packets": "1",
+      "Move Packets": "15",
+      "HurtTime Check": "false"
+    }
+  },
   "TargetStrafe": {
     "toggled": false,
     "bypass": false,
     "values": {
-      "Mode": "Legit"
+      "Mode": "Legit",
+      "Distance": "2.0",
+      "Points": "3",
+      "Line": "false"
     }
   },
   "Teleport": {
@@ -877,11 +985,10 @@
     "values": {
       "Mode": "Packet",
       "Matrix6.6.1-Mode": "Reverse",
-      "Cancel": "true",
       "Cancel Explosion": "true",
       "Detect Staff Velocity": "false",
-      "Vertical": "0",
       "Horizontal": "0",
+      "Vertical": "0",
       "Min Hurt Time": "0",
       "Max Hurt Time": "10",
       "Ground Spoof": "false",

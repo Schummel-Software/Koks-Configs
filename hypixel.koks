@@ -1,7 +1,7 @@
 {
   "Creator": "Kroko",
-  "Date": 1654640583164,
-  "Version": "4.1.0 22w20a",
+  "Date": 1654692800529,
+  "Version": "4.1.0 22w23a",
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -23,12 +23,12 @@
     "values": {
       "Health NaN Check": "false",
       "GroundCheck": "false",
-      "Name Check": "false",
+      "Name Check": "true",
       "TeamColorCheck": "false",
       "TeamColorRGB": "-1",
       "Swing Check": "false",
       "HitBefore": "false",
-      "TabListCheck": "true",
+      "TabListCheck": "false",
       "PingCheck": "true",
       "StaticPing": "1",
       "SkinCheck": "false",
@@ -41,7 +41,8 @@
       "Latency Check": "false",
       "Rotation Check": "false",
       "Copy Name Check": "false",
-      "Ticks Existed": "0"
+      "Ticks Existed": "0",
+      "Exclude Bots": "true"
     }
   },
   "AntiCactus": {
@@ -83,6 +84,13 @@
     "bypass": false,
     "values": {
       "Motion": "1.0"
+    }
+  },
+  "AntiVanish": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Gomme": "false"
     }
   },
   "AntiVoid": {
@@ -578,7 +586,7 @@
     }
   },
   "MurderScanner": {
-    "toggled": false,
+    "toggled": true,
     "bypass": true,
     "values": {
       "Announce": "true",
@@ -812,7 +820,7 @@
     }
   },
   "SilentMurder": {
-    "toggled": false,
+    "toggled": true,
     "bypass": true,
     "values": {
       "Weapon Slot": "2"

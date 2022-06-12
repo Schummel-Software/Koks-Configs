@@ -1,7 +1,7 @@
 {
   "Creator": "Kroko",
-  "Date": 1654638451287,
-  "Version": "4.1.0 22w20a",
+  "Date": 1654683137816,
+  "Version": "4.1.0 22w23a",
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -154,7 +154,7 @@
     "values": {
       "OnlyPlayers": "true",
       "AutoShoot": "true",
-      "ThroughWalls": "false",
+      "ThroughWalls": "true",
       "MoveFix": "true",
       "Clamp Yaw": "false",
       "LockView": "false"
@@ -521,7 +521,7 @@
       "SilentMoveFix": "true",
       "AttackDelay": "true",
       "RightAttackPacketOrdering": "false",
-      "ThroughWalls": "false",
+      "ThroughWalls": "true",
       "ThroughWalls Range": "3.0",
       "HitWhileRespawnScreen": "false",
       "NoInvAttack": "false",
@@ -632,14 +632,14 @@
   },
   "NoSlowDown": {
     "toggled": false,
-    "bypass": false,
+    "bypass": true,
     "values": {
       "Speed": "1.0",
       "CanSprint": "true",
       "OnlySword": "false",
       "Only Air": "false",
       "Spoofing": "true",
-      "Spoof-Mode": "Intave13"
+      "Spoof-Mode": "Ground"
     }
   },
   "ObstacleSpeed": {
