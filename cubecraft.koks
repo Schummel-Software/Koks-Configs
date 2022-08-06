@@ -1,7 +1,7 @@
 {
   "Creator": "Kroko",
-  "Date": 1654797428537,
-  "Version": "4.1.0 22w23a",
+  "Date": 1656873028080,
+  "Version": "4.1.0 22w25a",
   "AirStuck": {
     "toggled": false,
     "bypass": false,
@@ -15,7 +15,9 @@
   "AntiAim": {
     "toggled": false,
     "bypass": false,
-    "values": {}
+    "values": {
+      "Randomize": "false"
+    }
   },
   "AntiBot": {
     "toggled": false,
@@ -69,7 +71,9 @@
       "Range": "6.0",
       "Delay": "50",
       "Rotations": "false",
-      "MouseFix": "false",
+      "Mouse Sensitivity": "false",
+      "Custom Sensitivity": "false",
+      "Mouse Speed": "0.5",
       "MoveFix": "false",
       "RayCast": "false"
     }
@@ -166,6 +170,9 @@
       "AutoShoot": "true",
       "ThroughWalls": "false",
       "MoveFix": "true",
+      "Mouse Sensitivity": "false",
+      "Custom Sensitivity": "false",
+      "Mouse Speed": "0.5",
       "Clamp Yaw": "false",
       "LockView": "false"
     }
@@ -229,6 +236,8 @@
       "WatchCat-Semi": "false",
       "WatchCat-Block Action": "false",
       "WatchCat-Timer": "false",
+      "Hypixel-Position Strafe": "false",
+      "Hypixel-Timer": "false",
       "Kauri-Version": "",
       "CubeCraft-Capability": "false",
       "CubeCraft-SwingFixer": "true",
@@ -238,8 +247,9 @@
       "CubeCraft-Strafe Disabler": "false",
       "CubeCraft-Ping Disabler": "false",
       "CubeCraft-Timer Disabler": "false",
-      "CubeCraft-Dildo Disabler": "true",
+      "CubeCraft-Dildo Disabler": "false",
       "Cubecraft-Ich habe die Kontrolle über mein Leben verloren": "true",
+      "Cubecraft-24.06.2022": "true",
       "NCP-Timer Disabler": "false",
       "Redesky-Packet Kick": "false",
       "Accurancy-Full": "false",
@@ -268,6 +278,16 @@
     "bypass": false,
     "values": {
       "Unsneak Delay": "0"
+    }
+  },
+  "FakeLag": {
+    "toggled": false,
+    "bypass": false,
+    "values": {
+      "Mode": "Only Position",
+      "Min Tick Delay": "16",
+      "Max Tick Delay": "48",
+      "Debug": "false"
     }
   },
   "FastBow": {
@@ -358,6 +378,7 @@
       "Vanilla-Motion-Speed": "0.25",
       "Vanilla-SpigotFlyKickBypass": "false",
       "Vanilla-Collide-Block Jump": "false",
+      "Vanilla-Glide Motion": "0.02",
       "Verus b1187-Boost": "false",
       "CubeCraft-Stop Sneaking": "false",
       "CubeCraft-C08": "true",
@@ -365,8 +386,10 @@
       "Zonecraft-C08-Method1": "false",
       "Zonecraft-C08-Method2": "false",
       "Blink": "false",
+      "Timer": "1.0",
       "Only Move Packets": "false",
       "FastStop": "true",
+      "Force Stop Flying": "false",
       "Bobbing": "true"
     }
   },
@@ -385,10 +408,14 @@
       "Range": "5",
       "Delay": "10",
       "AutomaticDelay": "true",
+      "Rotations": "true",
       "RayCast": "true",
       "ThroughWalls": "false",
       "Clamp Yaw": "false",
       "MoveFix": "false",
+      "Mouse Sensitivity": "true",
+      "Custom Sensitivity": "false",
+      "Mouse Speed": "0.5",
       "NoSwing": "false",
       "Bed": "false",
       "DragonEgg": "true",
@@ -441,6 +468,7 @@
     "bypass": false,
     "values": {
       "Spoof": "false",
+      "Spam Open Inventory": "false",
       "Jump": "true",
       "Sprint": "true",
       "Silent Sprint": "false",
@@ -513,7 +541,7 @@
       "SmartBlock": "false",
       "AutoBlock-Mode": "",
       "Time Travel": "false",
-      "Travel Ticks": "4",
+      "Max Balance": "1.2",
       "Player": "true",
       "Animals": "false",
       "Villager": "false",
@@ -527,6 +555,8 @@
       "StaticPitch": "false",
       "Pitch": "-90",
       "MouseFix": "true",
+      "Custom Sensitivity": "false",
+      "Mouse Speed": "0.5",
       "MoveFix": "false",
       "SilentMoveFix": "false",
       "AttackDelay": "true",
@@ -568,6 +598,8 @@
     "bypass": true,
     "values": {
       "Mode": "CubeCraft4",
+      "GommeBWRespawn-Boost": "7.0",
+      "GommeBWRespawn-Height": "1.0",
       "Spartan439-Boost": "5.0",
       "AGC2021-DamageMethod": "",
       "AGC2021-Boost": "3.4",
@@ -649,7 +681,8 @@
       "OnlySword": "false",
       "Only Air": "false",
       "Spoofing": "false",
-      "Spoof-Mode": ""
+      "Spoof-Mode": "",
+      "Intave13-Air Bypass": "false"
     }
   },
   "ObstacleSpeed": {
@@ -724,7 +757,7 @@
       "Smooth Delay-Randomizing": "false",
       "Boost Mode": "Timer",
       "Timer-Mode": "Always",
-      "Timer-Speed": "2.41",
+      "Timer-Speed": "1.0",
       "Motion-Mode": "",
       "Motion-Speed": "1.0",
       "Modify In Air": "false",
@@ -776,7 +809,7 @@
       "All Direction Sprint": "false",
       "Sneak": "false",
       "SpoofSneak": "false",
-      "Sneak after...": "1",
+      "Sneak after...": "0",
       "RayCast": "false",
       "Rotations": "true",
       "Clamp Yaw": "false",
@@ -789,6 +822,8 @@
       "Necessary Rotations": "true",
       "Rotate in Air": "true",
       "MouseFix": "true",
+      "Custom Sensitivity": "false",
+      "Mouse Speed": "0.5",
       "Simple Rotations": "false",
       "DynamicYaw": "false",
       "Static Pitch": "true",
@@ -833,6 +868,7 @@
     "bypass": false,
     "values": {
       "Delay": "1000",
+      "Words per Delay": "1",
       "Custom Words": "false",
       "Randomizing": "true",
       "RandomChoose": "false",
@@ -844,15 +880,18 @@
     "bypass": true,
     "values": {
       "Mode": "CubeCraft",
-      "BlocksMC-Mode": "Verus",
+      "BlocksMC-Mode": "",
+      "Kauri-Version": "",
       "Vulcan-Version": "",
-      "CubeCraft-Mode": "FastHop",
+      "CubeCraft-Mode": "Bhop",
       "NCP-Version": "",
       "NCP3.16.0-Mode": "",
       "Spartan-Version": "",
       "AAC-Version": "",
       "Mineplex-Mode": "",
       "Intave-Version": "",
+      "Minemora-Low-Hop": "false",
+      "Minemora-Fast": "false",
       "Hypixel-Mode": "",
       "Hypixel-Ground-Strafe-TimerSpeed": "1.0",
       "Hypixel-Ground-Strafe-Motion": "0.298",
@@ -880,6 +919,8 @@
       "AAC4-BoostSpeed": "50.0",
       "AAC4-SlowingSpeed": "0.1",
       "AAC4-Steps": "3",
+      "Potion Speed": "Off",
+      "Rotations": "false",
       "Block Jumping": "true",
       "Hide Jumps": "true",
       "Only Third Person": "true"
@@ -913,7 +954,9 @@
       "MaxBoost": "9.0",
       "Decrement": "0.05",
       "Air-Decrement": "3.0",
-      "KeepBoost": "false"
+      "KeepBoost": "false",
+      "Stairs": "true",
+      "Slaps": "true"
     }
   },
   "Step": {
@@ -921,7 +964,7 @@
     "bypass": false,
     "values": {
       "Mode": "Mineplex",
-      "StepHeight": "4.0",
+      "Step Height": "4.0",
       "Matrix6.6.1-Boost": "false"
     }
   },
@@ -992,6 +1035,7 @@
       "Min Hurt Time": "0",
       "Max Hurt Time": "10",
       "Ground Spoof": "false",
+      "Only when Sneak": "false",
       "Intave14.1.2-Improve": "false"
     }
   },
