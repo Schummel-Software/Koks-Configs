@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1686967334231,
+  "Date": 1688789169436,
   "Version": "4.1.0 Release Candidate 2",
   "AirStuck": {
     "toggled": false,
@@ -56,7 +56,7 @@
     }
   },
   "AntiCactus": {
-    "toggled": true,
+    "toggled": false,
     "bypass": false,
     "values": {
       "Up Side": "true"
@@ -75,8 +75,8 @@
     }
   },
   "AntiFireball": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {
       "Range": "6.0",
       "Delay": "0",
@@ -108,7 +108,7 @@
   },
   "AntiVoid": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
       "Fall Distance": "3.0",
       "OnlyVoid": "true",
@@ -125,7 +125,7 @@
     "values": {
       "Opened Inventory": "true",
       "Start Delay": "250",
-      "Throw Delay": "100"
+      "Throw Delay": "240"
     }
   },
   "AutoClicker": {
@@ -170,6 +170,13 @@
     "bypass": false,
     "values": {}
   },
+  "AutoTool": {
+    "toggled": true,
+    "bypass": true,
+    "values": {
+      "Silent": "true"
+    }
+  },
   "AutoWater": {
     "toggled": false,
     "bypass": false,
@@ -179,7 +186,7 @@
   },
   "Backtrack": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
       "Delay": "114",
       "Max Hit Range": "6.0",
@@ -195,7 +202,7 @@
   },
   "Blink": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
       "DismountVehicle": "true",
       "OnlyMovePackets": "false",
@@ -229,11 +236,11 @@
     "values": {}
   },
   "ChestStealer": {
-    "toggled": false,
+    "toggled": true,
     "bypass": true,
     "values": {
-      "Start Delay": "150",
-      "Grab Delay": "150",
+      "Start Delay": "217",
+      "Grab Delay": "186",
       "Make it Intelligent": "true",
       "StackItems": "true",
       "RandomPick": "true",
@@ -276,22 +283,22 @@
     "values": {}
   },
   "Debug2": {
-    "toggled": true,
+    "toggled": false,
     "bypass": false,
     "values": {}
   },
   "Disabler": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {
-      "Mode": "Vulcan",
-      "Vulcan-2.7.2-Strafe": "true",
-      "Vulcan-2.7.2-Scaffold-Too Fast": "true",
+      "Mode": "Gomme",
+      "Vulcan-2.7.2-Strafe": "false",
+      "Vulcan-2.7.2-Scaffold-Too Fast": "false",
       "Sparky-Mode": "",
       "LiveOverflow-Human": "false",
       "LiveOverflow-Human Mode": "",
       "LiveOverflow-Fly": "false",
-      "Gomme-FFA Full": "false",
+      "Gomme-FFA Full": "true",
       "Gomme-Staff": "false",
       "Gomme-Movement": "false",
       "WatchCat-Semi": "false",
@@ -406,7 +413,7 @@
   },
   "Fly": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
       "Mode": "Vanilla",
       "Grim-Version": "",
@@ -448,7 +455,7 @@
       "Spartan406-Slowness": "0.6",
       "Spartan406-Boost": "0.01",
       "Vanilla-Speed": "0.05",
-      "Vanilla-Motion-Speed": "2.87",
+      "Vanilla-Motion-Speed": "0.25",
       "Vanilla-SpigotFlyKickBypass": "false",
       "Vanilla-Collide-Block Jump": "false",
       "Vanilla-Glide Motion": "0.02",
@@ -509,10 +516,10 @@
     "bypass": false,
     "values": {
       "Mode": "Intave13.0.8Slime",
-      "Matrix-Version": "",
-      "Karhu-Version": "",
-      "Spartan-Version": "",
-      "Spartan426-Mode": "",
+      "Matrix-Version": "6.6.1",
+      "Karhu-Version": "2.1.9 163-PRE",
+      "Spartan-Version": "432",
+      "Spartan426-Mode": "Good",
       "Matrix6.6.1 Cobweb-Motion": "4.0",
       "Spartan426-Height": "10",
       "Karhu2.1.9 163-PRE-Height": "50"
@@ -577,7 +584,7 @@
     "values": {
       "OpenedInventory": "true",
       "Start Delay": "250",
-      "Throw Delay": "100",
+      "Throw Delay": "220",
       "PreferSword": "true",
       "KeepTools": "true",
       "Weapon Slot": "1",
@@ -616,24 +623,24 @@
     "values": {
       "HitChance": "100",
       "OnlyWhenNotRayCast": "false",
-      "CPS": "12.0",
-      "Cps-Mode": "No Delay",
+      "CPS": "18.37",
+      "Cps-Mode": "Calculate after Hit",
       "Ignore First Hit": "false",
       "Percent for ignore next Hit": "0",
       "SmoothCPS-AfterHit": "false",
       "Perfect Hit": "false",
-      "NoTimerAttack": "false",
+      "NoTimerAttack": "true",
       "SmoothCPS-CPS-Speed": "0.5",
       "SmoothCPS-RandomStrength": "0.85",
       "SmoothCPS-Randomizing": "false",
-      "Range": "4.03",
+      "Range": "3.0",
       "PreAim Range": "1.5",
       "Attack Mode": "Normal",
-      "Max Targets": "10",
-      "Switch Targets": "true",
-      "Switch Mode": "When Hit",
+      "Max Targets": "1",
+      "Switch Targets": "false",
+      "Switch Mode": "",
       "Switch Delay": "0",
-      "Sorting": "None",
+      "Sorting": "Health",
       "Aim Point": "",
       "Attacks per Delay": "1",
       "Criticals": "false",
@@ -648,21 +655,21 @@
       "Max Time Delay": "0.2",
       "Player": "true",
       "Animals": "false",
-      "Villager": "true",
+      "Villager": "false",
       "Mobs": "false",
       "Golem": "false",
       "Ignore Death": "true",
-      "Ignore Invisible": "true",
+      "Ignore Invisible": "false",
       "Swing-Mode": "Normal",
       "Heuristics": "true",
       "Prediction": "true",
-      "RayCast": "false",
+      "RayCast": "true",
       "StaticPitch": "false",
       "Pitch": "-90",
-      "MouseFix": "false",
-      "Custom Sensitivity": "false",
-      "Mouse Speed": "0.5",
-      "AttackDelay": "false",
+      "MouseFix": "true",
+      "Custom Sensitivity": "true",
+      "Mouse Speed": "1.0",
+      "AttackDelay": "true",
       "Attack Event": "Legit",
       "ThroughWalls": "false",
       "ThroughWalls Range": "3.0",
@@ -688,7 +695,7 @@
       "LockView": "false",
       "Necessary Rotations": "true",
       "Necessary Mode": "Both",
-      "Near Rotate": "false",
+      "Near Rotate": "true",
       "Near Distance": "0.5",
       "Smooth Rotations": "false",
       "Rotation Fix": "false",
@@ -721,6 +728,7 @@
       "AGC2021-ToggleDelay": "false",
       "Intave14GommeSW-Boost": "4",
       "AAC3.3.12-Speed": "4.5",
+      "Polar-Height": "0.8",
       "Sparky-Motion": "false",
       "Sparky-Speed": "false",
       "Sparky-YMotion": "0.41",
@@ -743,10 +751,10 @@
     "toggled": true,
     "bypass": true,
     "values": {
-      "Movement": "false",
-      "Silent": "false",
-      "Jump": "false",
-      "All Direction Jump": "true"
+      "Movement": "true",
+      "Silent": "true",
+      "Jump": "true",
+      "All Direction Jump": "false"
     }
   },
   "MurderScanner": {
@@ -773,15 +781,15 @@
     }
   },
   "NoFall": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {
-      "Mode": "Vanilla"
+      "Mode": "Intave14.5.8"
     }
   },
   "NoHitSlow": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {
       "Slowness": "1.0",
       "Sprinting": "true"
@@ -913,13 +921,13 @@
       "Smooth Delay-Delay-Speed": "0.5",
       "Smooth Delay-RandomStrength": "0.85",
       "Smooth Delay-Randomizing": "false",
-      "Boost Mode": "Constant Motion",
+      "Boost Mode": "None",
       "Timer-Mode": "",
       "Timer-Speed": "1.0",
       "Smooth Motion-Mode": "",
       "Smooth Motion-Speed": "1.0",
-      "Constant Motion-Mode": "Always",
-      "Constant Motion-Speed": "0.51",
+      "Constant Motion-Mode": "",
+      "Constant Motion-Speed": "0.15",
       "Modify In Air": "false",
       "Blocks": "0",
       "Jump every blocks": "0",
@@ -927,7 +935,7 @@
       "UpScaffold": "true",
       "ResetRightClickDelayTime": "false",
       "CanUp-Check": "true",
-      "DownScaffold": "true",
+      "DownScaffold": "false",
       "Search Method": "Static",
       "Search Range": "3",
       "Can place on liquid": "false",
@@ -939,18 +947,18 @@
       "Only ghost first block": "false",
       "Use only stacks": "false",
       "Tower": "true",
-      "Tower-Mode": "Teleport",
+      "Tower-Mode": "GommeFast",
       "Tower-Damage Motion": "1.0",
       "Tower-Motion": "0.42",
       "Tower-VerusDisabler": "false",
       "Tower-WhileMoving": "false",
       "No Speed Effect": "false",
-      "Expand": "true",
-      "Expand Length": "2",
+      "Expand": "false",
+      "Expand Length": "1",
       "All Direction Expand": "false",
       "Switch Slot": "false",
       "Silent": "true",
-      "Delayed back switch": "true",
+      "Delayed back switch": "false",
       "Switch Blocks": "false",
       "Switch Delay": "0",
       "SameY": "false",
@@ -960,25 +968,28 @@
       "Jump Delay": "false",
       "Swing-Mode": "Vanilla",
       "Edge Check": "false",
-      "NecessaryPlacement": "true",
+      "NecessaryPlacement": "false",
       "Necessary Chance": "100",
       "BlockCheck": "true",
       "AllowAir": "true",
-      "AutomaticVector": "true",
+      "AutomaticVector": "false",
       "FacingCheck": "false",
-      "ShouldYaw": "false",
+      "ShouldYaw": "true",
       "SafeWalk": "false",
       "OnlyGround": "false",
-      "Sprint": "true",
-      "Sprint-Mode": "NoPacket",
-      "All Direction Sprint": "true",
-      "Sneak": "false",
+      "Sprint": "false",
+      "Sprint-Mode": "",
+      "All Direction Sprint": "false",
+      "Sneak": "true",
       "SpoofSneak": "false",
       "Always Sneak": "false",
-      "Sneak after...": "0",
+      "Sneak after placing blocks": "true",
+      "Sneak after...": "1",
+      "Sneak Time": "9",
+      "Breezily Movement": "false",
       "Stop move when disable": "false",
       "Stop Mode": "",
-      "RayCast": "false",
+      "RayCast": "true",
       "Rotations": "true",
       "Clamp Yaw": "false",
       "RandomAim": "false",
@@ -990,9 +1001,9 @@
       "Necessary Rotations": "true",
       "Rotate in Air": "false",
       "MouseFix": "true",
-      "Custom Sensitivity": "false",
-      "Mouse Speed": "0.5",
-      "Simple Rotations": "false",
+      "Custom Sensitivity": "true",
+      "Mouse Speed": "1.0",
+      "Simple Rotations": "true",
       "Yaw Adjustment": "0.0",
       "DynamicYaw": "false",
       "Static Pitch": "false",
@@ -1002,7 +1013,7 @@
       "RandomizePitch": "false",
       "Reset Progress After Place": "false",
       "Progress Value": "-0.4",
-      "Block Counter": "false",
+      "Block Counter": "true",
       "NoBob": "false"
     }
   },
@@ -1061,9 +1072,9 @@
   },
   "Speed": {
     "toggled": false,
-    "bypass": true,
+    "bypass": false,
     "values": {
-      "Mode": "Vanilla",
+      "Mode": "Intave",
       "BlocksMC-Mode": "",
       "Kauri-Version": "",
       "Vulcan-Version": "",
@@ -1073,13 +1084,13 @@
       "Spartan-Version": "",
       "AAC-Version": "",
       "Mineplex-Mode": "",
-      "Intave-Version": "",
+      "Intave-Version": "14.3.4",
       "Minemora-Low-Hop": "false",
       "Minemora-Fast": "false",
       "Hypixel-Mode": "",
       "Hypixel-Ground-Strafe-TimerSpeed": "1.0",
       "Hypixel-Ground-Strafe-Motion": "0.298",
-      "Vanilla-Mode": "Custom",
+      "Vanilla-Mode": "",
       "Rededark-Mode": "",
       "Verus-Mode": "",
       "Timer-Speed": "1.0",
@@ -1096,10 +1107,10 @@
       "Legit-Sprint": "false",
       "Timer-Randomizing": "false",
       "Timer-RandomizeRange": "1.0",
-      "Custom-Speed": "0.89",
-      "Custom-Strafe": "true",
+      "Custom-Speed": "1.0",
+      "Custom-Strafe": "false",
       "Custom-Ground-Strafe": "false",
-      "Custom-AutoJump": "true",
+      "Custom-AutoJump": "false",
       "Custom-MotionY": "0.42",
       "Custom-Ground-Timer": "1.0",
       "Custom-Air-Timer": "1.0",
@@ -1110,8 +1121,8 @@
       "Rotations": "false",
       "Block Jumping": "true",
       "Disable on Flag": "false",
-      "Hide Jumps": "true",
-      "Only Third Person": "true"
+      "Hide Jumps": "false",
+      "Only Third Person": "false"
     }
   },
   "Spider": {
@@ -1127,10 +1138,10 @@
     }
   },
   "Sprint": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {
-      "Legit": "false",
+      "Legit": "true",
       "All Direction": "false"
     }
   },
@@ -1239,13 +1250,13 @@
     }
   },
   "Velocity": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {
-      "Mode": "Packet",
+      "Mode": "Jump",
       "Grim-Version": "",
       "Matrix6.6.1-Mode": "",
-      "Cancel Explosion": "true",
+      "Cancel Explosion": "false",
       "Detect Staff Velocity": "false",
       "Horizontal": "0",
       "Vertical": "0",

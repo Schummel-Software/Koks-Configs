@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1686888931926,
+  "Date": 1687395032674,
   "Version": "4.1.0 Release Candidate 2",
   "AirStuck": {
     "toggled": false,
@@ -169,6 +169,13 @@
     "toggled": false,
     "bypass": false,
     "values": {}
+  },
+  "AutoTool": {
+    "toggled": true,
+    "bypass": true,
+    "values": {
+      "Silent": "true"
+    }
   },
   "AutoWater": {
     "toggled": false,
@@ -773,8 +780,8 @@
     }
   },
   "NoFall": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {
       "Mode": "Intave14.5.8"
     }
@@ -1061,7 +1068,7 @@
   },
   "Speed": {
     "toggled": false,
-    "bypass": false,
+    "bypass": true,
     "values": {
       "Mode": "Intave",
       "BlocksMC-Mode": "",
@@ -1222,11 +1229,11 @@
     }
   },
   "Translator": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {
       "Translate from others ": "true",
-      "Language": "English",
+      "Language": "German",
       "Translate own message": "true",
       "Target Language": "English"
     }
