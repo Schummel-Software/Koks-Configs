@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1693651341447,
+  "Date": 1693649062365,
   "Version": "4.1.0 Release Candidate 2",
   "AirStuck": {
     "toggled": false,
@@ -184,11 +184,11 @@
     }
   },
   "Backtrack": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {
-      "Delay": "114",
-      "Max Hit Range": "6.0",
+      "Delay": "100",
+      "Max Hit Range": "4.0",
       "Only When Needed": "true",
       "Use RayCast": "false",
       "Visualization": "true",
@@ -235,7 +235,7 @@
     "values": {}
   },
   "ChestStealer": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "Start Delay": "150",
@@ -620,7 +620,7 @@
     "toggled": false,
     "bypass": true,
     "values": {
-      "HitChance": "100",
+      "HitChance": "86",
       "OnlyWhenNotRayCast": "false",
       "Range": "3.0",
       "PreAim Range": "1.5",
@@ -646,11 +646,11 @@
       "AutoBlock": "false",
       "SmartBlock": "false",
       "AutoBlock-Mode": "",
-      "Time Travel": "true",
-      "TimeShift - Mode": "Normal",
-      "Only when needed": "true",
-      "Cap Ticks": "true",
-      "Max Time Delay": "0.1",
+      "Time Travel": "false",
+      "TimeShift - Mode": "",
+      "Only when needed": "false",
+      "Cap Ticks": "false",
+      "Max Time Delay": "0.2",
       "Player": "true",
       "Animals": "false",
       "Villager": "false",
@@ -928,7 +928,7 @@
       "Constant Motion-Speed": "0.15",
       "Modify In Air": "false",
       "Blocks": "0",
-      "Jump every blocks": "0",
+      "Jump every blocks": "8",
       "Diagonal": "true",
       "UpScaffold": "true",
       "ResetRightClickDelayTime": "false",
@@ -985,7 +985,7 @@
       "Sneak after placing blocks": "false",
       "Sneak after...": "0",
       "Sneak Time": "3",
-      "Breezily Movement": "true",
+      "Breezily Movement": "false",
       "Stop move when disable": "false",
       "Stop Mode": "",
       "RayCast": "true",
@@ -1228,18 +1228,18 @@
     "toggled": false,
     "bypass": false,
     "values": {
-      "Timer-Speed": "1.0",
-      "Timer-Delay": "1"
+      "Timer-Speed": "0.5",
+      "Timer-Delay": "0"
     }
   },
   "Translator": {
-    "toggled": true,
-    "bypass": true,
+    "toggled": false,
+    "bypass": false,
     "values": {
       "Translate from others ": "true",
       "Language": "German",
-      "Translate own message": "true",
-      "Target Language": "Russian"
+      "Translate own message": "false",
+      "Target Language": ""
     }
   },
   "VClip": {
