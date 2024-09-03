@@ -1,6 +1,6 @@
 {
   "Creator": "Kroko",
-  "Date": 1718139637800,
+  "Date": 1718216577521,
   "Version": "4.1.0 Release Candidate 2",
   "AirStuck": {
     "toggled": false,
@@ -628,7 +628,7 @@
     }
   },
   "KillAura": {
-    "toggled": true,
+    "toggled": false,
     "bypass": true,
     "values": {
       "HitChance": "100",
@@ -958,7 +958,7 @@
       "ResetRightClickDelayTime": "false",
       "CanUp-Check": "true",
       "DownScaffold": "false",
-      "Search Method": "Static",
+      "Search Method": "Bruteforce",
       "Search Range": "3",
       "Can place on liquid": "false",
       "WorldHeightCheck": "true",
@@ -1004,16 +1004,17 @@
       "Sprint": "false",
       "Sprint-Mode": "",
       "All Direction Sprint": "false",
-      "Sneak": "true",
+      "Sneak": "false",
       "SpoofSneak": "false",
       "Always Sneak": "false",
-      "Sneak after placing blocks": "true",
-      "Sneak after...": "4",
-      "Sneak Time": "8",
+      "Sneak after placing blocks": "false",
+      "Sneak after...": "0",
+      "Sneak Time": "3",
       "Breezily Movement": "true",
       "Stop move when disable": "false",
       "Stop Mode": "",
       "RayCast": "true",
+      "Reaction Time": "3",
       "Rotations": "true",
       "Rotation Mode": "Calculated",
       "Yaw Adjustment": "0.0",
