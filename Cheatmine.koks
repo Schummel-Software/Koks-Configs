@@ -1,6 +1,6 @@
 {
-  "Creator": "Reave",
-  "Date": 1725396620519,
+  "Creator": "Kroko",
+  "Date": 1725405000511,
   "Version": "4.1.0 Release Candidate 2",
   "AirStuck": {
     "toggled": false,
@@ -102,7 +102,7 @@
     }
   },
   "AntiVanish": {
-    "toggled": false,
+    "toggled": true,
     "bypass": false,
     "values": {
       "Mode": "Gomme"
@@ -482,7 +482,7 @@
       "FastStop": "true",
       "Force Stop Flying": "false",
       "Fake Damage": "false",
-      "Bobbing": "false"
+      "Bobbing": "true"
     }
   },
   "FreeCamera": {
@@ -874,15 +874,15 @@
     }
   },
   "NoSlowDown": {
-    "toggled": false,
-    "bypass": false,
+    "toggled": true,
+    "bypass": true,
     "values": {
       "Speed": "1.0",
       "CanSprint": "true",
       "Only Air": "false",
-      "Items": "All",
+      "Items": "Food",
       "Spoofing": "true",
-      "Spoof-Mode": "Ground",
+      "Spoof-Mode": "Intave14",
       "Intave13-Air Bypass": "false"
     }
   },
@@ -1213,8 +1213,8 @@
       "Rotations": "false",
       "Block Jumping": "true",
       "Disable on Flag": "false",
-      "Hide Jumps": "false",
-      "Only Third Person": "false"
+      "Hide Jumps": "true",
+      "Only Third Person": "true"
     }
   },
   "Spider": {
